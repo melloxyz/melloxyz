@@ -8,7 +8,7 @@ Sou estudante de Análise e Desenvolvimento de Sistemas, apaixonado por tecnolog
 - 👯 Estou procurando colaborar em projetos de código aberto e hackathons.
 - 🤔 Estou procurando ajuda com SQL.
 - 💬 Pergunte-me sobre qualquer coisa relacionada a tecnologia.
-- 📫 Como me alcançar: [joaovdmello@gmail.com](mailto:joaovdmello@gmail.com)
+- 📫 Como me alcançar: [joaovdmello@gmail.com](mailto:joaovdmello@gmail.com).
 - ⚡ Fato divertido: Adoro jogar videogames e participar de maratonas de programação.
 
 ## 💻 Tecnologias e Ferramentas
