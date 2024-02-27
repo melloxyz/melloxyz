@@ -12,7 +12,7 @@ Sou estudante de Análise e Desenvolvimento de Sistemas, apaixonado por tecnolog
 - ⚡ Fato divertido: Adoro jogar videogames e participar de maratonas de programação.
 
 ## 💻 Tecnologias e Ferramentas
-![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=melloxyz&layout=compact&theme=radical)
+
 <div style="display: flex; align-items: center; gap: 10px;">
   <img src="https://img.shields.io/badge/Code-JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black" alt="JavaScript"/>
   <img src="https://img.shields.io/badge/Code-Python-3776AB?style=for-the-badge&logo=python&logoColor=white" alt="Python"/>
