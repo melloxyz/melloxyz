@@ -1,4 +1,4 @@
-# Olá, sou João Mello! 👋
+# Olá, sou o João Mello! 👋
 
 ## 🧑🏼‍💻 Sobre Mim
 Sou estudante de Análise e Desenvolvimento de Sistemas, apaixonado por tecnologia e inovação. 
@@ -9,7 +9,7 @@ Sou estudante de Análise e Desenvolvimento de Sistemas, apaixonado por tecnolog
 - 🤔 Estou procurando ajuda com SQL.
 - 💬 Pergunte-me sobre qualquer coisa relacionada a tecnologia.
 - 📫 Como me alcançar: [joaovdmello@gmail.com](mailto:joaovdmello@gmail.com).
-- ⚡ Fato divertido: Adoro jogar videogames e participar de maratonas de programação.
+- ⚡ Fato divertido: Adoro jogar videogames e participar de maratonas de programação. 
 
 ## 💻 Tecnologias e Ferramentas
 
