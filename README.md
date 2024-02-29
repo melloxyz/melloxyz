@@ -21,7 +21,9 @@ Sou estudante de Análise e Desenvolvimento de Sistemas, apaixonado por tecnolog
 </div>
 
 ## 📈 Estatísticas
-![melloxyz's GitHub stats](https://github-readme-stats.vercel.app/api?username=melloxyz&show_icons=true&theme=radical) 
+![melloxyz's GitHub stats](https://github-readme-stats.vercel.app/api?username=melloxyz&show_icons=true&theme=dark)
+
+[![melloxyz](https://github-readme-stats.vercel.app/api/top-langs/?username=melloxyz&hide=html&layout=compact&theme=dark)](https://github.com/melloxyz)
 
 ## 🔗 Conecte-se Comigo
 [![Instagram](https://img.shields.io/badge/Instagram-@mxrvit-E4405F?style=for-the-badge&logo=instagram&logoColor=white)](https://www.instagram.com/mxrvit/)
