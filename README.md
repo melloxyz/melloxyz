@@ -2,7 +2,7 @@
 
 Bem-vindo ao meu perfil no GitHub! Sou um estudante de Análise e Desenvolvimento de Sistemas, apaixonado por descobrir novas tecnologias e soluções inovadoras.
 
-## 🧑🏼‍💻 Sobre Mim
+## 💻 Sobre Mim
 
 - 🔭 **Trabalhando em:** Projetos pessoais e acadêmicos de desenvolvimento de software.
 - 🌱 **Aprendendo:** JavaScript, Python, Node.js, SQLite, Lua.
