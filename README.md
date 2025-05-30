@@ -6,9 +6,6 @@ Bem-vindo ao meu perfil no GitHub! Sou um estudante de Análise e Desenvolviment
 
 - 🔭 **Trabalhando em:** Projetos pessoais e acadêmicos de desenvolvimento de software.
 - 🌱 **Aprendendo:** JavaScript, Python, Node.js, SQLite, Lua.
-- 👯 **Colaboração:** Aberto a projetos de código aberto e participação em hackathons.
-- 🤔 **Buscando ajuda com:** SQL e técnicas avançadas de programação.
-- 💬 **Pergunte-me sobre:** Qualquer coisa relacionada à tecnologia. Estou sempre disposto a aprender e compartilhar conhecimentos.
 - 📫 **Contato:** [joaovdmello@gmail.com](mailto:joaovdmello@gmail.com).
 
 ## 💻 Tecnologias e Ferramentas em Aprendizagem
