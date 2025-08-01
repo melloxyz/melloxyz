@@ -9,12 +9,6 @@
 
 Desenvolvedor em formação com foco em **desenvolvimento full-stack**, atualmente cursando **Análise e Desenvolvimento de Sistemas**. Apaixonado por tecnologia e sempre em busca de soluções inovadoras através do código.
 
-**Experiência atual:**
-- 🎯 Desenvolvimento de aplicações web modernas
-- 🔧 Criação de APIs RESTful com Node.js
-- 📱 Interfaces responsivas com HTML, CSS e JavaScript
-- 🗄️ Modelagem e gestão de bancos de dados
-
 ## 🛠️ Stack Tecnológica
 
 ### Linguagens
