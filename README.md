@@ -26,17 +26,6 @@ Desenvolvedor em formação com foco em **desenvolvimento full-stack**, atualmen
 ![Git](https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white)
 ![VS Code](https://img.shields.io/badge/VS%20Code-007ACC?style=flat-square&logo=visual-studio-code&logoColor=white)
 
-## 📊 Estatísticas GitHub
-
-<div align="center">
-  <img height="180em" src="https://github-readme-stats.vercel.app/api?username=melloxyz&show_icons=true&theme=default&hide_border=true&count_private=true&include_all_commits=true" alt="GitHub Stats" />
-  <img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=melloxyz&layout=compact&theme=default&hide_border=true&langs_count=6" alt="Top Languages" />
-</div>
-
-<div align="center" style="margin-top: 20px;">
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=melloxyz&theme=default&hide_border=true" alt="GitHub Streak" />
-</div>
-
 ## 🎓 Formação e Certificações
 
 ### **Educação Formal**
