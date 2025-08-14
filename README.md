@@ -1,6 +1,6 @@
 <div align="center">
   <h1>João Mello</h1>
-  <h3>Desenvolvedor Full-Stack | Estudante de Análise e Desenvolvimento de Sistemas</h3>
+  <h3>Amante de Tecnologia | Estudante de Análise e Desenvolvimento de Sistemas</h3>
 </div>
 
 ---
