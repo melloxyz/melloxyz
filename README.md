@@ -2,7 +2,7 @@
 
 ### Estudante de Análise e Desenvolvimento de Sistemas | Desenvolvedor Júnior em Formação
 
-Bem-vindo(a) ao meu GitHub! Sou o João, um entusiasta da tecnologia que está trilhando os primeiros passos no mundo do desenvolvimento. Atualmente, estou focado em aprender e crescer na área de **Análise e Desenvolvimento de Sistemas** no Centro Universitário Cesuca.
+Bem-vindo(a) ao meu GitHub! Sou o Mello, um entusiasta da tecnologia que está trilhando os primeiros passos no mundo do desenvolvimento. Atualmente, estou focado em aprender e crescer na área de **Análise e Desenvolvimento de Sistemas** no Centro Universitário Cesuca.
 
 Minha paixão é transformar ideias em código, e estou sempre em busca de novos conhecimentos e desafios para aprimorar minhas habilidades. Cada linha de código é uma oportunidade de aprendizado e uma chance de construir algo incrível!
 
@@ -31,13 +31,13 @@ Minha paixão é transformar ideias em código, e estou sempre em busca de novos
 
 ## 🎯 Meus Próximos Passos
 
-**Curto Prazo (2024):**
+**Curto Prazo (2025):**
 
 *   Concluir meu projeto de conclusão de curso, aplicando tudo o que aprendi até agora.
 *   Aprofundar meus conhecimentos em React e TypeScript para criar interfaces mais dinâmicas.
 *   Conquistar minha primeira oportunidade de estágio e começar a colocar a mão na massa em projetos reais!
 
-**Médio Prazo (2025):**
+**Médio Prazo (2026):**
 
 *   Contribuir para projetos open source e fazer parte da comunidade de desenvolvedores.
 *   Construir um portfólio com projetos que mostrem minhas habilidades e paixão por programar.
@@ -53,6 +53,7 @@ Estou sempre aberto a novas conexões, aprendizados e oportunidades. Se você qu
 
 *   **Email:** joaovdmello@gmail.com
 *   **LinkedIn:** [jvitordmello](https://www.linkedin.com/in/jvitordmello)
+*   **Discord:** mefrog
 
 _Codificando o futuro, um passo de cada vez._
 
