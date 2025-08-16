@@ -1,65 +1,59 @@
-<div align="center">
-  <h1>João Mello</h1>
-  <h3>Amante de Tecnologia | Estudante de Análise e Desenvolvimento de Sistemas</h3>
-</div>
+# Olá! Eu sou o João Mello 👋
 
----
+### Estudante de Análise e Desenvolvimento de Sistemas | Desenvolvedor Júnior em Formação
 
-## 👨‍💻 Sobre Mim
+Bem-vindo(a) ao meu GitHub! Sou o João, um entusiasta da tecnologia que está trilhando os primeiros passos no mundo do desenvolvimento. Atualmente, estou focado em aprender e crescer na área de **Análise e Desenvolvimento de Sistemas** no Centro Universitário Cesuca.
 
-Desenvolvedor em formação com foco em **desenvolvimento full-stack**, atualmente cursando **Análise e Desenvolvimento de Sistemas**. Apaixonado por tecnologia e sempre em busca de soluções inovadoras através do código.
+Minha paixão é transformar ideias em código, e estou sempre em busca de novos conhecimentos e desafios para aprimorar minhas habilidades. Cada linha de código é uma oportunidade de aprendizado e uma chance de construir algo incrível!
 
-## 🛠️ Stack Tecnológica
+## 🚀 Minhas Ferramentas e Conhecimentos Iniciais
 
-### Linguagens
-![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black)
+**Linguagens:** JavaScript
 
-### Tecnologias & Ferramentas
-![Node.js](https://img.shields.io/badge/Node.js-339933?style=flat-square&logo=node.js&logoColor=white)
-![SQLite](https://img.shields.io/badge/SQLite-003B57?style=flat-square&logo=sqlite&logoColor=white)
-![Git](https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white)
-![VS Code](https://img.shields.io/badge/VS%20Code-007ACC?style=flat-square&logo=visual-studio-code&logoColor=white)
+**Tecnologias e Ferramentas:** Node.js, SQLite, Git, VS Code
 
-## 🎓 Formação e Certificações
+## 📚 Minha Jornada de Aprendizado
 
-### **Educação Formal**
-- 📚 **Análise e Desenvolvimento de Sistemas** - *Em andamento*
+### Educação Formal
 
-### **Certificações Profissionais**
-- 🚀 **Rocketseat:** [Perfil e Certificações](https://app.rocketseat.com.br/me/mxrvit)
-  - Trilhas de desenvolvimento web
-  - Especialização em JavaScript e Node.js
-  - Projetos práticos e desafios técnicos
+*   **Análise e Desenvolvimento de Sistemas** - Centro Universitário Cesuca (Jan de 2024 - Jan de 2026) - _Em andamento_
 
-## 🎯 Objetivos Profissionais
+### Certificações e Cursos
+
+*   **Rocketseat:**
+    *   Fundamentos do Node.js
+    *   O Básico de Git e GitHub
+    *   Trilhas de desenvolvimento web
+    *   Projetos práticos e desafios técnicos
+
+*   **Universidade Corporativa Cruzeiro:**
+    *   Saúde Física e Emocional (Soft Skill)
+
+## 🎯 Meus Próximos Passos
 
 **Curto Prazo (2024):**
-- Finalizar projeto de conclusão de curso com excelência
-- Aprofundar conhecimentos em React e TypeScript
-- Obter primeira oportunidade de estágio em desenvolvimento
+
+*   Concluir meu projeto de conclusão de curso, aplicando tudo o que aprendi até agora.
+*   Aprofundar meus conhecimentos em React e TypeScript para criar interfaces mais dinâmicas.
+*   Conquistar minha primeira oportunidade de estágio e começar a colocar a mão na massa em projetos reais!
 
 **Médio Prazo (2025):**
-- Contribuir ativamente para projetos open source
-- Desenvolver portfólio robusto com projetos reais
-- Especializar-se em desenvolvimento full-stack
 
-## 💼 Projetos
+*   Contribuir para projetos open source e fazer parte da comunidade de desenvolvedores.
+*   Construir um portfólio com projetos que mostrem minhas habilidades e paixão por programar.
+*   Continuar me especializando em desenvolvimento full-stack, sempre buscando novos desafios.
 
-*Em breve estarei adicionando meus principais projetos acadêmicos e pessoais aqui.*
+## 💡 Projetos
 
-## 📬 Contato
+_Ainda estou construindo meu portfólio, mas em breve você encontrará aqui os projetos que estou desenvolvendo na faculdade e em minhas iniciativas pessoais. Fique de olho!_
 
-<div align="center">
+## 📬 Vamos Conectar!
 
-[![Email](https://img.shields.io/badge/Email-D14836?style=flat-square&logo=gmail&logoColor=white)](mailto:joaovdmello@gmail.com)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=flat-square&logo=linkedin&logoColor=white)](https://linkedin.com/in/joao-mello-dev)
-[![Rocketseat](https://img.shields.io/badge/Rocketseat-8257E5?style=flat-square&logo=data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMjQiIGhlaWdodD0iMjQiIHZpZXdCb3g9IjAgMCAyNCAyNCIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KPHBhdGggZD0iTTEyIDJMMTMuMDkgOC4yNkwyMCA5TDEzLjA5IDE1Ljc0TDEyIDIyTDEwLjkxIDE1Ljc0TDQgOUwxMC45MSA4LjI2TDEyIDJaIiBmaWxsPSJ3aGl0ZSIvPgo8L3N2Zz4K&logoColor=white)](https://app.rocketseat.com.br/me/mxrvit)
-[![Instagram](https://img.shields.io/badge/Instagram-E4405F?style=flat-square&logo=instagram&logoColor=white)](https://www.instagram.com/mxrvit/)
+Estou sempre aberto a novas conexões, aprendizados e oportunidades. Se você quiser trocar uma ideia ou tiver alguma proposta, sinta-se à vontade para entrar em contato:
 
-</div>
+*   **Email:** joaovdmello@gmail.com
+*   **LinkedIn:** [jvitordmello](https://www.linkedin.com/in/jvitordmello)
 
----
+_Codificando o futuro, um passo de cada vez._
 
-<div align="center">
-  <em>Transformando ideias em código, uma linha por vez.</em>
-</div>
+
