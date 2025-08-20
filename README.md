@@ -52,7 +52,7 @@ _Ainda estou construindo meu portfólio, mas em breve você encontrará aqui os 
 Estou sempre aberto a novas conexões, aprendizados e oportunidades. Se você quiser trocar uma ideia ou tiver alguma proposta, sinta-se à vontade para entrar em contato:
 
 *   **Email:** joaovdmello@gmail.com
-*   **LinkedIn:** [jvitordmello](https://www.linkedin.com/in/jvitordmello)
+*   **LinkedIn:** [mellodev-](https://www.linkedin.com/in/mellodev-)
 *   **Discord:** mefrog
 
 _Codificando o futuro, um passo de cada vez._
