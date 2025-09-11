@@ -26,7 +26,7 @@
 - 📚 **Estudante** de Análise e Desenvolvimento de Sistemas pelo Cesuca (previsão de conclusão: jan/2026)
 - 🚀 Apaixonado por aprender, criar soluções e crescer como desenvolvedor backend (e, logo, full stack!)
 - 👨‍💻 Focado em evoluir em JavaScript, Node.js, Git e bancos de dados relacionais
-- 🤝 Abertíssimo a conexões, parcerias e mentorias!
+- 🤝 Aberto a novas conexões, parcerias e mentorias!
 
 ---
 
