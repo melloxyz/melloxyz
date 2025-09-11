@@ -1,60 +1,90 @@
-# Olá! Eu sou o João Mello 👋
+<!-- Banner estilizado -->
+<p align="center">
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:48c6ef,100:6f86d6&height=160&section=header&text=João%20Mello&fontAlign=50&fontColor=fff&fontSize=38" />
+</p>
 
-### Estudante de Análise e Desenvolvimento de Sistemas | Desenvolvedor Júnior em Formação
+<h1 align="center">Olá, eu sou o Mello! 👋</h1>
+<p align="center">
+  <i>Estudante de Análise e Desenvolvimento de Sistemas | Desenvolvedor em formação | #OpenToWork</i>
+</p>
 
-Bem-vindo(a) ao meu GitHub! Sou o Mello, um entusiasta da tecnologia que está trilhando os primeiros passos no mundo do desenvolvimento. Atualmente, estou focado em aprender e crescer na área de **Análise e Desenvolvimento de Sistemas** no Centro Universitário Cesuca.
+<p align="center">
+  <a href="https://linkedin.com/in/mellodev-">
+    <img src="https://img.shields.io/badge/LinkedIn-1976D2?style=flat&logo=linkedin&logoColor=white" />
+  </a>
+  <a href="mailto:joaovdmello@gmail.com">
+    <img src="https://img.shields.io/badge/E-mail-6fcf97?style=flat&logo=gmail&logoColor=white" />
+  </a>
+  <img src="https://img.shields.io/badge/Brazil-62d0c3?style=flat&logo=brasil" />
+  <img src="https://img.shields.io/badge/Discord-mefrog-5865F2?style=flat&logo=discord&logoColor=white" />
+</p>
 
-Minha paixão é transformar ideias em código, e estou sempre em busca de novos conhecimentos e desafios para aprimorar minhas habilidades. Cada linha de código é uma oportunidade de aprendizado e uma chance de construir algo incrível!
+---
 
-## 🚀 Minhas Ferramentas e Conhecimentos Iniciais
+## 💡 Quem sou eu?
 
-**Linguagens:** JavaScript
+- 📚 **Estudante** de Análise e Desenvolvimento de Sistemas pelo Cesuca (previsão de conclusão: jan/2026)
+- 🚀 Apaixonado por aprender, criar soluções e crescer como desenvolvedor backend (e, logo, full stack!)
+- 👨‍💻 Focado em evoluir em JavaScript, Node.js, Git e bancos de dados relacionais
+- 🤝 Abertíssimo a conexões, parcerias e mentorias!
 
-**Tecnologias e Ferramentas:** Node.js, SQLite, Git, VS Code
+---
 
-## 📚 Minha Jornada de Aprendizado
+## 🛠️ Tecnologias & Ferramentas
 
-### Educação Formal
+<p>
+  <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=flat&logo=javascript&logoColor=black"/>
+  <img src="https://img.shields.io/badge/Node.js-339933?style=flat&logo=node.js&logoColor=white"/>
+  <img src="https://img.shields.io/badge/SQLite-003B57?style=flat&logo=sqlite&logoColor=white"/>
+  <img src="https://img.shields.io/badge/Git-F05032?style=flat&logo=git&logoColor=white"/>
+  <img src="https://img.shields.io/badge/VSCode-007ACC?style=flat&logo=visual-studio-code&logoColor=white"/>
+</p>
 
-*   **Análise e Desenvolvimento de Sistemas** - Centro Universitário Cesuca (Jan de 2024 - Jan de 2026) - _Em andamento_
+- **Linguagens:** JavaScript (foco), básicos de Python
+- **Principais:** Node.js, APIs REST, Git/GitHub
+- **Banco de dados:** SQLite (inicial), estudando mais
+- **Ferramentas:** VSCode, Metodologias Ágeis, Trello
 
-### Certificações e Cursos
+---
 
-*   **Rocketseat:**
-    *   Fundamentos do Node.js
-    *   O Básico de Git e GitHub
-    *   Trilhas de desenvolvimento web
-    *   Projetos práticos e desafios técnicos
+## 📈 Meu roadmap
 
-*   **Universidade Corporativa Cruzeiro:**
-    *   Saúde Física e Emocional (Soft Skill)
+### Curto prazo (2025)
+- 🏆 Buscar meu primeiro estágio em dev backend
+- 🧠 Aprofundar em Node.js, JavaScript, React e TypeScript
+- 💬 Melhorar comunicação e colaboração em equipe
 
-## 🎯 Meus Próximos Passos
+### Médio prazo (2026)
+- ✨ Contribuir para open source
+- 📚 Criar projetos autorais relevantes
+- 🔗 Crescer na comunidade de tecnologia
 
-**Curto Prazo (2025):**
+---
 
-*   Concluir meu projeto de conclusão de curso, aplicando tudo o que aprendi até agora.
-*   Aprofundar meus conhecimentos em React e TypeScript para criar interfaces mais dinâmicas.
-*   Conquistar minha primeira oportunidade de estágio e começar a colocar a mão na massa em projetos reais!
+## 🎓 Educação & Certificações
 
-**Médio Prazo (2026):**
+- **Análise e Desenvolvimento de Sistemas – Cesuca (2024–2026)**
+- **Rocketseat:** Fundamentos do Node.js, Git e GitHub, trilhas web
+- **Universidade Cruzeiro:** Saúde física e emocional
 
-*   Contribuir para projetos open source e fazer parte da comunidade de desenvolvedores.
-*   Construir um portfólio com projetos que mostrem minhas habilidades e paixão por programar.
-*   Continuar me especializando em desenvolvimento full-stack, sempre buscando novos desafios.
+🔖 [Veja mais detalhes no meu LinkedIn](https://linkedin.com/in/mellodev-)
 
-## 💡 Projetos
+---
 
-_Ainda estou construindo meu portfólio, mas em breve você encontrará aqui os projetos que estou desenvolvendo na faculdade e em minhas iniciativas pessoais. Fique de olho!_
+## 📂 Quer conhecer meu trabalho?
 
-## 📬 Vamos Conectar!
+Explore meus **repositórios públicos** aqui no GitHub e acompanhe minha evolução! Novos projetos e aprendizados estão a caminho. 🚀
 
-Estou sempre aberto a novas conexões, aprendizados e oportunidades. Se você quiser trocar uma ideia ou tiver alguma proposta, sinta-se à vontade para entrar em contato:
+---
 
-*   **Email:** joaovdmello@gmail.com
-*   **LinkedIn:** [mellodev-](https://www.linkedin.com/in/mellodev-)
-*   **Discord:** mefrog
+## 🤝 Vamos nos conectar?
 
-_Codificando o futuro, um passo de cada vez._
+- 📧 Email: joaovdmello@gmail.com  
+- 💼 LinkedIn: [mellodev-](https://linkedin.com/in/mellodev-)  
+- 💬 Discord: mefrog
 
+---
 
+<p align="center">
+  <i>“Codificando o futuro, um passo de cada vez.”</i>
+</p>
