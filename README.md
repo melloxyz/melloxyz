@@ -1,6 +1,6 @@
 <!-- Banner / Saudação -->
 
-<h1 align="center">👋 Olá, eu sou o João Mello (Mefrog)</h1>
+<h1 align="center">👋 Olá, eu sou o João Mello</h1>
 <p align="center">
   Estudante de <b>Análise e Desenvolvimento de Sistemas</b> | Foco em <b>Back-End & Automação</b><br>
   Apaixonado por tecnologia, aprendizado contínuo e transformar ideias em soluções digitais.
@@ -53,11 +53,11 @@
 
 Aqui estão alguns dos meus certificados:
 
-- 🎓 **O básico de Git e GitHub** – Emitido em **30/05/2025**
-- 🎓 **Fundamentos do Node.js** – Emitido em **14/08/2025**
-- 📘 **Gestão de Tempo** – Emitido em **14/09/2025**
-- 📘 **Comunicação assertiva** – Emitido em **14/09/2025**
-- 📘 **Metodologias Ágeis** – Emitido em **14/09/2025**
+- 🎓 **O básico de Git e GitHub**
+- 🎓 **Fundamentos do Node.js**
+- 📘 **Gestão de Tempo**
+- 📘 **Comunicação assertiva**
+- 📘 **Metodologias Ágeis**
 
 🔗 Veja todos no meu perfil da Rocketseat: [João Mello (mxrvit)](https://app.rocketseat.com.br/me/mxrvit)
 
