@@ -75,13 +75,16 @@ Aqui estão alguns dos meus certificados:
 
 ---
 
-## 🎯 Roadmap Pessoal
+## 🎯 Roadmap Back-end
 
-- [X] Projetos pessoais em Node.js e Python
-- [X] Integrações com APIs e automações (Discord Bots, QR Code, gestão de dados)
-- [ ] Contribuir para **projetos open source**
-- [ ] Estágio em **desenvolvimento back-end**
-- [ ] Evoluir para **full-stack** (TypeScript, React, Next.js)
+- [X] Projetos pessoais em **Node.js** e **Python**
+- [X] Integrações com **APIs REST** e automações (Discord Bots, QR Code, gestão de dados)
+- [ ] Contribuir para **projetos open source back-end**
+- [ ] Conquistar estágio em **desenvolvimento back-end**
+- [ ] Aprimorar arquitetura de sistemas (Clean Code, SOLID, Design Patterns)
+- [ ] Estudar **bancos de dados avançados** (PostgreSQL, MongoDB, Redis)
+- [ ] Aprender sobre **testes automatizados** (Jest, PyTest)
+- [ ] Deploy e infraestrutura (**Docker**, CI/CD, servidores em nuvem)
 
 ---
 
