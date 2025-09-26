@@ -36,19 +36,6 @@
 
 ---
 
-## 📂 Projetos em destaque
-
-| Projeto                                                                             | Descrição                                                                                 | Tecnologias      |
-| ----------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------- | ---------------- |
-| [**Next Bot**](https://github.com/melloxyz/next-bot)                             | Bot que verifica a presença de usuários em canais de voz no Discord e salva em JSON       | Node.js          |
-| [**Gerador & Leitor de QR Codes**](https://github.com/melloxyz/qrcode-generator) | Criação e leitura de QR Codes personalizados para eventos, sites e contatos               | Python           |
-| [**Key Manager SaaS**](https://github.com/melloxyz/key-manager)                  | Sistema de gestão de chaves físicas com back-end em MongoDB e atualização em tempo real | Node.js, MongoDB |
-| [**Promo Panda**](https://github.com/melloxyz/promo-panda)                       | Plataforma de promoções e descontos com automação para Discord e integração CPA       | Node.js          |
-
-👉 Veja mais no meu [GitHub](https://github.com/melloxyz)
-
----
-
 ## 📜 Certificados & Insígnias
 
 Aqui estão alguns dos meus certificados:
