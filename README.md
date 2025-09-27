@@ -2,8 +2,8 @@
 <div align="center">
   <h1>👋 Hello, I'm João Mello</h1>
   <p>
-    <strong>Systems Analysis and Development Student</strong> | Focused on <strong>Back-End & Automation</strong><br>
-    Passionate about technology, continuous learning, and transforming ideas into digital solutions.
+    <strong>Systems Analysis and Development Student</strong> | Focused on <strong>Back-End & API Development</strong><br>
+    Passionate about technology, continuous learning, and building scalable solutions.
   </p>
   
   [![LinkedIn](https://img.shields.io/badge/LinkedIn-0077b5?style=flat-square&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/mellodev-)
@@ -16,10 +16,10 @@
 ## 🚀 About Me
 
 - 🎓 Studying **Systems Analysis and Development** at Cesuca
-- 🖥️ Main focus on **back-end development** (Node.js & Python)
-- 📊 Experience with **automation projects, bots, and management systems**
+- 🖥️ Specialized in **back-end development** with Node.js, TypeScript, and Python
+- 🔧 Building **REST APIs**, automation tools, and management systems
 - 📈 Always exploring **new technologies and coding best practices**
-- 🎯 Current goal: gain practical experience through **real projects / internship**
+- 🎯 Currently seeking: **internship opportunities** and **open source contributions**
 
 ---
 
@@ -28,16 +28,17 @@
 <div align="center">
 
 ### Languages & Runtime
+![TypeScript](https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white)
 ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
 ![Node.js](https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=node.js&logoColor=white)
 ![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
 
-### Databases
-![MongoDB](https://img.shields.io/badge/MongoDB-47A248?style=for-the-badge&logo=mongodb&logoColor=white)
+### Databases & Tools
 ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-336791?style=for-the-badge&logo=postgresql&logoColor=white)
+![MongoDB](https://img.shields.io/badge/MongoDB-47A248?style=for-the-badge&logo=mongodb&logoColor=white)
 ![SQLite](https://img.shields.io/badge/SQLite-003B57?style=for-the-badge&logo=sqlite&logoColor=white)
 
-### Tools & Version Control
+### Development Tools
 ![Git](https://img.shields.io/badge/Git-F05033?style=for-the-badge&logo=git&logoColor=white)
 ![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)
 ![VS Code](https://img.shields.io/badge/VS%20Code-0078d7?style=for-the-badge&logo=visual-studio-code&logoColor=white)
@@ -46,7 +47,7 @@
 
 ---
 
-## 🏆 Certifications & Learning
+## 🏆 Certifications
 
 **Completed Courses:**
 - 🎓 **Git & GitHub Fundamentals**
@@ -55,11 +56,11 @@
 - 📘 **Assertive Communication**
 - 📘 **Agile Methodologies**
 
-🔗 **View all certifications:** [Rocketseat Profile - João Mello (mxrvit)](https://app.rocketseat.com.br/me/mxrvit)
+🔗 [View all certifications on Rocketseat](https://app.rocketseat.com.br/me/mxrvit)
 
 ---
 
-## 📊 GitHub Analytics
+## 📊 GitHub Statistics
 
 <div align="center">
   <img height="180em" src="https://github-readme-stats.vercel.app/api?username=melloxyz&show_icons=true&theme=tokyonight&include_all_commits=true&count_private=true"/>
@@ -72,48 +73,51 @@
 
 ---
 
+## 🚀 Current Projects
+
+### 🔥 Recent Work
+- **[API REST Finance](https://github.com/melloxyz/api-rest-finance)** - Financial management API built with TypeScript
+- **[Daily Diet API](https://github.com/melloxyz/api-daily-diet)** - Diet tracking REST API with TypeScript
+- **[Personal Portfolio](https://github.com/melloxyz/personal-portfolio)** - [Live Demo](https://mellodev-portfolio.vercel.app)
+- **[CV ATS System](https://github.com/melloxyz/poo-cv-ats)** - Object-oriented Python project for CV analysis
+
+---
+
 ## 🎯 Development Roadmap
 
-### ✅ Completed
-- Personal projects in **Node.js** and **Python**
-- **REST API** integrations and automation (Discord Bots, QR Code systems, data management)
-- Basic understanding of **databases** and **version control**
+### ✅ Currently Mastering
+- **TypeScript** for robust API development
+- **REST API** design and implementation
+- **Object-Oriented Programming** principles
+- **Database** integration and optimization
 
 ### 🚧 In Progress
-- Contributing to **open source back-end projects**
-- Securing an **internship in back-end development**
+- Contributing to **open source projects**
+- Building more complex **microservices**
+- Securing a **back-end development internship**
 
-### 📋 Planned
-- **System Architecture** (Clean Code, SOLID principles, Design Patterns)
-- **Advanced Databases** (PostgreSQL optimization, MongoDB aggregation, Redis caching)
-- **Automated Testing** (Jest, PyTest, TDD practices)
-- **DevOps & Infrastructure** (Docker, CI/CD pipelines, cloud deployment)
-
----
-
-## 🌟 Featured Projects
-
-<div align="center">
-
-[![Finance API](https://github-readme-stats.vercel.app/api/pin/?username=melloxyz&repo=api-rest-finance&theme=tokyonight)](https://github.com/melloxyz/api-rest-finance)
-[![Personal Portfolio](https://github-readme-stats.vercel.app/api/pin/?username=melloxyz&repo=personal-portfolio&theme=tokyonight)](https://github.com/melloxyz/personal-portfolio)
-
-</div>
+### 📋 Next Steps
+- **Testing frameworks** (Jest, PyTest)
+- **Docker** containerization
+- **Cloud deployment** (AWS, Vercel)
+- **System architecture** patterns
 
 ---
 
-## 💬 Let's Connect!
+## 💼 Open to Opportunities
 
-<div align="center">
-  
-I'm always open to discussing **technology**, **collaboration opportunities**, or just having a friendly chat about **coding** and **innovation**!
-
-**Preferred contact:** [LinkedIn](https://www.linkedin.com/in/mellodev-) or [Email](mailto:joaovdmello@gmail.com)
-
-</div>
+I'm actively looking for:
+- 🔍 **Back-end Development Internship**
+- 🤝 **Open Source Collaboration**
+- 📚 **Mentorship in Software Architecture**
+- 🌐 **API Development Projects**
 
 ---
 
 <div align="center">
-  <i>"Building tomorrow's solutions with today's code"</i>
+
+### Let's Connect and Build Something Amazing Together!
+
+*"Building tomorrow's solutions with today's code"*
+
 </div>
