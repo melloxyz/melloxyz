@@ -73,34 +73,47 @@
 
 ---
 
-## 🚀 Current Projects
+## 🚀 Current Projects & Learning
 
-### 🔥 Recent Work
-- **[API REST Finance](https://github.com/melloxyz/api-rest-finance)** - Financial management API built with TypeScript
-- **[Daily Diet API](https://github.com/melloxyz/api-daily-diet)** - Diet tracking REST API with TypeScript
-- **[Personal Portfolio](https://github.com/melloxyz/personal-portfolio)** - [Live Demo](https://mellodev-portfolio.vercel.app)
-- **[CV ATS System](https://github.com/melloxyz/poo-cv-ats)** - Object-oriented Python project for CV analysis
+### 📚 Currently Studying
+- **TypeScript** for robust API development
+- **Object-Oriented Programming** with Python
+- **REST API** architecture and best practices
+- **Database** design and optimization
+
+### 🔥 Recent Repositories
+- **[API REST Finance](https://github.com/melloxyz/api-rest-finance)** - Financial management API
+- **[Daily Diet API](https://github.com/melloxyz/api-daily-diet)** - Diet tracking REST API
+- **[Personal Portfolio](https://github.com/melloxyz/personal-portfolio)** - Portfolio website ([Live Demo](https://mellodev-portfolio.vercel.app))
+- **[CV ATS System](https://github.com/melloxyz/poo-cv-ats)** - Object-oriented Python project
+
+🔗 **[View all repositories](https://github.com/melloxyz?tab=repositories)**
 
 ---
 
 ## 🎯 Development Roadmap
 
 ### ✅ Currently Mastering
-- **TypeScript** for robust API development
-- **REST API** design and implementation
+- **TypeScript** for enterprise-level applications
+- **REST API** design patterns and implementation
+- **PostgreSQL** database management
 - **Object-Oriented Programming** principles
-- **Database** integration and optimization
+
+### 🔥 Next Steps (Coming Soon)
+- **SOLID Principles** implementation
+- **Domain Driven Design (DDD)** architecture
+- **NestJS** framework for scalable Node.js applications
 
 ### 🚧 In Progress
 - Contributing to **open source projects**
-- Building more complex **microservices**
+- Building **microservices architecture**
 - Securing a **back-end development internship**
 
-### 📋 Next Steps
-- **Testing frameworks** (Jest, PyTest)
+### 📋 Future Goals
+- **Testing frameworks** (Jest, Vitest)
 - **Docker** containerization
-- **Cloud deployment** (AWS, Vercel)
-- **System architecture** patterns
+- **Cloud deployment** (AWS, Railway)
+- **Clean Architecture** patterns
 
 ---
 
