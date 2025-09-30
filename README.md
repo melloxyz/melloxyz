@@ -82,10 +82,9 @@
 - **Database** design and optimization
 
 ### 🔥 Recent Repositories
+- **[API GymPass App](https://github.com/melloxyz/api-gympass-app)** - GymPass Style App API
 - **[API REST Finance](https://github.com/melloxyz/api-rest-finance)** - Financial management API
 - **[Daily Diet API](https://github.com/melloxyz/api-daily-diet)** - Diet tracking REST API
-- **[Personal Portfolio](https://github.com/melloxyz/personal-portfolio)** - Portfolio website easy to use
-- **[CV ATS System](https://github.com/melloxyz/poo-cv-ats)** - Object-oriented Python project
 
 🔗 **[View all repositories](https://github.com/melloxyz?tab=repositories)**
 
