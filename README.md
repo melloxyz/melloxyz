@@ -183,14 +183,6 @@ I'm actively looking for **back-end development internship opportunities** where
 
 ---
 
-<div align="center">
-  <img src="https://komarev.com/ghpvc/?username=melloxyz&color=blueviolet&style=flat-square&label=Profile+Views" alt="Profile views"/>
-</div>
-
 <p align="center">
   <i>"Building tomorrow's solutions with today's code"</i> 🚀
-</p>
-
-<p align="center">
-  <sub>Made with ❤️ by João Mello • Open to opportunities and collaborations</sub>
 </p>
