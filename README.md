@@ -79,7 +79,7 @@ const Mello = {
 ## 💼 Featured Projects (Back-End)
 
 | Project | Description | Tech Stack |
-|---------|-------------|-----------|-----------|
+|---------|-------------|-----------|
 | 🏋️ **[GymPass Style App](https://github.com/melloxyz/api-gympass-app)** | Fitness management system with authentication, check-ins and gym search | TypeScript, Fastify, PostgreSQL, Prisma, JWT |
 | 💰 **[REST Finance API](https://github.com/melloxyz/api-rest-finance)** | Financial transaction management with full CRUD operations | TypeScript, Node.js, PostgreSQL, Knex |
 | 🥗 **[Daily Diet API](https://github.com/melloxyz/api-daily-diet)** | Meal tracking API with diet metrics and user sessions | Node.js, Fastify, SQLite, Knex |
@@ -113,7 +113,7 @@ const Mello = {
 <div align="center">
 
 | Certificate | Platform | Date | Type |
-|------------|----------|------|
+|------------|----------|------|------|
 | ![Git](https://img.shields.io/badge/Git_&_GitHub_Fundamentals-181717?style=flat-square&logo=github&logoColor=white) | Rocketseat | May 2025 | Micro-certificate |
 | ![Node.js](https://img.shields.io/badge/Node.js_Foundations-339933?style=flat-square&logo=node.js&logoColor=white) | Rocketseat | Aug 2025 | Micro-certificate |
 | ![Time](https://img.shields.io/badge/Time_Management-8257E5?style=flat-square&logo=clockify&logoColor=white) | Rocketseat | Sep 2025 | Course |
