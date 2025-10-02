@@ -78,45 +78,13 @@ const joaoMello = {
 
 ## 💼 Featured Projects
 
-### 🏋️ [GymPass Style App API](https://github.com/melloxyz/api-gympass-app)
-Complete fitness management system with authentication, check-ins, and gym search functionality.
-
-**Tech:** TypeScript • Fastify • PostgreSQL • Prisma • JWT  
-**Features:** User authentication, gym check-ins, nearby gym search, business rules validation
-
----
-
-### 💰 [REST Finance API](https://github.com/melloxyz/api-rest-finance)
-Personal financial transaction management API with full CRUD operations.
-
-**Tech:** TypeScript • Node.js • PostgreSQL • Knex  
-**Features:** Transaction management, account summary, data validation
-
----
-
-### 🥗 [Daily Diet API](https://github.com/melloxyz/api-daily-diet)
-API for tracking daily meals and dietary habits.
-
-**Tech:** Node.js • Fastify • SQLite • Knex  
-**Features:** Meal registration, diet metrics, user sessions with cookies
-
----
-
-### 🤖 [Next Bot](https://github.com/melloxyz/next-bot)
-Discord bot that monitors user presence in voice channels with data persistence.
-
-**Tech:** Node.js • Discord.js • JSON Storage  
-**Features:** Voice channel monitoring, data logging, automated notifications
-
----
-
-### 🔑 [Key Manager SaaS](https://github.com/melloxyz/key-manager)
-Physical key management system with real-time updates and tracking.
-
-**Tech:** Node.js • MongoDB • Real-time Updates  
-**Features:** Key tracking, user management, activity logs
-
----
+| Project | Description | Tech Stack |
+|---------|-------------|-----------|
+| 🏋️ **[GymPass Style App](https://github.com/melloxyz/api-gympass-app)** | Fitness management system with authentication, check-ins and gym search | TypeScript, Fastify, PostgreSQL, Prisma, JWT |
+| 💰 **[REST Finance API](https://github.com/melloxyz/api-rest-finance)** | Financial transaction management with full CRUD operations | TypeScript, Node.js, PostgreSQL, Knex |
+| 🥗 **[Daily Diet API](https://github.com/melloxyz/api-daily-diet)** | Meal tracking API with diet metrics and user sessions | Node.js, Fastify, SQLite, Knex |
+| 🤖 **[Next Bot](https://github.com/melloxyz/next-bot)** | Discord bot for voice channel monitoring and data logging | Node.js, Discord.js |
+| 🔑 **[Key Manager SaaS](https://github.com/melloxyz/key-manager)** | Physical key management system with real-time tracking | Node.js, MongoDB |
 
 <p align="center">
   <a href="https://github.com/melloxyz?tab=repositories">
@@ -129,12 +97,13 @@ Physical key management system with real-time updates and tracking.
 ## 📊 GitHub Stats
 
 <div align="center">
-  <img height="180em" src="https://github-readme-stats.vercel.app/api?username=melloxyz&show_icons=true&theme=tokyonight&include_all_commits=true&count_private=true&hide_border=true&bg_color=0d1117"/>
-  <img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=melloxyz&layout=compact&langs_count=8&theme=tokyonight&hide_border=true&bg_color=0d1117"/>
-</div>
+  
+![GitHub Stats](https://github-readme-stats.vercel.app/api?username=melloxyz&show_icons=true&theme=tokyonight&include_all_commits=true&count_private=true&hide_border=true&bg_color=0d1117)
 
-<div align="center">
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=melloxyz&theme=tokyonight&hide_border=true&background=0d1117" alt="GitHub Streak"/>
+![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=melloxyz&layout=compact&langs_count=8&theme=tokyonight&hide_border=true&bg_color=0d1117)
+
+![GitHub Streak](https://github-readme-streak-stats.herokuapp.com/?user=melloxyz&theme=tokyonight&hide_border=true&background=0d1117)
+
 </div>
 
 ---
@@ -195,6 +164,13 @@ Physical key management system with real-time updates and tracking.
 - SOLID principles
 - Agile development (Scrum)
 - Test-Driven Development (learning)
+
+**Soft Skills**
+- Problem-solving mindset
+- Self-taught and quick learner
+- Effective communication
+- Team collaboration
+- Time management
 
 ---
 
