@@ -66,7 +66,6 @@ const Mello = {
 ![Git](https://img.shields.io/badge/Git-F05033?style=for-the-badge&logo=git&logoColor=white)
 ![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)
 ![VS Code](https://img.shields.io/badge/VS_Code-0078d7?style=for-the-badge&logo=visual-studio-code&logoColor=white)
-![Postman](https://img.shields.io/badge/Postman-FF6C37?style=for-the-badge&logo=postman&logoColor=white)
 
 **Currently Learning**
 
@@ -80,8 +79,8 @@ const Mello = {
 
 | Project | Description | Tech Stack |
 |---------|-------------|-----------|
-| 🏋️ **[GymPass Style App](https://github.com/melloxyz/api-gympass-app)** | Fitness management system with authentication, check-ins and gym search | TypeScript, Fastify, PostgreSQL, Prisma, JWT |
-| 💰 **[REST Finance API](https://github.com/melloxyz/api-rest-finance)** | Financial transaction management with full CRUD operations | TypeScript, Node.js, PostgreSQL, Knex |
+| 🏋️ **[GymPass API](https://github.com/melloxyz/api-gympass-app)** | Fitness management system with authentication, check-ins and gym search | TypeScript, Fastify, PostgreSQL, Prisma, JWT |
+| 💰 **[Finance API](https://github.com/melloxyz/api-rest-finance)** | Financial transaction management with full CRUD operations | TypeScript, Node.js, PostgreSQL, Knex |
 | 🥗 **[Daily Diet API](https://github.com/melloxyz/api-daily-diet)** | Meal tracking API with diet metrics and user sessions | Node.js, Fastify, SQLite, Knex |
 
 <p align="center">
@@ -92,7 +91,7 @@ const Mello = {
 
 ---
 
-## 📊 GitHub Stats
+## 📊 My Stats
 
 <div align="center">
   
