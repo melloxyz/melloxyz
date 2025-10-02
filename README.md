@@ -114,7 +114,7 @@ const Mello = {
 - **Assertive Communication** • Sep 2025
 - **Agile Methodologies** • Sep 2025
 
-<p align="left">
+<p align="right">
   <a href="https://app.rocketseat.com.br/me/mxrvit">
     <img src="https://img.shields.io/badge/View_All_Certificates-8257E5?style=for-the-badge&logo=rocketseat&logoColor=white" alt="Certificates"/>
   </a>
