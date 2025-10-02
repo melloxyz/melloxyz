@@ -22,7 +22,7 @@
 ## 🚀 About Me
 
 ```typescript
-const joaoMello = {
+const Mello = {
   location: "Brazil",
   education: "Systems Analysis and Development @ Cesuca",
   focus: "Back-End Development",
@@ -83,8 +83,6 @@ const joaoMello = {
 | 🏋️ **[GymPass Style App](https://github.com/melloxyz/api-gympass-app)** | Fitness management system with authentication, check-ins and gym search | TypeScript, Fastify, PostgreSQL, Prisma, JWT |
 | 💰 **[REST Finance API](https://github.com/melloxyz/api-rest-finance)** | Financial transaction management with full CRUD operations | TypeScript, Node.js, PostgreSQL, Knex |
 | 🥗 **[Daily Diet API](https://github.com/melloxyz/api-daily-diet)** | Meal tracking API with diet metrics and user sessions | Node.js, Fastify, SQLite, Knex |
-| 🤖 **[Next Bot](https://github.com/melloxyz/next-bot)** | Discord bot for voice channel monitoring and data logging | Node.js, Discord.js |
-| 🔑 **[Key Manager SaaS](https://github.com/melloxyz/key-manager)** | Physical key management system with real-time tracking | Node.js, MongoDB |
 
 <p align="center">
   <a href="https://github.com/melloxyz?tab=repositories">
@@ -98,11 +96,11 @@ const joaoMello = {
 
 <div align="center">
   
-![GitHub Stats](https://github-readme-stats.vercel.app/api?username=melloxyz&show_icons=true&theme=tokyonight&include_all_commits=true&count_private=true&hide_border=true&bg_color=0d1117)
+![melloxyz's Stats](https://github-readme-stats.vercel.app/api?username=melloxyz&theme=tokyonight&show_icons=true&hide_border=true&count_private=true)
 
-![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=melloxyz&layout=compact&langs_count=8&theme=tokyonight&hide_border=true&bg_color=0d1117)
+![melloxyz's Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=melloxyz&theme=tokyonight&show_icons=true&hide_border=true&layout=compact)
 
-![GitHub Streak](https://github-readme-streak-stats.herokuapp.com/?user=melloxyz&theme=tokyonight&hide_border=true&background=0d1117)
+![melloxyz's Streak](https://github-readme-streak-stats.herokuapp.com/?user=melloxyz&theme=tokyonight&hide_border=true)
 
 </div>
 
