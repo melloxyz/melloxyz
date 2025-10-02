@@ -102,19 +102,49 @@ const Mello = {
 
 ![melloxyz's Streak](https://github-readme-streak-stats.herokuapp.com/?user=melloxyz&theme=tokyonight&hide_border=true)
 
+![Activity Graph](https://github-readme-activity-graph.vercel.app/graph?username=melloxyz&custom_title=Contribution%20Graph&bg_color=1a1b27&color=70a5fd&line=bf91f3&point=38bdae&area=true&hide_border=true)
+
 </div>
 
 ---
 
 ## 🎓 Certifications
 
-- **Git & GitHub Fundamentals** • May 2025
-- **Node.js Foundations** • Aug 2025
-- **Time Management** • Sep 2025
-- **Assertive Communication** • Sep 2025
-- **Agile Methodologies** • Sep 2025
+<table align="center">
+  <tr>
+    <td align="center" width="50%">
+      <img src="https://img.shields.io/badge/Git_&_GitHub-181717?style=for-the-badge&logo=github&logoColor=white"/>
+      <br><sub><b>Git & GitHub Fundamentals</b></sub>
+      <br><sub>Rocketseat • May 2025</sub>
+    </td>
+    <td align="center" width="50%">
+      <img src="https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=node.js&logoColor=white"/>
+      <br><sub><b>Node.js Foundations</b></sub>
+      <br><sub>Rocketseat • Aug 2025</sub>
+    </td>
+  </tr>
+  <tr>
+    <td align="center">
+      <img src="https://img.shields.io/badge/Time_Management-8257E5?style=for-the-badge&logo=clockify&logoColor=white"/>
+      <br><sub><b>Time Management</b></sub>
+      <br><sub>Rocketseat • Sep 2025</sub>
+    </td>
+    <td align="center">
+      <img src="https://img.shields.io/badge/Communication-0077B5?style=for-the-badge&logo=microsoft-teams&logoColor=white"/>
+      <br><sub><b>Assertive Communication</b></sub>
+      <br><sub>Rocketseat • Sep 2025</sub>
+    </td>
+  </tr>
+  <tr>
+    <td align="center" colspan="2">
+      <img src="https://img.shields.io/badge/Agile-00ADD8?style=for-the-badge&logo=azuredevops&logoColor=white"/>
+      <br><sub><b>Agile Methodologies</b></sub>
+      <br><sub>Rocketseat • Sep 2025</sub>
+    </td>
+  </tr>
+</table>
 
-<p align="right">
+<p align="center">
   <a href="https://app.rocketseat.com.br/me/mxrvit">
     <img src="https://img.shields.io/badge/View_All_Certificates-8257E5?style=for-the-badge&logo=rocketseat&logoColor=white" alt="Certificates"/>
   </a>
