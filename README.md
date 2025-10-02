@@ -76,7 +76,7 @@ const Mello = {
 
 ---
 
-## 💼 Featured Projects
+## 💼 Featured Projects (Back-End)
 
 | Project | Description | Tech Stack |
 |---------|-------------|-----------|
@@ -108,13 +108,13 @@ const Mello = {
 
 ## 🎓 Certifications
 
-- **Git & GitHub Fundamentals** • Rocketseat • May 2025
-- **Node.js Foundations** • Rocketseat • Aug 2025
-- **Time Management** • Rocketseat • Sep 2025
-- **Assertive Communication** • Rocketseat • Sep 2025
-- **Agile Methodologies** • Rocketseat • Sep 2025
+- **Git & GitHub Fundamentals** • May 2025
+- **Node.js Foundations** • Aug 2025
+- **Time Management** • Sep 2025
+- **Assertive Communication** • Sep 2025
+- **Agile Methodologies** • Sep 2025
 
-<p align="center">
+<p align="left">
   <a href="https://app.rocketseat.com.br/me/mxrvit">
     <img src="https://img.shields.io/badge/View_All_Certificates-8257E5?style=for-the-badge&logo=rocketseat&logoColor=white" alt="Certificates"/>
   </a>
@@ -162,13 +162,6 @@ const Mello = {
 - SOLID principles
 - Agile development (Scrum)
 - Test-Driven Development (learning)
-
-**Soft Skills**
-- Problem-solving mindset
-- Self-taught and quick learner
-- Effective communication
-- Team collaboration
-- Time management
 
 ---
 
