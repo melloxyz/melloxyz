@@ -13,18 +13,18 @@
 const Mello = {
   location: "Brazil - RS",
   education: "Systems Analysis and Development @ Cesuca.",
-  focus: "Back-End Development",
+  focus: "Back-End Development.",
   learning: ["SOLID", "DDD", "Clean Architecture", "Docker", "Testing"],
-  lookingFor: "Internship opportunities in back-end development",
+  lookingFor: "Internship opportunities in back-end development.",
   funFact: "I turn coffee into code and bugs into features ☕"
 };
 ```
 
-- 💻 Specialized in **Node.js** and **TypeScript** development
-- 🏗️ Building **REST APIs** with focus on scalability and maintainability
-- 🗄️ Experience with both **SQL** (PostgreSQL) and **NoSQL** (MongoDB) databases
-- 📚 Deep diving into **software architecture** patterns and best practices
-- 🎯 Seeking my first **internship opportunity** to grow as a developer
+- 💻 Specialized in **Node.js** and **TypeScript** development.
+- 🏗️ Building **REST APIs** with focus on scalability and maintainability.
+- 🗄️ Experience with both **SQL** (PostgreSQL) and **NoSQL** (MongoDB) databases.
+- 📚 Deep diving into **software architecture** patterns and best practices.
+- 🎯 Seeking my first **internship opportunity** to grow as a developer.
 
 ---
 
@@ -58,7 +58,6 @@ const Mello = {
 **Currently Learning**
 
 ![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
-![Jest](https://img.shields.io/badge/Jest-C21325?style=for-the-badge&logo=jest&logoColor=white)
 ![NestJS](https://img.shields.io/badge/NestJS-E0234E?style=for-the-badge&logo=nestjs&logoColor=white)
 
 ---
@@ -118,43 +117,43 @@ const Mello = {
 ## 🎯 Learning Journey
 
 **Completed** ✅
-- REST API architecture and best practices
-- Database design and relationships (SQL/NoSQL)
-- Authentication and authorization (JWT)
-- Git version control and collaboration
-- Agile methodologies (Scrum, Kanban)
+- REST API architecture and best practices.
+- Database design and relationships (SQL/NoSQL).
+- Authentication and authorization (JWT).
+- Git version control and collaboration.
+- Agile methodologies (Scrum, Kanban).
 
 **In Progress** 🚀
-- SOLID principles and design patterns
-- Domain-Driven Design (DDD)
-- Clean Architecture implementation
-- Unit and integration testing (Jest, Vitest)
-- Docker containerization
+- SOLID principles and design patterns.
+- Domain-Driven Design (DDD).
+- Clean Architecture implementation.
+- Unit and integration testing (Jest, Vitest).
+- Docker containerization.
 
 **Next Steps** 📚
-- Advanced TypeScript patterns
-- Microservices architecture
-- CI/CD pipelines
-- Cloud deployment (AWS, Railway)
-- Contributing to open-source projects
+- Advanced TypeScript patterns.
+- Microservices architecture.
+- CI/CD pipelines.
+- Cloud deployment (AWS, Railway).
+- Contributing to open-source projects.
 
 ---
 
 ## 💡 Core Skills
 
 **Technical**
-- REST API Development & Architecture
-- Database Design & Optimization
-- ORM & Query Builders (Prisma, Knex)
-- Authentication & Authorization (JWT)
-- API Documentation & Testing
-- Version Control (Git/GitHub)
+- REST API Development & Architecture.
+- Database Design & Optimization.
+- ORM & Query Builders (Prisma, Knex).
+- Authentication & Authorization (JWT).
+- API Documentation & Testing.
+- Version Control (Git/GitHub).
 
 **Methodologies**
-- Clean Code principles
-- SOLID principles
-- Agile development (Scrum)
-- Test-Driven Development (learning)
+- Clean Code principles.
+- SOLID principles.
+- Agile development (Scrum).
+- Test-Driven Development (learning).
 
 ---
 
