@@ -12,7 +12,7 @@
 ```typescript
 const Mello = {
   location: "Brazil - RS",
-  education: "Systems Analysis and Development @ Cesuca",
+  education: "Systems Analysis and Development @ Cesuca.",
   focus: "Back-End Development",
   learning: ["SOLID", "DDD", "Clean Architecture", "Docker", "Testing"],
   lookingFor: "Internship opportunities in back-end development",
