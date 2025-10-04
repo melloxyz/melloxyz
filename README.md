@@ -83,7 +83,8 @@ const Mello = {
 <div align="center">
 
 ![melloxyz's Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=melloxyz&theme=tokyonight&show_icons=true&hide_border=true&layout=compact)
-![melloxyz's Stats](https://github-readme-stats.vercel.app/api?username=melloxyz&theme=tokyonight&show_icons=true&hide_border=true&count_private=true) ![melloxyz's Streak](https://github-readme-streak-stats.herokuapp.com/?user=melloxyz&theme=tokyonight&hide_border=true)
+![melloxyz's Stats](https://github-readme-stats.vercel.app/api?username=melloxyz&theme=tokyonight&show_icons=true&hide_border=true&count_private=true)
+![melloxyz's Streak](https://github-readme-streak-stats.herokuapp.com/?user=melloxyz&theme=tokyonight&hide_border=true)
 
 ![Activity Graph](https://github-readme-activity-graph.vercel.app/graph?username=melloxyz&custom_title=Contribution%20Graph&bg_color=1a1b27&color=70a5fd&line=bf91f3&point=38bdae&area=true&hide_border=true)
 
