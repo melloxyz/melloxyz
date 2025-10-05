@@ -104,6 +104,7 @@ const Mello = {
 | ![Time](https://img.shields.io/badge/Time_Management-8257E5?style=flat-square&logo=clockify&logoColor=white) | Rocketseat | Sep 2025 | Course |
 | ![Communication](https://img.shields.io/badge/Assertive_Communication-0077B5?style=flat-square&logo=microsoft-teams&logoColor=white) | Rocketseat | Sep 2025 | Course |
 | ![Agile](https://img.shields.io/badge/Agile_Methodologies-00ADD8?style=flat-square&logo=azuredevops&logoColor=white) | Rocketseat | Sep 2025 | Course |
+| ![Clean Code](https://img.shields.io/badge/Clean_Code-8257E5?style=flat-square&logo=codacy&logoColor=white) | Rocketseat | Oct 2025 | Course |
 
 <a href="https://app.rocketseat.com.br/me/mxrvit">
   <img src="https://img.shields.io/badge/View_All_Certificates-8257E5?style=for-the-badge&logo=rocketseat&logoColor=white" alt="Certificates"/>
