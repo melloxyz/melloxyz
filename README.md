@@ -78,6 +78,8 @@ const Mello = {
 <img height="180em" src="https://github-readme-stats.vercel.app/api?username=melloxyz&show_icons=true&theme=tokyonight&include_all_commits=true&count_private=true&hide_border=true"/>
 <img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=melloxyz&layout=compact&langs_count=8&theme=tokyonight&hide_border=true"/>
 
+<img src="https://github-readme-streak-stats.herokuapp.com/?user=melloxyz&theme=tokyonight&hide_border=true" alt="GitHub Streak"/>
+
 </div>
 
 ---
@@ -86,14 +88,14 @@ const Mello = {
 
 <div align="center">
 
-| Certificate | Platform | Date | Type |
-|------------|----------|------|------|
-| ![Git](https://img.shields.io/badge/Git_&_GitHub_Fundamentals-181717?style=flat-square&logo=github&logoColor=white) | Rocketseat | May 2025 | Micro-certificate |
-| ![Node.js](https://img.shields.io/badge/Node.js_Foundations-339933?style=flat-square&logo=node.js&logoColor=white) | Rocketseat | Aug 2025 | Micro-certificate |
-| ![Time](https://img.shields.io/badge/Time_Management-8257E5?style=flat-square&logo=clockify&logoColor=white) | Rocketseat | Sep 2025 | Course |
-| ![Communication](https://img.shields.io/badge/Assertive_Communication-0077B5?style=flat-square&logo=microsoft-teams&logoColor=white) | Rocketseat | Sep 2025 | Course |
-| ![Agile](https://img.shields.io/badge/Agile_Methodologies-00ADD8?style=flat-square&logo=azuredevops&logoColor=white) | Rocketseat | Sep 2025 | Course |
-| ![Clean Code](https://img.shields.io/badge/Clean_Code-8257E5?style=flat-square&logo=codacy&logoColor=white) | Rocketseat | Oct 2025 | Course |
+| Certificate | Platform | Date |
+|------------|----------|------|
+| ![Git](https://img.shields.io/badge/Git_&_GitHub_Fundamentals-181717?style=for-the-badge&logo=github&logoColor=white) | Rocketseat | May 2025 |
+| ![Node.js](https://img.shields.io/badge/Node.js_Foundations-339933?style=for-the-badge&logo=node.js&logoColor=white) | Rocketseat | Aug 2025 |
+| ![Time](https://img.shields.io/badge/Time_Management-8257E5?style=for-the-badge&logo=clock&logoColor=white) | Rocketseat | Sep 2025 |
+| ![Communication](https://img.shields.io/badge/Assertive_Communication-8257E5?style=for-the-badge&logo=message-square&logoColor=white) | Rocketseat | Sep 2025 |
+| ![Agile](https://img.shields.io/badge/Agile_Methodologies-8257E5?style=for-the-badge&logo=trello&logoColor=white) | Rocketseat | Sep 2025 |
+| ![Clean Code](https://img.shields.io/badge/Clean_Code-8257E5?style=for-the-badge&logo=code&logoColor=white) | Rocketseat | Oct 2025 |
 
 <a href="https://app.rocketseat.com.br/me/mxrvit">
   <img src="https://img.shields.io/badge/View_All_Certificates-8257E5?style=for-the-badge&logo=rocketseat&logoColor=white" alt="Certificates"/>
