@@ -98,7 +98,7 @@ const Mello = {
 | ![Clean Code](https://img.shields.io/badge/Clean_Code-8257E5?style=for-the-badge&logo=sonarqube&logoColor=white) | Rocketseat | Oct 2025 |
 
 <a href="https://app.rocketseat.com.br/me/mxrvit">
-  <img src="https://img.shields.io/badge/View_All_Certificates-8257E5?style=for-the-badge&logo=rocketseat&logoColor=white" alt="Certificates"/>
+  <img src="https://img.shields.io/badge/View_All_Certificates-181717?style=for-the-badge&logo=rocketseat&logoColor=white" alt="Certificates"/>
 </a>
 
 </div>
