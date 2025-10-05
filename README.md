@@ -90,12 +90,12 @@ const Mello = {
 
 | Certificate | Platform | Date |
 |------------|----------|------|
-| ![Git](https://img.shields.io/badge/Git_&_GitHub_Fundamentals-181717?style=for-the-badge&logo=github&logoColor=white) | Rocketseat | May 2025 |
-| ![Node.js](https://img.shields.io/badge/Node.js_Foundations-339933?style=for-the-badge&logo=node.js&logoColor=white) | Rocketseat | Aug 2025 |
-| ![Time](https://img.shields.io/badge/Time_Management-8257E5?style=for-the-badge&logo=clock&logoColor=white) | Rocketseat | Sep 2025 |
-| ![Communication](https://img.shields.io/badge/Assertive_Communication-8257E5?style=for-the-badge&logo=message-square&logoColor=white) | Rocketseat | Sep 2025 |
-| ![Agile](https://img.shields.io/badge/Agile_Methodologies-8257E5?style=for-the-badge&logo=trello&logoColor=white) | Rocketseat | Sep 2025 |
-| ![Clean Code](https://img.shields.io/badge/Clean_Code-8257E5?style=for-the-badge&logo=code&logoColor=white) | Rocketseat | Oct 2025 |
+| ![Git](https://img.shields.io/badge/Git_&_GitHub-181717?style=for-the-badge&logo=github&logoColor=white) | Rocketseat | May 2025 |
+| ![Node.js](https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white) | Rocketseat | Aug 2025 |
+| ![Time](https://img.shields.io/badge/Time_Management-8257E5?style=for-the-badge&logo=clockify&logoColor=white) | Rocketseat | Sep 2025 |
+| ![Communication](https://img.shields.io/badge/Communication-8257E5?style=for-the-badge&logo=wechat&logoColor=white) | Rocketseat | Sep 2025 |
+| ![Agile](https://img.shields.io/badge/Agile-8257E5?style=for-the-badge&logo=azuredevops&logoColor=white) | Rocketseat | Sep 2025 |
+| ![Clean Code](https://img.shields.io/badge/Clean_Code-8257E5?style=for-the-badge&logo=visualstudiocode&logoColor=white) | Rocketseat | Oct 2025 |
 
 <a href="https://app.rocketseat.com.br/me/mxrvit">
   <img src="https://img.shields.io/badge/View_All_Certificates-8257E5?style=for-the-badge&logo=rocketseat&logoColor=white" alt="Certificates"/>
