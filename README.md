@@ -1,5 +1,5 @@
 <!-- Banner / Header -->
-<h1 align="center">👋 Hi, I'm João Mello</h1>
+<h1 align="center">👋 Hi, I'm João Mello.</h1>
 <p align="center">
   <b>Back-End Developer</b> | <b>Systems Analysis and Development Student</b><br>
   Building scalable APIs and learning software architecture best practices
