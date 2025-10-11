@@ -59,9 +59,9 @@ const Mello = {
 
 | Project | Description | Tech Stack |
 |-----------|-------------|-----------|
-| 🏋️ **[GymPass API](https://github.com/melloxyz/api-gympass-app)** | Fitness management system with authentication, check-ins and gym search | TypeScript, Fastify, PostgreSQL, Prisma, JWT |
-| 💰 **[Finance API](https://github.com/melloxyz/api-rest-finance)** | Financial transaction management with full CRUD operations | TypeScript, Node.js, PostgreSQL, Knex |
-| 🥗 **[Daily Diet API](https://github.com/melloxyz/api-daily-diet)** | Meal tracking API with diet metrics and user sessions | Node.js, Fastify, SQLite, Knex |
+| 🏋️ **[GymPass API](https://github.com/melloxyz/api-gympass-app)** | Fitness management system with authentication, check-ins and gym search. | TypeScript, Fastify, PostgreSQL, Prisma, JWT |
+| 💰 **[Finance API](https://github.com/melloxyz/api-rest-finance)** | Financial transaction management with full CRUD operations. | TypeScript, Node.js, PostgreSQL, Knex |
+| 🥗 **[Daily Diet API](https://github.com/melloxyz/api-daily-diet)** | Meal tracking API with diet metrics and user sessions. | Node.js, Fastify, SQLite, Knex |
 
 <p align="center">
   <a href="https://github.com/melloxyz?tab=repositories">
