@@ -131,8 +131,10 @@ Meal tracking with diet metrics and user sessions.
 
 <div align="center">
 
-<img height="180em" src="https://github-readme-stats.vercel.app/api?username=melloxyz&show_icons=true&theme=tokyonight&include_all_commits=true&count_private=true&hide_border=true&bg_color=0d1117"/>
-<img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=melloxyz&layout=compact&langs_count=8&theme=tokyonight&hide_border=true&bg_color=0d1117"/>
+![GitHub Stats](https://github-readme-stats.vercel.app/api?username=melloxyz&show_icons=true&theme=tokyonight&include_all_commits=true&count_private=true&hide_border=true&bg_color=0d1117)
+![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=melloxyz&layout=compact&langs_count=8&theme=tokyonight&hide_border=true&bg_color=0d1117)
+
+![GitHub Streak](https://github-readme-streak-stats.herokuapp.com/?user=melloxyz&theme=tokyonight&hide_border=true&background=0d1117)
 
 </div>
 
