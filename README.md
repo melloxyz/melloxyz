@@ -22,7 +22,7 @@ const developer = {
   education: "Systems Analysis and Development @ Cesuca",
   role: "Back-End Developer",
   
-  expertise: ["REST APIs", "TypeScript", "Node.js", "PostgreSQL", "Clean Architecture"],
+  expertise: ["REST APIs", "TypeScript", "Node. js", "PostgreSQL", "Clean Architecture"],
   exploring: ["AI/ML Integration", "Docker", "SOLID Principles"],
   
   funFact: "I turn coffee into code and bugs into features ☕",
@@ -36,15 +36,46 @@ const developer = {
 
 <div align="center">
 
-![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white)
+<table>
+<tr>
+<td align="center" width="25%">
+
+**Languages**
+
+![TypeScript](https://img. shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white)
 ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
-![Node.js](https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=node.js&logoColor=white)
 ![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
+
+</td>
+<td align="center" width="25%">
+
+**Backend**
+
+![Node.js](https://img.shields.io/badge/Node.js-339933? style=for-the-badge&logo=node.js&logoColor=white)
 ![Fastify](https://img.shields.io/badge/Fastify-000000?style=for-the-badge&logo=fastify&logoColor=white)
+![Express](https://img.shields.io/badge/Express-000000? style=for-the-badge&logo=express&logoColor=white)
+
+</td>
+<td align="center" width="25%">
+
+**Database**
+
 ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=for-the-badge&logo=postgresql&logoColor=white)
+![MongoDB](https://img.shields.io/badge/MongoDB-47A248?style=for-the-badge&logo=mongodb&logoColor=white)
 ![Prisma](https://img.shields.io/badge/Prisma-2D3748?style=for-the-badge&logo=prisma&logoColor=white)
+
+</td>
+<td align="center" width="25%">
+
+**Tools & DevOps**
+
 ![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
-![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
+![Git](https://img. shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
+![Vitest](https://img.shields. io/badge/Vitest-6E9F18?style=for-the-badge&logo=vitest&logoColor=white)
+
+</td>
+</tr>
+</table>
 
 </div>
 
@@ -64,13 +95,13 @@ const developer = {
 
 **AI-Powered Resume Analysis System**
 
-<img src="https://img.shields.io/badge/🏆_Award_Winner-XIX_Scientific_Exhibition-FFD700?style=for-the-badge" alt="Award"/>
+<img src="https://img. shields.io/badge/🏆_Award_Winner-XIX_Scientific_Exhibition-FFD700? style=for-the-badge" alt="Award"/>
 
 Intelligent platform analyzing resume-job compatibility using Google Gemini AI with PDF processing and interactive dashboard.
 
 **Stack:** `Python` `Streamlit` `Google Gemini API` `PyPDF2` `OOP`
 
-[![View Project](https://img.shields.io/badge/View_Project-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/melloxyz/select-ai)
+[![View Project](https://img. shields.io/badge/View_Project-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/melloxyz/select-ai)
 
 </td>
 </tr>
@@ -103,7 +134,7 @@ Financial transaction management with CRUD and reports.
 <td width="50%">
 
 #### 📚 [Node.js Fundamentals](https://github.com/melloxyz/fundamentos-nodejs)
-Core concepts: HTTP servers, Streams, Buffers, middleware.
+Core concepts: HTTP servers, Streams, Buffers, middleware. 
 
 **Stack:** Node.js • JavaScript
 
@@ -134,7 +165,7 @@ Meal tracking with diet metrics and user sessions.
 ![GitHub Stats](https://github-readme-stats.vercel.app/api?username=melloxyz&show_icons=true&theme=tokyonight&include_all_commits=true&count_private=true&hide_border=true&bg_color=0d1117)
 ![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=melloxyz&layout=compact&langs_count=8&theme=tokyonight&hide_border=true&bg_color=0d1117)
 
-![GitHub Streak](https://github-readme-streak-stats.herokuapp.com/?user=melloxyz&theme=tokyonight&hide_border=true&background=0d1117)
+![GitHub Streak](https://github-readme-streak-stats. herokuapp.com/?user=melloxyz&theme=tokyonight&hide_border=true&background=0d1117)
 
 </div>
 
@@ -144,46 +175,39 @@ Meal tracking with diet metrics and user sessions.
 
 <div align="center">
 
-<table>
-<tr>
-<td width="33%" align="center" valign="top">
-
-**✅ Mastered**
-
-REST APIs  
-TypeScript & Node.js  
-SQL & NoSQL  
-JWT Authentication  
-Git & Agile  
-Clean Code
-
-</td>
-<td width="33%" align="center" valign="top">
-
-**🚀 Learning**
-
-SOLID Principles  
-Clean Architecture  
-DDD  
-Docker  
-Testing (Vitest/Jest)  
-Design Patterns
-
-</td>
-<td width="33%" align="center" valign="top">
-
-**📚 Next Goals**
-
-Microservices  
-NestJS  
-CI/CD  
-AWS/Cloud  
-GraphQL  
-Open Source
-
-</td>
-</tr>
-</table>
+```typescript
+const journey = {
+  mastered: [
+    "REST API Architecture",
+    "TypeScript & Node.js",
+    "PostgreSQL & MongoDB", 
+    "JWT Authentication",
+    "Git & GitHub",
+    "Agile Methodologies",
+    "Clean Code Principles"
+  ],
+  
+  learning: [
+    "SOLID Principles",
+    "Clean Architecture",
+    "Domain-Driven Design (DDD)",
+    "Docker & Containerization",
+    "Unit & E2E Testing",
+    "Design Patterns",
+    "AI/ML Integration"
+  ],
+  
+  nextGoals: [
+    "Microservices Architecture",
+    "NestJS Framework",
+    "CI/CD Pipelines",
+    "AWS & Cloud Platforms",
+    "GraphQL APIs",
+    "Open Source Contributions",
+    "System Design Patterns"
+  ]
+};
+```
 
 </div>
 
@@ -207,19 +231,7 @@ Open Source
 
 ---
 
-## 💡 My Philosophy
-
-<div align="center">
-
-> *"Great software is built on **clean code**, **solid architecture**, and **continuous learning**."*
-
-**Architecture First** • **Test-Driven** • **Always Learning** • **Team Player** • **Problem Solver**
-
-</div>
-
----
-
-## 📫 Let's Connect!
+## 📫 Let's Connect! 
 
 <div align="center">
 
@@ -229,7 +241,7 @@ I'm actively seeking **back-end development internship opportunities** where I c
 
 <br>
 
-<a href="mailto:joaovdmello@gmail.com">
+<a href="mailto:joaovdmello@gmail. com">
   <img src="https://img.shields.io/badge/Send_Email-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Email"/>
 </a>
 <a href="https://www.linkedin.com/in/mellodev-">
