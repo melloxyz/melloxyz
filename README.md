@@ -1,151 +1,82 @@
-<!-- Header -->
-<div align="center">
+<h1 align="center">👋 Olá, sou o Mello</h1>
+<p align="center">
+  Desenvolvedor Backend Júnior · Estudante de Programação · Brasil
+</p>
 
-# 👋 João Mello  
-Back-End Developer • Systems Analysis Student
-
-[LinkedIn](https://www.linkedin.com/in/mellodev-) • [Email](mailto:joaovdmello@gmail.com) • [Discord](https://discordapp.com/users/mefrog)
-
-</div>
-
----
-
-## 🚀 About
-
-```typescript
-const mello = {
-  location: "RS, Brazil",
-  role: "Back-End Developer",
-  education: "Systems Analysis and Development @ Cesuca",
-  focus: ["REST APIs", "TypeScript/Node.js", "PostgreSQL", "Clean Architecture"],
-  learning: ["SOLID", "DDD", "Docker", "Testing"],
-  openTo: "Back-end internship opportunities",
-};
-```
+<p align="center">
+  <a href="mailto:joaovdmello@gmail.com">joaovdmello@gmail.com</a> •
+  <a href="https://www.linkedin.com/in/mellodev-/">LinkedIn</a> •
+  <a href="https://github.com/melloxyz?tab=repositories">Repositórios</a>
+</p>
 
 ---
 
-## 🛠️ Tech Stack
-
-<div align="center">
-
-<table>
-<tr>
-<td align="center" width="25%">
-
-<strong>Languages</strong><br><br>
-<img src="https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white" />
-<img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black" />
-<img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" />
-
-</td>
-<td align="center" width="25%">
-
-<strong>Backend</strong><br><br>
-<img src="https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=node.js&logoColor=white" />
-<img src="https://img.shields.io/badge/Fastify-000000?style=for-the-badge&logo=fastify&logoColor=white" />
-<img src="https://img.shields.io/badge/Express-000000?style=for-the-badge&logo=express&logoColor=white" />
-
-</td>
-<td align="center" width="25%">
-
-<strong>Data & ORM</strong><br><br>
-<img src="https://img.shields.io/badge/PostgreSQL-4169E1?style=for-the-badge&logo=postgresql&logoColor=white" />
-<img src="https://img.shields.io/badge/MongoDB-47A248?style=for-the-badge&logo=mongodb&logoColor=white" />
-<img src="https://img.shields.io/badge/SQLite-003B57?style=for-the-badge&logo=sqlite&logoColor=white" />
-<br>
-<img src="https://img.shields.io/badge/Prisma-2D3748?style=for-the-badge&logo=prisma&logoColor=white" />
-
-</td>
-<td align="center" width="25%">
-
-<strong>Tools & DevOps</strong><br><br>
-<img src="https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white" />
-<img src="https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white" />
-<img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white" />
-<br>
-<img src="https://img.shields.io/badge/Vitest-6E9F18?style=for-the-badge&logo=vitest&logoColor=white" />
-<img src="https://img.shields.io/badge/Jest-C21325?style=for-the-badge&logo=jest&logoColor=white" />
-
-</td>
-</tr>
-</table>
-
-</div>
+## Sobre
+Desenvolvedor backend júnior construindo APIs com **TypeScript / Node.js** e explorando aplicações de **IA com Python**. Foco em clareza de código, organização consistente, autenticação, uso de ORM e evolução incremental. Aberto a estágio e colaboração técnica.
 
 ---
 
-## 💼 Featured Projects
+## Stack & Ferramentas
 
-### 🏆 Spotlight — Select.AI
-- Repo: [Select.AI](https://github.com/melloxyz/select-ai)
-- What it is: AI-powered resume-to-job compatibility analysis using Google Gemini
-- Stack: Python, Streamlit, Google Gemini API, PyPDF2, OOP  
-- Note: Awarded at the XIX Scientific Research Exhibition (Cesuca)
-
-### Other projects (compact)
-- 🏋️ [GymPass API](https://github.com/melloxyz/api-gympass-app) — Authentication, check-ins, gym search, and metrics. Stack: TypeScript, Fastify, PostgreSQL, Prisma, JWT
-- 💰 [Finance API](https://github.com/melloxyz/api-rest-finance) — Transactions CRUD, categories, and reports. Stack: TypeScript, Node.js, PostgreSQL, Knex
-- 🥗 [Daily Diet API](https://github.com/melloxyz/api-daily-diet) — Meal logging, diet metrics, and sessions. Stack: Node.js, Fastify, SQLite, Knex
-- 📚 [Node.js Fundamentals](https://github.com/melloxyz/fundamentos-nodejs) — HTTP, Streams, Buffers, middleware. Stack: JavaScript, Node.js
-
----
-
-## 📊 GitHub Analytics
-
-<div align="center">
-
-![GitHub Stats](https://github-readme-stats.vercel.app/api?username=melloxyz&show_icons=true&theme=tokyonight&include_all_commits=true&count_private=true&hide_border=true)
-![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=melloxyz&layout=compact&langs_count=8&theme=tokyonight&hide_border=true)
-
-</div>
-
----
-
-## 🎯 Development Journey
+<p>
+  <!-- Linguagens -->
+  <img alt="TypeScript" src="https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white"/>
+  <img alt="JavaScript" src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black"/>
+  <img alt="Python" src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white"/>
+</p>
+<p>
+  <!-- Backend / Banco -->
+  <img alt="Node.js" src="https://img.shields.io/badge/Node.js-339933?style=flat&logo=node.js&logoColor=white"/>
+  <img alt="Express" src="https://img.shields.io/badge/Express-000000?style=flat&logo=express&logoColor=white"/>
+  <img alt="Fastify" src="https://img.shields.io/badge/Fastify-000000?style=flat&logo=fastify&logoColor=white"/>
+  <img alt="Prisma" src="https://img.shields.io/badge/Prisma-2D3748?style=flat&logo=prisma&logoColor=white"/>
+  <img alt="PostgreSQL" src="https://img.shields.io/badge/PostgreSQL-4169E1?style=flat&logo=postgresql&logoColor=white"/>
+  <img alt="SQLite" src="https://img.shields.io/badge/SQLite-003B57?style=flat&logo=sqlite&logoColor=white"/>
+</p>
+<p>
+  <!-- Ferramentas / Qualidade -->
+  <img alt="Git" src="https://img.shields.io/badge/Git-F05032?style=flat&logo=git&logoColor=white"/>
+  <img alt="GitHub" src="https://img.shields.io/badge/GitHub-181717?style=flat&logo=github&logoColor=white"/>
+  <img alt="ESLint" src="https://img.shields.io/badge/ESLint-4B32C3?style=flat&logo=eslint&logoColor=white"/>
+  <img alt="Prettier" src="https://img.shields.io/badge/Prettier-F7B93E?style=flat&logo=prettier&logoColor=black"/>
+  <img alt="Docker (iniciante)" src="https://img.shields.io/badge/Docker-2496ED?style=flat&logo=docker&logoColor=white"/>
+  <img alt="Streamlit" src="https://img.shields.io/badge/Streamlit-FF4B4B?style=flat&logo=streamlit&logoColor=white"/>
+</p>
 
 <details>
-<summary><strong>View journey (optional)</strong></summary>
-
-<div align="center">
-
-<table>
-<tr>
-<td align="center" width="33%" valign="top">
-
-<strong>✅ Mastered</strong><br>
-REST APIs · TypeScript/Node.js · SQL/NoSQL · JWT · Git/GitHub · Agile · Clean Code
-
-</td>
-<td align="center" width="33%" valign="top">
-
-<strong>🚀 In Progress</strong><br>
-SOLID · Clean Architecture · DDD · Docker · Testing (Vitest/Jest) · Design Patterns
-
-</td>
-<td align="center" width="33%" valign="top">
-
-<strong>📚 Next</strong><br>
-Microservices · NestJS · CI/CD · AWS · GraphQL · Open Source
-
-</td>
-</tr>
-</table>
-
-</div>
-
+<summary>Em estudo</summary>
+Clean Architecture · JWT avançado (refresh + rotação) · TDD básico · CI/CD (GitHub Actions) · Docker Compose · Integração com APIs de IA · Observabilidade inicial
 </details>
 
 ---
 
-## 📫 Contact
+## Projetos
 
-- Email: [joaovdmello@gmail.com](mailto:joaovdmello@gmail.com)
-- LinkedIn: [mellodev-](https://www.linkedin.com/in/mellodev-)
-- GitHub: [melloxyz](https://github.com/melloxyz)
+| Projeto | Tech | Resumo |
+|---------|------|--------|
+| [api-gympass-app](https://github.com/melloxyz/api-gympass-app) | TS, Node, Prisma | API estilo Gympass (usuários, autenticação, estrutura modular). |
+| [api-rest-finance](https://github.com/melloxyz/api-rest-finance) | TS, REST | Regras financeiras e organização por domínio. |
+| [select-ai](https://github.com/melloxyz/select-ai) | Python, Streamlit, IA | Compatibilidade currículo ↔ vaga usando Google Gemini. |
+| [fundamentos-nodejs](https://github.com/melloxyz/fundamentos-nodejs) | JS | Exercícios consolidando base do Node.js. |
+| [desafio-fundamento-nodejs](https://github.com/melloxyz/desafio-fundamento-nodejs) | JS | Desafios para fixar lógica e fundamentos. |
 
-<div align="center">
+---
 
-— Building tomorrow’s solutions with today’s code —
+## Destaque
+🎓 <strong>Select.AI</strong>: Ferramenta de análise semântica entre currículos e vagas (POO, Streamlit, Google Gemini, PyPDF2). Reconhecida / laureada na XIX Mostra de Iniciação Científica do Cesuca.
 
-</div>
+---
+
+## Estatísticas
+
+<p align="center">
+  <img src="https://github-readme-stats.vercel.app/api?username=melloxyz&show_icons=true&hide_title=true&theme=transparent" height="140" alt="GitHub Stats" />
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=melloxyz&layout=compact&theme=transparent&hide_title=true" height="140" alt="Top Languages" />
+</p>
+
+---
+
+## Contato
+- Email: <a href="mailto:joaovdmello@gmail.com">joaovdmello@gmail.com</a>
+- LinkedIn: [mellodev-](https://www.linkedin.com/in/mellodev-/)
+- Aberto a estágio, colaboração e feedback técnico
