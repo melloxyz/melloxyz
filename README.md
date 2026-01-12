@@ -89,8 +89,7 @@ Projeto **laureado na XIX Mostra de Iniciação Científica do CESUCA**.
 ## 📊 Estatísticas do GitHub
 
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=melloxyz&show_icons=true&hide_title=true&theme=transparent" height="140" />
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=melloxyz&layout=compact&theme=transparent&hide_title=true" height="140" />
+  <img src="[![GitHub Streak](https://streak-stats.demolab.com?user=melloxyz)](https://git.io/streak-stats)" height="140" />
 </p>
 
 ---
