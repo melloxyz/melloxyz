@@ -86,14 +86,6 @@ Projeto **laureado na XIX Mostra de Iniciação Científica do CESUCA**.
 
 ---
 
-## 📊 Estatísticas do GitHub
-
-<p align="center">
-  <a href="https://git.io/streak-stats"><img src="https://streak-stats.demolab.com?user=melloxyz" alt="GitHub Streak" /></a>
-</p>
-
----
-
 ## 📬 Contato
 
 - 📧 Email: <a href="mailto:joaovdmello@gmail.com">joaovdmello@gmail.com</a>  
