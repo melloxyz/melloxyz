@@ -37,8 +37,6 @@ Esse projeto consolidou meu interesse por resolver problemas reais unindo Python
 
 ## Portfólio (projetos)
 
-> Sugestão: deixe estes repositórios “Pinned” no perfil para virarem sua vitrine.
-
 ### 🏆 Select.AI — Análise inteligente de currículos (Premiado)
 Sistema para ajudar PMEs a analisarem currículos com base em requisitos de vagas, com geração de relatórios via IA.  
 Desafio técnico: utilizar exclusivamente Python em toda a solução (interface, lógica e IA).
