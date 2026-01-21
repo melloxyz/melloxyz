@@ -1,89 +1,122 @@
+<div align="center">
+
 # João Mello
-**Engenharia Back-end** · TypeScript · Node.js · APIs REST · Arquitetura & Clean Code [page:1]
+Backend Developer · TypeScript · Node.js · APIs REST · Arquitetura & Clean Code
 
-📍 RS, Brasil · ✉️ joaovdmello@gmail.com · 💼 LinkedIn: https://www.linkedin.com/in/mellodev-/ [page:1]
+<a href="https://www.linkedin.com/in/mellodev-/" target="_blank">
+  <img alt="LinkedIn" src="https://img.shields.io/badge/LinkedIn-mellodev---0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" />
+</a>
+<a href="mailto:joaovdmello@gmail.com">
+  <img alt="Email" src="https://img.shields.io/badge/Email-joaovdmello%40gmail.com-EA4335?style=for-the-badge&logo=gmail&logoColor=white" />
+</a>
+<a href="https://github.com/melloxyz">
+  <img alt="GitHub" src="https://img.shields.io/badge/GitHub-melloxyz-181717?style=for-the-badge&logo=github&logoColor=white" />
+</a>
 
-Graduando em **Análise e Desenvolvimento de Sistemas** no Centro Universitário Cesuca (2024–2026). [page:1]  
-Construo software com foco em base técnica sólida: arquitetura bem definida, boas práticas, testes e documentação. [page:1]
+</div>
 
 ---
 
-## Portfólio (projetos em destaque)
+## Sobre mim
 
-### 🏆 Select.AI — Sistema inteligente de análise de currículos (Premiado)
-**Laureado na XIX Mostra de Iniciação Científica do Cesuca (11/11/2025).** [page:1]  
-Projeto para ajudar PMEs a analisarem currículos com base em requisitos de vagas usando IA, com o desafio técnico de usar **Python em toda a solução** (interface, lógica e IA). [page:1]  
-Repo: https://github.com/melloxyz/select-ai [page:1]
+Sou **João Mello**, graduando em Análise e Desenvolvimento de Sistemas no Centro Universitário Cesuca (2024–2026).  
+Minha jornada na tecnologia é guiada pelo objetivo de construir a base tecnológica de softwares eficientes, bem estruturados e sustentáveis.
 
-O que este projeto demonstra:
-- Arquitetura modular e organização de código (POO aplicada a um problema real). [page:1]
-- Integração com IA (Google Gemini) e lógica de dados para gerar relatórios. [page:1]
-- Leitura e processamento de arquivos (PDFs), com interface em Streamlit. [page:1]
+Em 2025, co-criei o **Select.AI**, um sistema inteligente para análise de currículos, laureado na XIX Mostra de Iniciação Científica do Cesuca (11/11/2025).  
+Essa experiência consolidou meu foco em resolver problemas reais unindo Python, Inteligência Artificial e Arquitetura de Software.
+
+---
+
+## O que eu busco agora
+
+- Estágio / vaga Júnior em Back-end (Node.js / TypeScript) ou Back-end com Python.
+- Times que valorizem código limpo, colaboração, boas práticas e evolução contínua.
+
+---
+
+## Portfólio (projetos)
+
+> Dica: mantenha estes repositórios “Pinned” no perfil para virarem sua vitrine principal.
+
+### 🏆 Select.AI — Análise inteligente de currículos (Premiado)
+Sistema para ajudar PMEs a analisarem currículos com base em requisitos de vagas, com geração de relatórios via IA.  
+**Desafio técnico:** utilizar exclusivamente Python em toda a solução (interface, lógica e IA).
+
+- Repo: https://github.com/melloxyz/select-ai
+- Tecnologias: Python, Streamlit, Google Gemini, processamento de PDFs
+- Destaques técnicos:
+  - Arquitetura modular e organização (POO aplicada a um caso real).
+  - Integração com LLM e lógica de dados para relatórios.
+  - Leitura/processamento de arquivos e foco em UX no uso.
 
 ---
 
 ### api-gympass-app — API com autenticação e RBAC
-Repo: https://github.com/melloxyz/api-gympass-app [page:1]  
-API inspirada no domínio do Gympass, com autenticação, RBAC e estrutura modular. [page:1]
+API inspirada no domínio do Gympass, com autenticação e autorização por papéis (RBAC) e estrutura modular.
 
-O que este projeto demonstra:
-- APIs REST com regras de negócio e organização por camadas/módulos. [page:1]
-- Autenticação e autorização com foco em segurança e manutenção. [page:1]
+- Repo: https://github.com/melloxyz/api-gympass-app
+- Tecnologias: TypeScript, Node.js (stack backend)
+- Destaques técnicos:
+  - Regras de negócio bem definidas e organização por módulos/camadas.
+  - Segurança e manutenção: auth + autorização com foco em escalabilidade.
 
 ---
 
 ### api-rest-finance — API financeira orientada a domínio
-Repo: https://github.com/melloxyz/api-rest-finance [page:1]  
-API financeira com regras de negócio e organização por domínio. [page:1]
+API financeira com modelagem do domínio e regras de negócio consistentes.
 
-O que este projeto demonstra:
-- Modelagem de domínio + consistência nas regras de negócio. [page:1]
-- Base para evoluir com testes, CI e boas práticas de engenharia. [page:1]
-
-> Dica: fixe esses repositórios no perfil (Pinned) para virar uma vitrine direta. [page:1]
-
----
-
-## O que eu faço bem (pilares)
-
-- **Engenharia Back-end:** APIs REST robustas com Node.js e TypeScript, com arquitetura e padrões para manter o projeto evolutivo. [page:1]
-- **Qualidade & Clean Code:** código legível, testes e documentação como base de software sustentável. [page:1]
-- **Inovação & IA:** integração de LLMs e lógica de dados aplicada (ex.: Select.AI). [page:1]
-- **Colaboração & foco:** organização, disciplina e comunicação assertiva para contribuir com o time e o produto. [page:1]
+- Repo: https://github.com/melloxyz/api-rest-finance
+- Tecnologias: TypeScript, Node.js (stack backend)
+- Destaques técnicos:
+  - Base sólida para evoluir com testes, CI e documentação.
+  - Boa organização para manutenção e novas features.
 
 ---
 
-## Stack & ferramentas
+## Competências (pilares)
 
-**Back-end:** TypeScript, Node.js, Express, Fastify, Prisma, PostgreSQL [page:1]  
-**Também uso:** Python, Git, Docker, ESLint, Prettier [page:1]
+- Engenharia Back-end: APIs REST robustas, arquitetura e padrões para projetos evolutivos.
+- Qualidade & Clean Code: legibilidade, testes e documentação como pilares.
+- Inovação & IA: integração de LLMs e dados aplicados a soluções reais (Select.AI).
+- Colaboração & foco: organização, disciplina e comunicação assertiva para entregar em time.
+
+---
+
+## Stack atual
+
+**Back-end:** TypeScript, Node.js  
+**Bancos & dados:** SQL/NoSQL (em evolução no curso), modelagem e lógica de dados  
+**Python & IA:** Python, integração com LLMs (ex.: Google Gemini)  
+**Ferramentas:** Git/GitHub, organização de projetos, documentação em README
 
 ---
 
 ## Formação
 
 **Tecnólogo em Análise e Desenvolvimento de Sistemas** — Centro Universitário Cesuca  
-Jan/2024 – Dez/2026 [page:1]
+Jan/2024 – Dez/2026
 
-Principais áreas de estudo:
-- Algoritmos e Estruturas de Dados, POO, SQL/NoSQL, Engenharia de Software e Sistemas Inteligentes. [page:1]
+Principais áreas: Algoritmos e Estruturas de Dados, POO, Banco de Dados SQL/NoSQL, Engenharia de Software e Sistemas Inteligentes.
 
 ---
 
 ## Certificações & cursos
 
-- Fundamentos do Node.js — Rocketseat (2025): https://app.rocketseat.com.br/certificates/d4718d59-2e75-48dd-baeb-db5af608e483 [page:1]
-- O básico de Git e GitHub — Rocketseat (2025): https://app.rocketseat.com.br/certificates/33ca94cf-7e12-42a4-a83e-071353f2ed9e [page:1]
-- Clean Code — Rocketseat (2025): https://app.rocketseat.com.br/certificates/62a1abcc-f6d8-48de-b164-73460511556a [page:1]
-- Metodologias Ágeis — Rocketseat (2025): https://app.rocketseat.com.br/certificates/e301b019-2ab3-4fd3-b7d0-6d257f55931f [page:1]
-- Gestão de Tempo — Rocketseat (2025): https://app.rocketseat.com.br/certificates/67d9f255-bdd5-4987-a597-ea703a528570 [page:1]
-- Comunicação Assertiva — Rocketseat (2025) [page:1]
+- Fundamentos do Node.js — Rocketseat (2025)  
+  https://app.rocketseat.com.br/certificates/d4718d59-2e75-48dd-baeb-db5af608e483
+- O básico de Git e GitHub — Rocketseat (2025)  
+  https://app.rocketseat.com.br/certificates/33ca94cf-7e12-42a4-a83e-071353f2ed9e
+- Clean Code — Rocketseat (2025)  
+  https://app.rocketseat.com.br/certificates/62a1abcc-f6d8-48de-b164-73460511556a
+- Metodologias Ágeis — Rocketseat (2025)  
+  https://app.rocketseat.com.br/certificates/e301b019-2ab3-4fd3-b7d0-6d257f55931f
+- Gestão de Tempo — Rocketseat (2025)  
+  https://app.rocketseat.com.br/certificates/67d9f255-bdd5-4987-a597-ea703a528570
+- Comunicação Assertiva — Rocketseat (2025)
 
 ---
 
 ## Contato
 
-- Email: joaovdmello@gmail.com [page:1]
-- LinkedIn: https://www.linkedin.com/in/mellodev-/ [page:1]
-
-Aberto a estágio e oportunidades backend (e colaborações técnicas) para construir projetos bem estruturados e resolver problemas reais. [page:1]
+- LinkedIn: https://www.linkedin.com/in/mellodev-/
+- Email: joaovdmello@gmail.com
