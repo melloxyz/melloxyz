@@ -1,7 +1,9 @@
 <div align="center">
 
-# João Mello
-Backend Developer · TypeScript · Node.js · APIs REST · Arquitetura · Clean Code
+# João Mello  
+Desenvolvedor Back-end em formação • Node.js • TypeScript  
+
+Base sólida, organização e disciplina para evoluir em ambientes profissionais.
 
 <a href="https://www.linkedin.com/in/mellodev-/" target="_blank">
   <img alt="LinkedIn" src="https://img.shields.io/badge/LinkedIn-mellodev---0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" />
@@ -19,97 +21,99 @@ Backend Developer · TypeScript · Node.js · APIs REST · Arquitetura · Clean 
 
 ## Sobre mim
 
-Sou João Mello, graduando em Análise e Desenvolvimento de Sistemas no Centro Universitário Cesuca (2024–2026).  
-Tenho foco em construir a base tecnológica de softwares eficientes e bem estruturados, com organização, documentação e qualidade de código.
+Sou graduando em **Análise e Desenvolvimento de Sistemas** pelo **Centro Universitário Cesuca (2024–2026)** e estou em formação para atuar como **Desenvolvedor Back-end Júnior**, com foco em **Node.js e TypeScript**.
 
-Em 2025, co-criei o **Select.AI**, um sistema inteligente para análise de currículos, laureado na XIX Mostra de Iniciação Científica do Cesuca (11/11/2025).  
-Esse projeto consolidou meu interesse por resolver problemas reais unindo Python, IA e arquitetura de software.
+Tenho interesse em construir **bases técnicas bem organizadas**, priorizando clareza de código, entendimento de regras de negócio e evolução contínua. Meu aprendizado é guiado por cursos estruturados, projetos práticos e experiência acadêmica, sempre com atenção à organização e à legibilidade do código.
 
 ---
 
 ## Onde estou agora
 
-- Buscando estágio e oportunidades **Júnior** em Back-end (Node.js/TypeScript) e Back-end com Python.
-- Evoluindo em arquitetura, padrões de projeto, testes e boas práticas para produção.
-- Construindo projetos com foco em clareza, manutenção e entrega em time.
+- Buscando oportunidade como **Júnior Back-end Node.js**
+- Finalizando um **curso avançado de Node.js (90h+)**, com foco em APIs REST
+- Consolidando fundamentos de:
+  - organização de projetos
+  - regras de negócio
+  - autenticação e autorização
+- Evoluindo gradualmente em testes, arquitetura em camadas e boas práticas
 
 ---
 
-## Portfólio (projetos)
+## Projetos em destaque
 
-### 🏆 Select.AI — Análise inteligente de currículos (Premiado)
-Sistema para ajudar PMEs a analisarem currículos com base em requisitos de vagas, com geração de relatórios via IA.  
-Desafio técnico: utilizar exclusivamente Python em toda a solução (interface, lógica e IA).
-
-- Repositório: https://github.com/melloxyz/select-ai
-- Stack: Python · Streamlit · Google Gemini · Processamento de PDFs
-- O que demonstra:
-  - Arquitetura modular e organização de código (POO aplicada a um caso real).
-  - Integração com LLM e lógica de dados para relatórios.
-  - Leitura/processamento de arquivos com preocupação com UX.
-
-### api-gympass-app — API com autenticação e RBAC
-API inspirada no domínio do Gympass, com autenticação e autorização por papéis (RBAC) e estrutura modular.
+### 🧩 api-gympass-app — API Node.js com regras de negócio
+API inspirada no domínio do Gympass, desenvolvida durante uma trilha estruturada de estudos em Node.js.
 
 - Repositório: https://github.com/melloxyz/api-gympass-app
-- Stack: TypeScript · Node.js
-- O que demonstra:
-  - Regras de negócio e organização por módulos/camadas.
-  - Auth + autorização com foco em segurança e escalabilidade.
+- Stack: Node.js · TypeScript
+- O que este projeto demonstra:
+  - Organização de código em módulos
+  - Implementação de regras de negócio
+  - Conceitos iniciais de autenticação e autorização (RBAC)
+  - Aplicação prática de fundamentos aprendidos em curso
 
-### api-rest-finance — API financeira orientada a domínio
-API financeira com modelagem de domínio e regras de negócio consistentes.
-
-- Repositório: https://github.com/melloxyz/api-rest-finance
-- Stack: TypeScript · Node.js
-- O que demonstra:
-  - Base sólida para evoluir com testes, CI e documentação.
-  - Organização para manutenção e novas features.
+Este é o projeto que melhor representa meu nível técnico atual e minha forma de estruturar código.
 
 ---
 
-## Competências
+### 🏆 Select.AI — Análise inteligente de currículos (Projeto Acadêmico Premiado)
 
-- Engenharia Back-end: APIs REST robustas, arquitetura e padrões para projetos evolutivos.
-- Qualidade & Clean Code: legibilidade, testes e documentação como pilares.
-- Inovação & IA: integração de LLMs e lógica de dados aplicada a soluções reais.
-- Colaboração: disciplina, organização e comunicação assertiva para construir em time.
+Sistema acadêmico desenvolvido em equipe (3 pessoas) para análise de currículos com base em requisitos de vagas, utilizando IA para gerar relatórios de apoio à decisão.
 
----
+- Repositório: https://github.com/melloxyz/select-ai
+- Stack: Python · Streamlit · Integração com LLM · Processamento de PDFs
+- Reconhecimento: **Projeto laureado na XIX Mostra de Iniciação Científica do Cesuca (2025)**
 
-## Stack atual
+**Minha atuação no projeto:**
+- Desenvolvimento da lógica de IA
+- Organização do código e estrutura do projeto
 
-- Back-end: TypeScript, Node.js
-- Python & IA: Python, integração com LLMs (ex.: Google Gemini)
-- Dados: SQL/NoSQL (em evolução no curso), modelagem e lógica de dados
-- Ferramentas: Git/GitHub, documentação em README, organização de projetos
+**Principais desafios técnicos enfrentados:**
+- Ajuste de acurácia das respostas da IA
+- Uso do Streamlit fora do contexto tradicional de dashboards
+- Redução de custo de tokens em chamadas ao modelo
 
----
-
-## Formação
-
-**Tecnólogo em Análise e Desenvolvimento de Sistemas** — Centro Universitário Cesuca  
-Jan/2024 – Dez/2026
-
-Principais áreas: Algoritmos e Estruturas de Dados, POO, Banco de Dados SQL/NoSQL, Engenharia de Software e Sistemas Inteligentes.
+Status atual: projeto em **standby**, com intenção de evolução futura após maior maturidade técnica.
 
 ---
 
-## Premiações
+## Habilidades técnicas (em formação)
 
-- **Projeto Laureado — Select.AI** · XIX Mostra de Iniciação Científica (Cesuca) · Nov/2025
+- **Back-end:** Node.js, TypeScript, APIs REST  
+- **Python aplicado:** Python, Streamlit, integração com LLMs  
+- **Dados:** PostgreSQL, SQLite, fundamentos de SQL  
+- **Qualidade e organização:** Clean Code (fundamentos), arquitetura em camadas (introdução), versionamento com Git/GitHub  
+
+> Todas as tecnologias listadas acima foram utilizadas em contexto acadêmico, cursos ou projetos pessoais de estudo.
 
 ---
 
-## Certificações & cursos
+## Formação & experiência acadêmica
 
-**Rocketseat (2025)**
-- Fundamentos do Node.js
-- O básico de Git e GitHub
-- Clean Code
-- Metodologias Ágeis
-- Gestão de Tempo
-- Comunicação Assertiva
+**Tecnólogo em Análise e Desenvolvimento de Sistemas**  
+Centro Universitário Cesuca — Jan/2024 a Dez/2026  
+
+Áreas de estudo:
+- Algoritmos e Estruturas de Dados  
+- Programação Orientada a Objetos  
+- Banco de Dados SQL/NoSQL  
+- Engenharia de Software  
+- Sistemas Inteligentes  
+
+Experiência complementar:
+- Apresentação técnica de projetos para professores, banca avaliadora e colegas
+- Recebimento de feedback técnico formal de professor e orientador acadêmico
+
+---
+
+## Aprendizado atual
+
+- Consolidação de **Node.js e TypeScript** para APIs REST
+- Evolução gradual em:
+  - organização de projetos
+  - regras de negócio
+  - fundamentos de testes automatizados
+- Foco em aprofundar base antes de expandir stack
 
 ---
 
@@ -117,3 +121,4 @@ Principais áreas: Algoritmos e Estruturas de Dados, POO, Banco de Dados SQL/NoS
 
 - LinkedIn: https://www.linkedin.com/in/mellodev-/
 - Email: joaovdmello@gmail.com
+- GitHub: https://github.com/melloxyz
