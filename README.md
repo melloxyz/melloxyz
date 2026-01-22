@@ -1,124 +1,132 @@
 <div align="center">
 
-# João Mello  
-Desenvolvedor Back-end em formação • Node.js • TypeScript  
+# João Mello
+Desenvolvedor Backend · TypeScript · Node.js · Python
 
-Base sólida, organização e disciplina para evoluir em ambientes profissionais.
+Estudante de ADS focado em construir sistemas backend com arquitetura limpa e código sustentável.
 
-<a href="https://www.linkedin.com/in/mellodev-/" target="_blank">
-  <img alt="LinkedIn" src="https://img.shields.io/badge/LinkedIn-mellodev---0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" />
-</a>
-<a href="mailto:joaovdmello@gmail.com">
-  <img alt="Email" src="https://img.shields.io/badge/Email-joaovdmello%40gmail.com-EA4335?style=for-the-badge&logo=gmail&logoColor=white" />
-</a>
-<a href="https://github.com/melloxyz">
-  <img alt="GitHub" src="https://img.shields.io/badge/GitHub-melloxyz-181717?style=for-the-badge&logo=github&logoColor=white" />
-</a>
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-mellodev--in-0A66C2?style=flat&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/mellodev-/)
+[![Email](https://img.shields.io/badge/Email-joaovdmello%40gmail.com-EA4335?style=flat&logo=gmail&logoColor=white)](mailto:joaovdmello@gmail.com)
+[![GitHub](https://img.shields.io/badge/Repositórios-melloxyz-181717?style=flat&logo=github&logoColor=white)](https://github.com/melloxyz)
 
 </div>
 
 ---
 
-## Sobre mim
+## 👨‍💻 Sobre
 
-Sou graduando em **Análise e Desenvolvimento de Sistemas** pelo **Centro Universitário Cesuca (2024–2026)** e estou em formação para atuar como **Desenvolvedor Back-end Júnior**, com foco em **Node.js e TypeScript**.
+Sou estudante de **Análise e Desenvolvimento de Sistemas** no Cesuca (2024-2026), com foco em desenvolvimento backend e arquitetura de software.
 
-Tenho interesse em construir **bases técnicas bem organizadas**, priorizando clareza de código, entendimento de regras de negócio e evolução contínua. Meu aprendizado é guiado por cursos estruturados, projetos práticos e experiência acadêmica, sempre com atenção à organização e à legibilidade do código.
+Minha trajetória começou com Python em projetos de IA, e desde agosto/2025 estou mergulhando em **Node.js + TypeScript**, aplicando padrões de projeto, testes automatizados e Clean Architecture através da formação Rocketseat.
 
----
-
-## Onde estou agora
-
-- Buscando oportunidade como **Júnior Back-end Node.js**
-- Finalizando um **curso avançado de Node.js (90h+)**, com foco em APIs REST
-- Consolidando fundamentos de:
-  - organização de projetos
-  - regras de negócio
-  - autenticação e autorização
-- Evoluindo gradualmente em testes, arquitetura em camadas e boas práticas
+Busco **oportunidades de estágio/júnior** em backend para aplicar e expandir meus conhecimentos em times reais.
 
 ---
 
-## Projetos em destaque
+## 🚀 Projeto Destaque
 
-### 🧩 api-gympass-app — API Node.js com regras de negócio
-API inspirada no domínio do Gympass, desenvolvida durante uma trilha estruturada de estudos em Node.js.
+### 🏆 [Select.AI](https://github.com/melloxyz/select-ai) — Sistema de Análise Inteligente de Currículos
+**Projeto Laureado na XIX Mostra de Iniciação Científica do Cesuca (Nov/2025)**
 
-- Repositório: https://github.com/melloxyz/api-gympass-app
-- Stack: Node.js · TypeScript
-- O que este projeto demonstra:
-  - Organização de código em módulos
-  - Implementação de regras de negócio
-  - Conceitos iniciais de autenticação e autorização (RBAC)
-  - Aplicação prática de fundamentos aprendidos em curso
+Sistema para PMEs analisarem currículos com IA, gerando relatórios de compatibilidade, pontos fortes, lacunas e recomendações.
 
-Este é o projeto que melhor representa meu nível técnico atual e minha forma de estruturar código.
+**Meu papel:** Responsável pela integração com Google Gemini (IA) e lógica de análise.
 
----
+**Desafio técnico resolvido:** Desenvolver todo o sistema usando exclusivamente Python — interface (Streamlit), lógica de negócio e integração com LLM. Tive que lidar com limitações do Streamlit (feito para dashboards, não sistemas completos) e otimizar prompts para alcançar alta acurácia nas análises.
 
-### 🏆 Select.AI — Análise inteligente de currículos (Projeto Acadêmico Premiado)
+**Stack:** Python · Streamlit · Google Gemini API · PyPDF2 · POO
 
-Sistema acadêmico desenvolvido em equipe (3 pessoas) para análise de currículos com base em requisitos de vagas, utilizando IA para gerar relatórios de apoio à decisão.
+**Apresentação:** Fui o responsável por apresentar o projeto completo no dia da mostra.
 
-- Repositório: https://github.com/melloxyz/select-ai
-- Stack: Python · Streamlit · Integração com LLM · Processamento de PDFs
-- Reconhecimento: **Projeto laureado na XIX Mostra de Iniciação Científica do Cesuca (2025)**
-
-**Minha atuação no projeto:**
-- Desenvolvimento da lógica de IA
-- Organização do código e estrutura do projeto
-
-**Principais desafios técnicos enfrentados:**
-- Ajuste de acurácia das respostas da IA
-- Uso do Streamlit fora do contexto tradicional de dashboards
-- Redução de custo de tokens em chamadas ao modelo
-
-Status atual: projeto em **standby**, com intenção de evolução futura após maior maturidade técnica.
+🔗 [Ver repositório](https://github.com/melloxyz/select-ai)
 
 ---
 
-## Habilidades técnicas (em formação)
+## 💼 Outros Projetos
 
-- **Back-end:** Node.js, TypeScript, APIs REST  
-- **Python aplicado:** Python, Streamlit, integração com LLMs  
-- **Dados:** PostgreSQL, SQLite, fundamentos de SQL  
-- **Qualidade e organização:** Clean Code (fundamentos), arquitetura em camadas (introdução), versionamento com Git/GitHub  
+### [api-gympass-app](https://github.com/melloxyz/api-gympass-app)
+API REST inspirada no Gympass com autenticação JWT, check-ins em academias, validação por distância e histórico de usuários.
 
-> Todas as tecnologias listadas acima foram utilizadas em contexto acadêmico, cursos ou projetos pessoais de estudo.
+**Objetivo:** Aprender arquitetura escalável aplicando princípios SOLID, Repository Pattern e Clean Architecture.
+
+**Stack:** TypeScript · Node.js · Fastify · Prisma · PostgreSQL · Docker · Vitest
+
+**Status:** Backend completo com testes unitários e E2E finalizados.
 
 ---
 
-## Formação & experiência acadêmica
+### [personal-portfolio](https://github.com/melloxyz/personal-portfolio)
+Portfólio interativo com integração dinâmica à API do GitHub para exibir projetos automaticamente.
+
+**Stack:** React · TypeScript · Tailwind CSS · Framer Motion · Vite
+
+🌐 [Ver online](https://mellodev-portfolio.vercel.app)
+
+---
+
+## 📚 Atualmente Aprendendo
+
+Estou na **Formação Node.js** da Rocketseat (272 aulas, 73h previstas), com foco em:
+
+- Arquitetura e padrões de projeto (SOLID, DDD, Clean Architecture)
+- Testes automatizados (unitários, integração, E2E com Vitest)
+- Persistência de dados (Prisma ORM, PostgreSQL)
+- Autenticação e autorização (JWT, RBAC)
+- Docker e ambientes de desenvolvimento
+
+**Progresso:** Backend e testes completos do api-gympass-app finalizados. Próximos passos: deploy, CI/CD e monitoramento.
+
+---
+
+## 🛠️ Tecnologias
+
+**Backend**
+- Node.js, TypeScript, Fastify
+- Prisma, PostgreSQL
+- JWT, Bcrypt, Zod
+
+**Python & IA**
+- Python, Streamlit
+- Google Gemini API, PyPDF2
+
+**Frontend**
+- React, TypeScript, Tailwind CSS
+
+**Ferramentas**
+- Git/GitHub, Docker, Vitest, ESLint
+
+---
+
+## 🎓 Formação
 
 **Tecnólogo em Análise e Desenvolvimento de Sistemas**  
-Centro Universitário Cesuca — Jan/2024 a Dez/2026  
+Centro Universitário Cesuca · Jan/2024 - Dez/2026
 
-Áreas de estudo:
-- Algoritmos e Estruturas de Dados  
-- Programação Orientada a Objetos  
-- Banco de Dados SQL/NoSQL  
-- Engenharia de Software  
-- Sistemas Inteligentes  
-
-Experiência complementar:
-- Apresentação técnica de projetos para professores, banca avaliadora e colegas
-- Recebimento de feedback técnico formal de professor e orientador acadêmico
+Áreas de foco: Algoritmos, Estruturas de Dados, POO, Banco de Dados, Engenharia de Software, Sistemas Inteligentes.
 
 ---
 
-## Aprendizado atual
+## 📜 Certificações
 
-- Consolidação de **Node.js e TypeScript** para APIs REST
-- Evolução gradual em:
-  - organização de projetos
-  - regras de negócio
-  - fundamentos de testes automatizados
-- Foco em aprofundar base antes de expandir stack
+**Rocketseat (2025)**
+- Fundamentos do Node.js
+- Clean Code
+- Metodologias Ágeis
+- Gestão de Tempo
+- Comunicação Assertiva
 
 ---
 
-## Contato
+## 📬 Contato
 
-- LinkedIn: https://www.linkedin.com/in/mellodev-/
-- Email: joaovdmello@gmail.com
-- GitHub: https://github.com/melloxyz
+- **LinkedIn:** [linkedin.com/in/mellodev-](https://www.linkedin.com/in/mellodev-/)
+- **Email:** [joaovdmello@gmail.com](mailto:joaovdmello@gmail.com)
+- **GitHub:** [github.com/melloxyz](https://github.com/melloxyz)
+
+---
+
+<div align="center">
+
+💡 *"Código limpo não é escrito seguindo regras. Você não se torna um programador de software craftsman ao aprender uma lista do que fazer e não fazer. Profissionalismo e craftsmanship vêm de valores e disciplina."* — Robert C. Martin
+
+</div>
