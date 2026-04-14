@@ -2,94 +2,65 @@
 
 # João Mello
 
-Desenvolvedor Backend · TypeScript · Node.js · Python
+**Desenvolvedor Back-End em Formação**
 
-Estudante de ADS construindo APIs escaláveis com arquitetura limpa
+Node.js · TypeScript · APIs REST · Python
 
-<br>
-
-[![LinkedIn](https://img.shields.io/badge/-LinkedIn-0A66C2?style=flat&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/mellodev-/)
-[![Email](https://img.shields.io/badge/-Email-EA4335?style=flat&logo=gmail&logoColor=white)](mailto:joaovdmello@gmail.com)
-[![GitHub](https://img.shields.io/badge/-GitHub-181717?style=flat&logo=github&logoColor=white)](https://github.com/melloxyz)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=flat-square&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/mellodev-/)
+[![Email](https://img.shields.io/badge/Gmail-EA4335?style=flat-square&logo=gmail&logoColor=white)](mailto:joaovdmello@gmail.com)
+[![Portfolio](https://img.shields.io/badge/Portfólio-000?style=flat-square&logo=vercel&logoColor=white)](https://mellodev-portfolio.vercel.app)
 
 </div>
 
-<br>
+---
 
-## 👋 Sobre
+### Sobre mim
 
-Estudante de **Análise e Desenvolvimento de Sistemas** no Cesuca (2024-2026).
+Estudante de **Análise e Desenvolvimento de Sistemas** (Cesuca) e **Engenharia de Software** (UNINTER), com foco em back-end e desenvolvimento de APIs. Comecei com Python em projetos de IA e desde meados de 2025 estou trilhando o ecossistema **Node.js + TypeScript** pela Rocketseat, priorizando código limpo, versionamento e boas práticas desde o início.
 
-Comecei com Python em projetos de IA e desde agosto/2025 estou focado em **Node.js + TypeScript**, aplicando padrões de projeto, testes e Clean Architecture.
+Atualmente buscando minha primeira oportunidade como **estagiário ou desenvolvedor júnior** em back-end.
 
-Busco **oportunidades de estágio/júnior** em backend.
+---
 
-<br>
+### 🏆 Projeto em Destaque
 
-## 🏆 Projeto em Destaque
+**[Select.AI](https://github.com/melloxyz/select-ai)** · *Premiado na XIX Mostra Científica do Cesuca*
 
-### [Select.AI](https://github.com/melloxyz/select-ai) — Sistema de Análise Inteligente de Currículos
+Sistema de análise inteligente de currículos para PMEs, com geração de relatórios de compatibilidade via IA.
 
-**Premiado na XIX Mostra de Iniciação Científica do Cesuca (Nov/2025)**
+`Python` `Streamlit` `Google Gemini API` `PyPDF2`
 
-Sistema para PMEs analisarem currículos com IA, gerando relatórios de compatibilidade e recomendações personalizadas.
+---
 
-**Minha responsabilidade:** Integração com Google Gemini (IA), otimização de prompts e apresentação final do projeto.
+### 🔨 Outros Projetos
 
-**Tecnologias:** Python · Streamlit · Google Gemini API · PyPDF2
+| Projeto | Descrição | Stack |
+|---|---|---|
+| [api-gympass-app](https://github.com/melloxyz/api-gympass-app) | API REST com autenticação JWT e check-in por geolocalização | TypeScript · Fastify · Prisma · PostgreSQL · Docker |
+| [personal-portfolio](https://mellodev-portfolio.vercel.app) | Portfólio com integração dinâmica à API do GitHub | React · TypeScript · Tailwind CSS |
 
-<br>
+---
 
-## 💻 Outros Projetos
+### 🛠️ Stack
 
-### [api-gympass-app](https://github.com/melloxyz/api-gympass-app)
-API REST com autenticação JWT, check-ins em academias e validação por geolocalização.
+![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white)
+![Node.js](https://img.shields.io/badge/Node.js-339933?style=flat-square&logo=nodedotjs&logoColor=white)
+![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
+![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white)
+![Prisma](https://img.shields.io/badge/Prisma-2D3748?style=flat-square&logo=prisma&logoColor=white)
+![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white)
+![Git](https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white)
 
-**Tecnologias:** TypeScript · Node.js · Fastify · Prisma · PostgreSQL · Docker · Vitest
+---
 
-<br>
+### 📚 Atualmente estudando
 
-### [personal-portfolio](https://github.com/melloxyz/personal-portfolio)
-Portfólio interativo com integração dinâmica à API do GitHub.
+- Formação Node.js — Rocketseat *(272 aulas · 73h)*
+- Arquitetura limpa, SOLID, DDD e testes automatizados
 
-**Tecnologias:** React · TypeScript · Tailwind CSS
+---
 
-🔗 [Ver online](https://mellodev-portfolio.vercel.app)
-
-<br>
-
-## 📚 Aprendendo Agora
-
-**Formação Node.js** (Rocketseat — 272 aulas, 73h)
-
-- Arquitetura e padrões (SOLID, DDD, Clean Architecture)
-- Testes automatizados (unitários, integração, E2E)
-- Prisma ORM + PostgreSQL
-- Docker e deployment
-
-<br>
-
-## 🛠️ Stack
-
-**Backend:** Node.js · TypeScript · Fastify · Prisma · PostgreSQL
-
-**Python:** Python · Streamlit · Google Gemini API
-
-**Frontend:** React · TypeScript · Tailwind CSS
-
-**Ferramentas:** Git · Docker · Vitest · ESLint
-
-<br>
-
-## 🎓 Formação
-
-**Tecnólogo em Análise e Desenvolvimento de Sistemas**  
-Centro Universitário Cesuca · 2024 - 2026
-
-<br>
-
-## 📬 Contato
-
-**LinkedIn:** [linkedin.com/in/mellodev-](https://www.linkedin.com/in/mellodev-/)  
-**Email:** [joaovdmello@gmail.com](mailto:joaovdmello@gmail.com)  
-**GitHub:** [github.com/melloxyz](https://github.com/melloxyz)
+<div align="center">
+  <img height="160" src="https://github-readme-stats.vercel.app/api?username=melloxyz&show_icons=true&theme=github_dark&hide_border=true&count_private=true" />
+  <img height="160" src="https://github-readme-stats.vercel.app/api/top-langs/?username=melloxyz&layout=compact&theme=github_dark&hide_border=true" />
+</div>
