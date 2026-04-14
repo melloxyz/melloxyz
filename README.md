@@ -4,11 +4,10 @@
 
 **Desenvolvedor Back-End em Formação**
 
-Node.js · TypeScript · APIs REST · Python
+Engenharia de Software · Node.js · TypeScript · APIs REST
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=flat-square&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/mellodev-/)
-[![Email](https://img.shields.io/badge/Gmail-EA4335?style=flat-square&logo=gmail&logoColor=white)](mailto:joaovdmello@gmail.com)
-[![Portfolio](https://img.shields.io/badge/Portfólio-000?style=flat-square&logo=vercel&logoColor=white)](https://mellodev-portfolio.vercel.app)
+[![Gmail](https://img.shields.io/badge/Gmail-EA4335?style=flat-square&logo=gmail&logoColor=white)](mailto:joaovdmello@gmail.com)
 
 </div>
 
@@ -16,28 +15,28 @@ Node.js · TypeScript · APIs REST · Python
 
 ### Sobre mim
 
-Estudante de **Análise e Desenvolvimento de Sistemas** (Cesuca) e **Engenharia de Software** (UNINTER), com foco em back-end e desenvolvimento de APIs. Comecei com Python em projetos de IA e desde meados de 2025 estou trilhando o ecossistema **Node.js + TypeScript** pela Rocketseat, priorizando código limpo, versionamento e boas práticas desde o início.
+Estudante de **Engenharia de Software** (UNINTER, 1º semestre) com foco em back-end e APIs REST. Comecei pela IA com Python e desde meados de 2025 estou aprofundando o ecossistema **Node.js + TypeScript** pela trilha da Rocketseat — priorizando Clean Code, versionamento e boas práticas desde o início.
 
-Atualmente buscando minha primeira oportunidade como **estagiário ou desenvolvedor júnior** em back-end.
+Aberto a **estágio ou oportunidade júnior** em back-end.
 
 ---
 
 ### 🏆 Projeto em Destaque
 
-**[Select.AI](https://github.com/melloxyz/select-ai)** · *Premiado na XIX Mostra Científica do Cesuca*
+**[Select.AI](https://github.com/melloxyz/select-ai)** &nbsp;·&nbsp; *🥇 Premiado na XIX Mostra Científica do Cesuca*
 
-Sistema de análise inteligente de currículos para PMEs, com geração de relatórios de compatibilidade via IA.
+> Triagem inteligente de currículos para PMEs via Google Gemini. Gera relatórios de compatibilidade e recomendações personalizadas.
 
 `Python` `Streamlit` `Google Gemini API` `PyPDF2`
 
 ---
 
-### 🔨 Outros Projetos
+### 🔨 Projetos
 
 | Projeto | Descrição | Stack |
 |---|---|---|
 | [api-gympass-app](https://github.com/melloxyz/api-gympass-app) | API REST com autenticação JWT e check-in por geolocalização | TypeScript · Fastify · Prisma · PostgreSQL · Docker |
-| [personal-portfolio](https://mellodev-portfolio.vercel.app) | Portfólio com integração dinâmica à API do GitHub | React · TypeScript · Tailwind CSS |
+| [personal-portfolio](https://github.com/melloxyz/personal-portfolio) | Portfólio com integração dinâmica à API do GitHub | React · TypeScript · Tailwind CSS |
 
 ---
 
@@ -45,22 +44,29 @@ Sistema de análise inteligente de currículos para PMEs, com geração de relat
 
 ![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white)
 ![Node.js](https://img.shields.io/badge/Node.js-339933?style=flat-square&logo=nodedotjs&logoColor=white)
-![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
+![Fastify](https://img.shields.io/badge/Fastify-000000?style=flat-square&logo=fastify&logoColor=white)
 ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white)
 ![Prisma](https://img.shields.io/badge/Prisma-2D3748?style=flat-square&logo=prisma&logoColor=white)
+![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
 ![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white)
 ![Git](https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white)
 
 ---
 
-### 📚 Atualmente estudando
+### 📚 Em andamento
 
-- Formação Node.js — Rocketseat *(272 aulas · 73h)*
-- Arquitetura limpa, SOLID, DDD e testes automatizados
+**Formação Node.js — Rocketseat** *(272 aulas · 73h)*
+Clean Architecture · SOLID · DDD · Testes unitários, de integração e E2E
 
 ---
 
 <div align="center">
-  <img height="160" src="https://github-readme-stats.vercel.app/api?username=melloxyz&show_icons=true&theme=github_dark&hide_border=true&count_private=true" />
-  <img height="160" src="https://github-readme-stats.vercel.app/api/top-langs/?username=melloxyz&layout=compact&theme=github_dark&hide_border=true" />
+  <img height="155" src="https://github-readme-stats.vercel.app/api?username=melloxyz&show_icons=true&theme=github_dark&hide_border=true&count_private=true&include_all_commits=true" />
+  <img height="155" src="https://github-readme-stats.vercel.app/api/top-langs/?username=melloxyz&layout=compact&theme=github_dark&hide_border=true&langs_count=6" />
+</div>
+
+<br/>
+
+<div align="center">
+  <img src="https://github-readme-streak-stats.herokuapp.com?user=melloxyz&theme=github-dark&hide_border=true&date_format=j%20M%5B%20Y%5D&locale=pt_BR" />
 </div>
