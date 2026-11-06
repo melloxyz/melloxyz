@@ -60,69 +60,84 @@ const txt = (x, y, value, size, fill, extra='') => '<text x="'+x+'" y="'+y+'" fi
 const rect = (x,y,w,h,r,fill,stroke) => '<rect x="'+x+'" y="'+y+'" width="'+w+'" height="'+h+'" rx="'+r+'" fill="'+fill+'"'+(stroke?' stroke="'+stroke+'"':'')+'/>';
 const doc = (w,h,title,body) => '<svg xmlns="http://www.w3.org/2000/svg" role="img" width="'+w+'" height="'+h+'" viewBox="0 0 '+w+' '+h+'"><title>'+esc(title)+'</title>'+body+'</svg>';
 
-function makeCard(mode, kind) {
+function makeOverview(mode) {
   const p = palette[mode];
-  const featured = kind === 'streak';
-  const w = featured ? 255 : 198;
-  const h = 156;
-  let body = rect(1,1,w-2,h-2,11,featured?p.card:p.bg,p.line);
-  if (featured) {
-    body += rect(16,18,4,24,2,p.accent);
-    body += txt(29,35,'CURRENT STREAK',12,p.muted,'font-weight="700" letter-spacing=".7"');
-    body += txt(20,90,current+' '+(current===1?'day':'days'),35,p.fg,'font-weight="700"');
-    if (badge) {
-      const bw = Math.min(w-38, 32 + badge.length*7.2);
-      body += rect(19,111,bw,28,7,p.badge,p.line);
-      body += txt(19+bw/2,129,badge.toUpperCase(),11.4,p.accent,'font-weight="700" text-anchor="middle" letter-spacing=".6"');
-    }
-    return doc(w,h,'Current GitHub contribution streak: '+current+' days'+(badge?', '+badge:''),body);
-  }
+  let body = rect(1, 1, 1058, 180, 12, p.bg, p.line);
 
-  const info = {
-    contributions: ['CONTRIBUTIONS',calendar.totalContributions.toLocaleString('en-US')],
-    longest: ['LONGEST STREAK',longest+' '+(longest===1?'day':'days')],
-    'active-days': ['ACTIVE DAYS',activeDays+' days']
-  }[kind];
-  if (!info) throw new Error('Unknown metric '+kind);
-  body += txt(18,34,info[0],11.5,p.muted,'font-weight="700" letter-spacing=".8"');
-  body += txt(18,91,info[1],kind==='contributions'?33:31,p.fg,'font-weight="700"');
-  body += txt(18,131,'LAST 12 MONTHS',10.5,p.muted,'letter-spacing=".8"');
-  return doc(w,h,info[0]+': '+info[1],body);
+  const entries = [
+    { label: 'CURRENT STREAK', value: current+' '+(current===1?'day':'days'), featured: true },
+    { label: 'CONTRIBUTIONS', value: calendar.totalContributions.toLocaleString('en-US') },
+    { label: 'LONGEST STREAK', value: longest+' '+(longest===1?'day':'days') },
+    { label: 'ACTIVE DAYS', value: activeDays+' days' }
+  ];
+
+  entries.forEach((entry, index) => {
+    const x = 16 + index * 260;
+    body += rect(x, 16, 248, 150, 10, p.card, p.line);
+    if (entry.featured) body += rect(x+18, 34, 4, 21, 2, p.accent);
+    body += txt(x+(entry.featured?31:19), 48, entry.label, 12, p.muted, 'font-weight="700" letter-spacing=".65"');
+    body += txt(x+19, 104, entry.value, index===1?36:33, p.fg, 'font-weight="700"');
+    if (entry.featured && badge) {
+      const bw = Math.min(211, 30+badge.length*7.15);
+      body += rect(x+18, 122, bw, 27, 7, p.badge, p.line);
+      body += txt(x+18+bw/2, 139, badge.toUpperCase(), 11.2, p.accent, 'font-weight="700" text-anchor="middle" letter-spacing=".4"');
+    } else if (!entry.featured) {
+      body += txt(x+19, 142, 'LAST 12 MONTHS', 10.5, p.muted, 'letter-spacing=".8"');
+    }
+  });
+
+  return doc(1060, 182, 'GitHub activity: '+current+'-day streak, '+calendar.totalContributions+' contributions, '+longest+'-day longest streak, '+activeDays+' active days', body);
 }
 
 function makeCalendar(mode) {
   const p = palette[mode];
-  let body = rect(1,1,1058,190,10,p.bg,p.line);
-  body += txt(24,31,'CONTRIBUTION HISTORY',15,p.fg,'font-weight="700" letter-spacing=".4"');
-  body += txt(1035,31,'LAST 12 MONTHS',12,p.muted,'text-anchor="end" letter-spacing=".8"');
-  const map = { NONE:0, FIRST_QUARTILE:1, SECOND_QUARTILE:2, THIRD_QUARTILE:3, FOURTH_QUARTILE:4 };
-  body += txt(35,78,'M',10,p.muted)+txt(35,112,'W',10,p.muted)+txt(35,146,'F',10,p.muted);
-  let lastMonth = '';
-  calendar.weeks.slice(-53).forEach((week, column) => {
-    const first = week.contributionDays[0];
-    if (first) {
-      const month = first.date.slice(0,7);
-      if (month !== lastMonth && column < 50) {
-        lastMonth = month;
-        const name = new Date(first.date+'T12:00:00Z').toLocaleDateString('en-US',{month:'short',timeZone:'UTC'});
-        body += txt(65+column*17,49,name,11,p.muted);
-      }
+  const w = 1060;
+  const h = 258;
+  const x0 = 80;
+  const y0 = 94;
+  const step = 17;
+  const size = 13;
+  const weeks = calendar.weeks.slice(-53);
+  const levelMap = { NONE:0, FIRST_QUARTILE:1, SECOND_QUARTILE:2, THIRD_QUARTILE:3, FOURTH_QUARTILE:4 };
+
+  let body = rect(1, 1, w-2, h-2, 12, p.bg, p.line);
+  body += txt(24, 33, 'CONTRIBUTION HISTORY', 15, p.fg, 'font-weight="700" letter-spacing=".45"');
+  body += txt(1036, 33, 'LAST 12 MONTHS', 12, p.muted, 'text-anchor="end" letter-spacing=".8"');
+  body += '<path d="M24 51 H1036" stroke="'+p.line+'" stroke-width="1"/>';
+  body += txt(45, y0+step+11, 'M', 11, p.muted);
+  body += txt(45, y0+step*3+11, 'W', 11, p.muted);
+  body += txt(45, y0+step*5+11, 'F', 11, p.muted);
+
+  if (weeks.length && weeks[0].contributionDays.length) {
+    const first = weeks[0].contributionDays[0].date;
+    const label = new Date(first+'T12:00:00Z').toLocaleDateString('en-US',{month:'short',timeZone:'UTC'});
+    body += txt(x0, 77, label, 11, p.muted);
+  }
+
+  weeks.forEach((week, col) => {
+    const monthStart = week.contributionDays.find(d => d.date.slice(8,10) === '01');
+    if (monthStart && col > 2 && col <= 50) {
+      const monthLabel = new Date(monthStart.date+'T12:00:00Z').toLocaleDateString('en-US',{month:'short',timeZone:'UTC'});
+      body += txt(x0+col*step, 77, monthLabel, 11, p.muted);
     }
-    week.contributionDays.forEach((day,row) => {
-      body += rect(65+column*17,63+row*17,13,13,2.5,p.levels[map[day.contributionLevel]??0]);
+    week.contributionDays.forEach(day => {
+      const weekday = new Date(day.date+'T00:00:00Z').getUTCDay();
+      body += rect(x0+col*step, y0+weekday*step, size, size, 2.6, p.levels[levelMap[day.contributionLevel]??0]);
     });
   });
-  body += txt(913,183,'LESS',10,p.muted);
-  p.levels.forEach((c,index) => { body += rect(947+index*16,173,12,12,2,c); });
-  body += txt(1036,183,'MORE',10,p.muted);
-  return doc(1060,192,'GitHub contribution history over the past 12 months',body);
+
+  body += '<path d="M24 226 H1036" stroke="'+p.line+'" stroke-width="1"/>';
+  body += txt(909, 247, 'LESS', 10.5, p.muted, 'letter-spacing=".3"');
+  p.levels.forEach((c,index) => {
+    body += rect(945+index*16, 237, 12, 12, 2.3, c);
+  });
+  body += txt(1036, 247, 'MORE', 10.5, p.muted, 'text-anchor="end" letter-spacing=".3"');
+  return doc(w, h, 'GitHub contributions for the last 12 months', body);
 }
 
 mkdirSync('assets/activity', { recursive:true });
 for (const theme of ['dark','light']) {
-  for (const metric of ['streak','contributions','longest','active-days']) {
-    writeFileSync('assets/activity/'+metric+'-'+theme+'.svg',makeCard(theme,metric));
-  }
+  writeFileSync('assets/activity/overview-'+theme+'.svg',makeOverview(theme));
   writeFileSync('assets/activity/calendar-'+theme+'.svg',makeCalendar(theme));
 }
 console.log(JSON.stringify({ contributions:calendar.totalContributions, currentStreak:current, longestStreak:longest, activeDays, badge }));
