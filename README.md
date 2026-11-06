@@ -9,9 +9,9 @@
 
   <p>
     <a href="#about">about</a> &nbsp;·&nbsp;
-    <a href="#selected-work">projects</a> &nbsp;·&nbsp;
+    <a href="#what-i-build">what i build</a> &nbsp;·&nbsp;
     <a href="#toolbox">toolbox</a> &nbsp;·&nbsp;
-    <a href="#elsewhere">elsewhere</a>
+    <a href="#say-hello">say hello</a>
   </p>
 </div>
 
@@ -19,54 +19,48 @@
 
 ### About
 
-I'm Mello, a software developer and tech enthusiast from Brazil. I like taking an idea, figuring out how it could work, and turning it into something real.
+I'm Mello, a developer, business owner, and tech enthusiast from Brazil. I like exploring how things work, experimenting with ideas, and building software that I would actually want to use.
 
-A lot of what I build starts with curiosity: **developer tools, AI experiments, web apps, and small products I'd genuinely want to use.** I'm especially interested in the details that make software useful, fast, and pleasant to interact with.
+Most of what I make lives somewhere between **developer experience, automation, AI, and thoughtful interfaces**. Some ideas solve a real problem, others are simply an excuse to learn something new.
 
-I enjoy learning in public, iterating on things, and occasionally starting a new side project before the previous one is really finished.
+I enjoy the process: making a first version, breaking things, refining the details, and seeing where curiosity leads.
 
-### Selected work
+### What I build
 
 <table>
   <tr>
     <td width="50%" valign="top">
-      <strong><a href="https://github.com/melloxyz/sessionlens">Sessionlens</a></strong><br>
-      Local-first observability for AI coding tools. Explore sessions, tokens, and costs without sending data to a cloud service.<br><br>
-      <sub>TypeScript · React · Fastify · SQLite</sub>
+      <img src="./assets/icons/terminal.svg" width="22" height="22" alt=""> <strong>Developer tools</strong><br><br>
+      CLIs, local-first utilities, dashboards, and small tools that make everyday workflows easier.
     </td>
     <td width="50%" valign="top">
-      <strong><a href="https://github.com/melloxyz/openpkg-cli">OpenPkg</a></strong><br>
-      A terminal-based control center for inspecting projects, managing development environments, and handling cleanup safely.<br><br>
-      <sub>TypeScript · Node.js · React · Ink</sub>
+      <img src="./assets/icons/workflow.svg" width="22" height="22" alt=""> <strong>AI &amp; automation</strong><br><br>
+      Agents, bots, integrations, and experiments that connect systems and reduce repetitive work.
     </td>
   </tr>
   <tr>
     <td width="50%" valign="top">
-      <strong><a href="https://github.com/melloxyz/kern">KERN.</a></strong><br>
-      A minimal editorial project focused on making AI news and technical information easier to follow.<br><br>
-      <sub>Astro · TypeScript · Editorial design</sub>
+      <img src="./assets/icons/panels-top-left.svg" width="22" height="22" alt=""> <strong>Web apps &amp; interfaces</strong><br><br>
+      Full-stack applications, clean dashboards, and interfaces with attention to design and usability.
     </td>
     <td width="50%" valign="top">
-      <strong><a href="https://github.com/melloxyz/Conecta">Conecta+</a></strong><br>
-      An accessible web app designed to help older adults learn everyday digital skills with step-by-step guides.<br><br>
-      <sub>React · TypeScript · PWA · Accessibility</sub>
+      <img src="./assets/icons/flask-conical.svg" width="22" height="22" alt=""> <strong>Experiments &amp; side projects</strong><br><br>
+      Prototypes, game ideas, APIs, and whatever else seems interesting enough to build.
     </td>
   </tr>
 </table>
 
-A few more things I've explored: [Select.ai](https://github.com/melloxyz/select-ai), [DevProfile](https://github.com/melloxyz/DevProfile), and [other repositories](https://github.com/melloxyz?tab=repositories).
-
 ### Toolbox
 
-**Mostly working with**  
-`TypeScript` · `JavaScript` · `Node.js` · `React` · `Fastify` · `SQL`
+**Tools I reach for**  
+`TypeScript` · `JavaScript` · `Node.js` · `React` · `Fastify` · `Python` · `SQL` · `Docker`
 
-**Also exploring**  
-`Python` · `Docker` · `Cloudflare` · `AI tooling` · `UI/UX`
+**Things that interest me**  
+`Open source` · `Local-first` · `Developer experience` · `AI agents` · `UI/UX` · `Software architecture`
 
-### Elsewhere
+### Say hello
 
-[LinkedIn](https://www.linkedin.com/in/mellodev-/) &nbsp;·&nbsp; [Email](mailto:joaovdmello@gmail.com) &nbsp;·&nbsp; [All projects](https://github.com/melloxyz?tab=repositories)
+[Email me](mailto:joaovdmello@gmail.com) &nbsp;·&nbsp; [Browse my repositories](https://github.com/melloxyz?tab=repositories)
 
 ---
 
