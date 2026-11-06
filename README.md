@@ -2,7 +2,7 @@
   <picture>
     <source media="(prefers-color-scheme: dark)" srcset="./assets/headers/hero-dark.svg">
     <source media="(prefers-color-scheme: light)" srcset="./assets/headers/hero-light.svg">
-    <img src="./assets/headers/hero-light.svg" width="100%" alt="Mello. Developer by curiosity. Maker by habit. Technologies include TypeScript, JavaScript, React, Node.js, Python, PostgreSQL, Docker, Cloudflare and GitHub.">
+    <img src="./assets/headers/hero-light.svg" width="100%" alt="Mello. Developer by curiosity. Maker by habit.">
   </picture>
 
   <p><samp>developer &nbsp;·&nbsp; business owner &nbsp;·&nbsp; independent builder &nbsp;·&nbsp; brazil</samp></p>
@@ -56,136 +56,91 @@ I'm especially interested in **developer experience, intelligent systems, automa
 
 ### Tech stack & tools
 
-A curated overview of the languages, frameworks and tools in my development workflow.
+#### Languages
 
-<h4><img src="./assets/icons/languages.svg" alt="" width="19" height="19" /> &nbsp;Languages & foundations</h4>
-
-<sub>The essentials I use to shape ideas and build reliable software.</sub>
-
-<p>
-  <img src="./assets/brands/typescript.svg" alt="" width="18" height="18" /> <code>TypeScript</code> &nbsp;&nbsp;
-  <img src="./assets/brands/javascript.svg" alt="" width="18" height="18" /> <code>JavaScript</code> &nbsp;&nbsp;
-  <img src="./assets/brands/python.svg" alt="" width="18" height="18" /> <code>Python</code> &nbsp;&nbsp;
-  <img src="./assets/brands/html5.svg" alt="" width="18" height="18" /> <code>HTML</code> &nbsp;&nbsp;
-  <img src="./assets/brands/css.svg" alt="" width="18" height="18" /> <code>CSS</code> &nbsp;&nbsp;
-  <img src="./assets/icons/database.svg" alt="" width="18" height="18" /> <code>SQL</code>
+<p align="left">
+  <picture><source media="(prefers-color-scheme: dark)" srcset="./assets/chips/typescript-dark.svg"><source media="(prefers-color-scheme: light)" srcset="./assets/chips/typescript-light.svg"><img src="./assets/chips/typescript-light.svg" alt="TypeScript" height="42"></picture>
+  <picture><source media="(prefers-color-scheme: dark)" srcset="./assets/chips/javascript-dark.svg"><source media="(prefers-color-scheme: light)" srcset="./assets/chips/javascript-light.svg"><img src="./assets/chips/javascript-light.svg" alt="JavaScript" height="42"></picture>
+  <picture><source media="(prefers-color-scheme: dark)" srcset="./assets/chips/python-dark.svg"><source media="(prefers-color-scheme: light)" srcset="./assets/chips/python-light.svg"><img src="./assets/chips/python-light.svg" alt="Python" height="42"></picture>
+  <picture><source media="(prefers-color-scheme: dark)" srcset="./assets/chips/sql-dark.svg"><source media="(prefers-color-scheme: light)" srcset="./assets/chips/sql-light.svg"><img src="./assets/chips/sql-light.svg" alt="SQL" height="42"></picture>
 </p>
 
-<h4><img src="./assets/icons/layout-dashboard.svg" alt="" width="19" height="19" /> &nbsp;Web & product interfaces</h4>
+#### Frontend & UI
 
-<sub>Frontend frameworks, UI systems and tools for thoughtful interfaces.</sub>
-
-<p>
-  <img src="./assets/brands/react.svg" alt="" width="18" height="18" /> <code>React</code> &nbsp;&nbsp;
-  <img src="./assets/brands/nextdotjs.svg" alt="" width="18" height="18" /> <code>Next.js</code> &nbsp;&nbsp;
-  <img src="./assets/brands/vite.svg" alt="" width="18" height="18" /> <code>Vite</code> &nbsp;&nbsp;
-  <img src="./assets/brands/tailwindcss.svg" alt="" width="18" height="18" /> <code>Tailwind CSS</code> &nbsp;&nbsp;
-  <img src="./assets/brands/astro.svg" alt="" width="18" height="18" /> <code>Astro</code> &nbsp;&nbsp;
-  <img src="./assets/brands/shadcnui.svg" alt="" width="18" height="18" /> <code>shadcn/ui</code> &nbsp;&nbsp;
-  <img src="./assets/brands/lucide.svg" alt="" width="18" height="18" /> <code>Lucide</code>
+<p align="left">
+  <picture><source media="(prefers-color-scheme: dark)" srcset="./assets/chips/react-dark.svg"><source media="(prefers-color-scheme: light)" srcset="./assets/chips/react-light.svg"><img src="./assets/chips/react-light.svg" alt="React" height="42"></picture>
+  <picture><source media="(prefers-color-scheme: dark)" srcset="./assets/chips/nextjs-dark.svg"><source media="(prefers-color-scheme: light)" srcset="./assets/chips/nextjs-light.svg"><img src="./assets/chips/nextjs-light.svg" alt="Next.js" height="42"></picture>
+  <picture><source media="(prefers-color-scheme: dark)" srcset="./assets/chips/tailwindcss-dark.svg"><source media="(prefers-color-scheme: light)" srcset="./assets/chips/tailwindcss-light.svg"><img src="./assets/chips/tailwindcss-light.svg" alt="Tailwind CSS" height="42"></picture>
+  <picture><source media="(prefers-color-scheme: dark)" srcset="./assets/chips/shadcnui-dark.svg"><source media="(prefers-color-scheme: light)" srcset="./assets/chips/shadcnui-light.svg"><img src="./assets/chips/shadcnui-light.svg" alt="shadcn/ui" height="42"></picture>
+  <picture><source media="(prefers-color-scheme: dark)" srcset="./assets/chips/lucide-dark.svg"><source media="(prefers-color-scheme: light)" srcset="./assets/chips/lucide-light.svg"><img src="./assets/chips/lucide-light.svg" alt="Lucide" height="42"></picture>
 </p>
 
-<h4><img src="./assets/icons/server.svg" alt="" width="19" height="19" /> &nbsp;Backend & databases</h4>
+#### Backend & Data
 
-<sub>Application services, APIs, validation and data persistence.</sub>
-
-<p>
-  <img src="./assets/brands/nodedotjs.svg" alt="" width="18" height="18" /> <code>Node.js</code> &nbsp;&nbsp;
-  <img src="./assets/brands/fastify.svg" alt="" width="18" height="18" /> <code>Fastify</code> &nbsp;&nbsp;
-  <img src="./assets/brands/postgresql.svg" alt="" width="18" height="18" /> <code>PostgreSQL</code> &nbsp;&nbsp;
-  <img src="./assets/brands/sqlite.svg" alt="" width="18" height="18" /> <code>SQLite</code> &nbsp;&nbsp;
-  <img src="./assets/brands/prisma.svg" alt="" width="18" height="18" /> <code>Prisma</code> &nbsp;&nbsp;
-  <img src="./assets/brands/zod.svg" alt="" width="18" height="18" /> <code>Zod</code>
+<p align="left">
+  <picture><source media="(prefers-color-scheme: dark)" srcset="./assets/chips/nodejs-dark.svg"><source media="(prefers-color-scheme: light)" srcset="./assets/chips/nodejs-light.svg"><img src="./assets/chips/nodejs-light.svg" alt="Node.js" height="42"></picture>
+  <picture><source media="(prefers-color-scheme: dark)" srcset="./assets/chips/fastify-dark.svg"><source media="(prefers-color-scheme: light)" srcset="./assets/chips/fastify-light.svg"><img src="./assets/chips/fastify-light.svg" alt="Fastify" height="42"></picture>
+  <picture><source media="(prefers-color-scheme: dark)" srcset="./assets/chips/postgresql-dark.svg"><source media="(prefers-color-scheme: light)" srcset="./assets/chips/postgresql-light.svg"><img src="./assets/chips/postgresql-light.svg" alt="PostgreSQL" height="42"></picture>
+  <picture><source media="(prefers-color-scheme: dark)" srcset="./assets/chips/sqlite-dark.svg"><source media="(prefers-color-scheme: light)" srcset="./assets/chips/sqlite-light.svg"><img src="./assets/chips/sqlite-light.svg" alt="SQLite" height="42"></picture>
+  <picture><source media="(prefers-color-scheme: dark)" srcset="./assets/chips/prisma-dark.svg"><source media="(prefers-color-scheme: light)" srcset="./assets/chips/prisma-light.svg"><img src="./assets/chips/prisma-light.svg" alt="Prisma" height="42"></picture>
 </p>
 
-<h4><img src="./assets/icons/cloud.svg" alt="" width="19" height="19" /> &nbsp;Cloud & infrastructure</h4>
+#### Cloud & Infrastructure
 
-<sub>Environments, deployment and services behind the product.</sub>
-
-<p>
-  <img src="./assets/brands/docker.svg" alt="" width="18" height="18" /> <code>Docker</code> &nbsp;&nbsp;
-  <img src="./assets/brands/cloudflare.svg" alt="" width="18" height="18" /> <code>Cloudflare</code> &nbsp;&nbsp;
-  <img src="./assets/brands/cloudflareworkers.svg" alt="" width="18" height="18" /> <code>Workers</code> &nbsp;&nbsp;
-  <img src="./assets/icons/database.svg" alt="" width="18" height="18" /> <code>D1</code> &nbsp;&nbsp;
-  <img src="./assets/icons/hard-drive.svg" alt="" width="18" height="18" /> <code>R2</code>
+<p align="left">
+  <picture><source media="(prefers-color-scheme: dark)" srcset="./assets/chips/docker-dark.svg"><source media="(prefers-color-scheme: light)" srcset="./assets/chips/docker-light.svg"><img src="./assets/chips/docker-light.svg" alt="Docker" height="42"></picture>
+  <picture><source media="(prefers-color-scheme: dark)" srcset="./assets/chips/cloudflare-dark.svg"><source media="(prefers-color-scheme: light)" srcset="./assets/chips/cloudflare-light.svg"><img src="./assets/chips/cloudflare-light.svg" alt="Cloudflare" height="42"></picture>
+  <picture><source media="(prefers-color-scheme: dark)" srcset="./assets/chips/workers-dark.svg"><source media="(prefers-color-scheme: light)" srcset="./assets/chips/workers-light.svg"><img src="./assets/chips/workers-light.svg" alt="Workers" height="42"></picture>
 </p>
 
-<h4><img src="./assets/icons/code-xml.svg" alt="" width="19" height="19" /> &nbsp;Development & quality</h4>
+#### Developer Tools
 
-<sub>The tools I reach for when developing, shipping and maintaining software.</sub>
-
-<p>
-  <img src="./assets/brands/git.svg" alt="" width="18" height="18" /> <code>Git</code> &nbsp;&nbsp;
-  <img src="./assets/brands/github.svg" alt="" width="18" height="18" /> <code>GitHub</code> &nbsp;&nbsp;
-  <img src="./assets/brands/githubactions.svg" alt="" width="18" height="18" /> <code>GitHub Actions</code> &nbsp;&nbsp;
-  <img src="./assets/brands/pnpm.svg" alt="" width="18" height="18" /> <code>pnpm</code> &nbsp;&nbsp;
-  <img src="./assets/brands/sentry.svg" alt="" width="18" height="18" /> <code>Sentry</code> &nbsp;&nbsp;
-  <img src="./assets/icons/mouse-pointer-2.svg" alt="" width="18" height="18" /> <code>Playwright</code>
+<p align="left">
+  <picture><source media="(prefers-color-scheme: dark)" srcset="./assets/chips/git-dark.svg"><source media="(prefers-color-scheme: light)" srcset="./assets/chips/git-light.svg"><img src="./assets/chips/git-light.svg" alt="Git" height="42"></picture>
+  <picture><source media="(prefers-color-scheme: dark)" srcset="./assets/chips/github-dark.svg"><source media="(prefers-color-scheme: light)" srcset="./assets/chips/github-light.svg"><img src="./assets/chips/github-light.svg" alt="GitHub" height="42"></picture>
+  <picture><source media="(prefers-color-scheme: dark)" srcset="./assets/chips/githubactions-dark.svg"><source media="(prefers-color-scheme: light)" srcset="./assets/chips/githubactions-light.svg"><img src="./assets/chips/githubactions-light.svg" alt="GitHub Actions" height="42"></picture>
+  <picture><source media="(prefers-color-scheme: dark)" srcset="./assets/chips/pnpm-dark.svg"><source media="(prefers-color-scheme: light)" srcset="./assets/chips/pnpm-light.svg"><img src="./assets/chips/pnpm-light.svg" alt="pnpm" height="42"></picture>
 </p>
 
 ---
 
 ### AI & coding workflow
 
-AI-powered coding is a practical part of how I explore, build and improve software. I work across different agents, models and environments rather than depending on a single tool.
+#### Coding Agents & CLIs
 
-<h4><img src="./assets/icons/square-terminal.svg" alt="" width="19" height="19" /> &nbsp;Coding agents & CLIs</h4>
-
-<sub>Tools I use to implement, review, debug and explore code.</sub>
-
-<p>
-  <img src="./assets/icons/square-terminal.svg" alt="" width="18" height="18" /> <code>Codex</code> &nbsp;&nbsp;
-  <img src="./assets/brands/anthropic.svg" alt="" width="18" height="18" /> <code>Claude Code</code> &nbsp;&nbsp;
-  <img src="./assets/icons/orbit.svg" alt="" width="18" height="18" /> <code>Antigravity</code> &nbsp;&nbsp;
-  <img src="./assets/icons/code-xml.svg" alt="" width="18" height="18" /> <code>T3 Code</code> &nbsp;&nbsp;
-  <img src="./assets/brands/opencode.svg" alt="" width="18" height="18" /> <code>OpenCode</code> &nbsp;&nbsp;
-  <img src="./assets/brands/googlegemini.svg" alt="" width="18" height="18" /> <code>Gemini CLI</code> &nbsp;&nbsp;
-  <img src="./assets/brands/kimi.svg" alt="" width="18" height="18" /> <code>Kimi CLI</code> &nbsp;&nbsp;
-  <img src="./assets/brands/qwen.svg" alt="" width="18" height="18" /> <code>Qwen CLI</code>
+<p align="left">
+  <picture><source media="(prefers-color-scheme: dark)" srcset="./assets/chips/codex-dark.svg"><source media="(prefers-color-scheme: light)" srcset="./assets/chips/codex-light.svg"><img src="./assets/chips/codex-light.svg" alt="Codex" height="42"></picture>
+  <picture><source media="(prefers-color-scheme: dark)" srcset="./assets/chips/claude-code-dark.svg"><source media="(prefers-color-scheme: light)" srcset="./assets/chips/claude-code-light.svg"><img src="./assets/chips/claude-code-light.svg" alt="Claude Code" height="42"></picture>
+  <picture><source media="(prefers-color-scheme: dark)" srcset="./assets/chips/antigravity-dark.svg"><source media="(prefers-color-scheme: light)" srcset="./assets/chips/antigravity-light.svg"><img src="./assets/chips/antigravity-light.svg" alt="Antigravity" height="42"></picture>
+  <picture><source media="(prefers-color-scheme: dark)" srcset="./assets/chips/t3-code-dark.svg"><source media="(prefers-color-scheme: light)" srcset="./assets/chips/t3-code-light.svg"><img src="./assets/chips/t3-code-light.svg" alt="T3 Code" height="42"></picture>
+  <picture><source media="(prefers-color-scheme: dark)" srcset="./assets/chips/opencode-dark.svg"><source media="(prefers-color-scheme: light)" srcset="./assets/chips/opencode-light.svg"><img src="./assets/chips/opencode-light.svg" alt="OpenCode" height="42"></picture>
 </p>
 
-<h4><img src="./assets/icons/brain-circuit.svg" alt="" width="19" height="19" /> &nbsp;Models & AI platforms</h4>
+#### AI Platforms
 
-<sub>Interfaces and model providers I use across different workflows.</sub>
-
-<p>
-  <img src="./assets/icons/message-circle.svg" alt="" width="18" height="18" /> <code>ChatGPT</code> &nbsp;&nbsp;
-  <img src="./assets/brands/anthropic.svg" alt="" width="18" height="18" /> <code>Claude</code> &nbsp;&nbsp;
-  <img src="./assets/brands/googlegemini.svg" alt="" width="18" height="18" /> <code>Gemini</code> &nbsp;&nbsp;
-  <img src="./assets/icons/brain-circuit.svg" alt="" width="18" height="18" /> <code>Google AI Studio</code> &nbsp;&nbsp;
-  <img src="./assets/brands/openrouter.svg" alt="" width="18" height="18" /> <code>OpenRouter</code>
-</p>
-
-<h4><img src="./assets/icons/plug.svg" alt="" width="19" height="19" /> &nbsp;Protocols & utilities</h4>
-
-<sub>The supporting tools that connect agents, environments and local workflows.</sub>
-
-<p>
-  <img src="./assets/icons/plug.svg" alt="" width="18" height="18" /> <code>MCP</code> &nbsp;&nbsp;
-  <img src="./assets/icons/puzzle.svg" alt="" width="18" height="18" /> <code>Agent skills</code> &nbsp;&nbsp;
-  <img src="./assets/icons/terminal.svg" alt="" width="18" height="18" /> <code>RTK</code> &nbsp;&nbsp;
-  <img src="./assets/icons/network.svg" alt="" width="18" height="18" /> <code>Graphify</code>
+<p align="left">
+  <picture><source media="(prefers-color-scheme: dark)" srcset="./assets/chips/chatgpt-dark.svg"><source media="(prefers-color-scheme: light)" srcset="./assets/chips/chatgpt-light.svg"><img src="./assets/chips/chatgpt-light.svg" alt="ChatGPT" height="42"></picture>
+  <picture><source media="(prefers-color-scheme: dark)" srcset="./assets/chips/claude-dark.svg"><source media="(prefers-color-scheme: light)" srcset="./assets/chips/claude-light.svg"><img src="./assets/chips/claude-light.svg" alt="Claude" height="42"></picture>
+  <picture><source media="(prefers-color-scheme: dark)" srcset="./assets/chips/gemini-dark.svg"><source media="(prefers-color-scheme: light)" srcset="./assets/chips/gemini-light.svg"><img src="./assets/chips/gemini-light.svg" alt="Gemini" height="42"></picture>
+  <picture><source media="(prefers-color-scheme: dark)" srcset="./assets/chips/google-ai-studio-dark.svg"><source media="(prefers-color-scheme: light)" srcset="./assets/chips/google-ai-studio-light.svg"><img src="./assets/chips/google-ai-studio-light.svg" alt="Google AI Studio" height="42"></picture>
 </p>
 
 ---
 
 ### Development activity
 
-<sub>GitHub contribution counts and streaks are generated from actual GitHub data. Private contributions may be included as aggregates if enabled in GitHub settings. Longest streak is calculated within the last 12 months.</sub>
-
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="./assets/activity/metrics-dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="./assets/activity/metrics-light.svg">
-  <img src="./assets/activity/metrics-light.svg" alt="GitHub contributions in the last 12 months, current streak and longest streak within that period." width="100%">
-</picture>
+<p align="center">
+  <picture><source media="(prefers-color-scheme: dark)" srcset="./assets/activity/streak-dark.svg"><source media="(prefers-color-scheme: light)" srcset="./assets/activity/streak-light.svg"><img src="./assets/activity/streak-light.svg" alt="Current GitHub streak" width="255"></picture>
+  <picture><source media="(prefers-color-scheme: dark)" srcset="./assets/activity/contributions-dark.svg"><source media="(prefers-color-scheme: light)" srcset="./assets/activity/contributions-light.svg"><img src="./assets/activity/contributions-light.svg" alt="Contributions during the last 12 months" width="198"></picture>
+  <picture><source media="(prefers-color-scheme: dark)" srcset="./assets/activity/longest-dark.svg"><source media="(prefers-color-scheme: light)" srcset="./assets/activity/longest-light.svg"><img src="./assets/activity/longest-light.svg" alt="Longest streak during the last 12 months" width="198"></picture>
+  <picture><source media="(prefers-color-scheme: dark)" srcset="./assets/activity/active-days-dark.svg"><source media="(prefers-color-scheme: light)" srcset="./assets/activity/active-days-light.svg"><img src="./assets/activity/active-days-light.svg" alt="Days with contributions during the last 12 months" width="198"></picture>
+</p>
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="./assets/activity/calendar-dark.svg">
   <source media="(prefers-color-scheme: light)" srcset="./assets/activity/calendar-light.svg">
-  <img src="./assets/activity/calendar-light.svg" alt="GitHub contribution history over the last 12 months." width="100%">
+  <img src="./assets/activity/calendar-light.svg" alt="GitHub contribution calendar" width="100%">
 </picture>
-
-<sub>Automatically refreshed each day using [GitHub Actions](./.github/workflows/profile-activity.yml). These figures are based on the GitHub contribution calendar, not raw commit counts.</sub>
 
 ---
 
