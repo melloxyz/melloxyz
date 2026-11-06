@@ -8,9 +8,11 @@ on:
       - 'README.md'
       - 'assets/headers/**'
       - 'assets/chips/**'
+      - 'assets/sections/**'
       - 'scripts/render-preview.py'
       - 'scripts/preview-screenshots.mjs'
       - 'scripts/update-contributions.mjs'
+      - 'scripts/build-v5.mjs'
 
 permissions:
   contents: read

@@ -35,7 +35,11 @@ jobs:
       - name: Run streak unit tests
         run: node --test tests/*.test.mjs
       - name: Check JavaScript syntax
-        run: node --check scripts/update-contributions.mjs
+        run: |
+          node --check scripts/update-contributions.mjs
+          node --check scripts/build-v5.mjs
+      - name: Generate compact editorial panels
+        run: node scripts/build-v5.mjs
       - name: Build verified contribution SVGs
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
@@ -47,10 +51,10 @@ jobs:
           python3 scripts/validate-svg.py
       - name: Commit updated activity graphics
         run: |
-          git add assets/activity/
+          git add assets/activity/ assets/headers/ assets/sections/
           if ! git diff --cached --quiet; then
             git config user.name "github-actions[bot]"
             git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-            git commit -m "chore(profile): refresh contribution visuals"
+            git commit -m "chore(profile): regenerate profile visuals"
             git push
           fi

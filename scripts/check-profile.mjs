@@ -1,4 +1,5 @@
 import assert from 'node:assert/strict';
+import { stackGroups, agents } from './profile-v5-data.mjs';
 import { existsSync, readFileSync } from 'node:fs';
 
 const readme=readFileSync('README.md','utf8');
@@ -46,7 +47,19 @@ for (const variant of ['overview','calendar']) for (const theme of ['dark','ligh
 
 
 const displayed=[...readme.matchAll(/srcset="\.\/assets\/chips\/([^"]+)-dark\.svg"/g)].map(m=>m[1]).sort();
-assert.deepEqual(displayed,[...selected].sort(),'README chips must match the 26 approved tools exactly');
+const curated=[...stackGroups.flatMap(group=>group.items.map(([,slug])=>slug)),...agents.map(([,slug])=>slug)].sort();
+assert.deepEqual(curated,[...selected].sort(),'V5 source data must contain exactly the 26 approved tools');
+if(readme.includes('./assets/sections/stack-core-')) {
+  assert.equal(displayed.length,0,'V5 must not duplicate individual chips in README');
+  for(const name of ['build','stack-core','stack-tools','agents']) {
+    for(const variant of ['-dark','-light','-mobile-dark','-mobile-light']) {
+      assert(existsSync('assets/sections/'+name+variant+'.svg'),'Missing V5 panel '+name+variant);
+    }
+  }
+  assert(!/<table\b/i.test(readme),'V5 must not use table layouts');
+} else {
+  assert.deepEqual(displayed,[...selected].sort(),'Legacy README chips must match approved tools');
+}
 for (const variant of ['hero','overview','calendar']) {
   const prefix=variant==='hero'?'assets/headers/hero':'assets/activity/'+variant;
   for (const theme of ['dark','light']) {
