@@ -42,84 +42,80 @@ const svg=(w,h,title,content)=>'<svg xmlns="http://www.w3.org/2000/svg" role="im
 
 function metricCards(theme,mobile) {
   const p=palettes[theme];
-  const width=mobile?620:1060;
-  const height=mobile?340:172;
-  const cardW=mobile?304:256;
-  const cardH=mobile?163:170;
-  const gapX=mobile?12:12;
-  const gapY=14;
+  const width=mobile?390:1060;
+  const cardW=mobile?191:256;
+  const cardH=mobile?95:112;
+  const gap=mobile?8:12;
+  const height=mobile?198:112;
   const labels=[
     ['CURRENT STREAK',stats.current+' '+(stats.current===1?'day':'days')],
     ['CONTRIBUTIONS',Number(stats.contributions).toLocaleString('en-US')],
     ['LONGEST STREAK',stats.longest+' '+(stats.longest===1?'day':'days')],
     ['ACTIVE DAYS',stats.activeDays+' '+(stats.activeDays===1?'day':'days')]
   ];
-  let result='';
-  labels.forEach(([label,value],i)=>{
-    const col=mobile?(i%2):i;
-    const row=mobile?Math.floor(i/2):0;
-    const x=col*(cardW+gapX)+.5;
-    const y=row*(cardH+gapY)+.5;
-    result+=rect(x,y,cardW-1,cardH-1,11,p.panel,p.stroke);
-    if(i===0) result+=rect(x+20,y+23,3,23,1.5,p.emphasis);
-    result+=txt(x+(i===0?33:20),y+(mobile?41:39),label,mobile?14:12,p.muted,'font-weight="700" letter-spacing=".7"');
-    result+=txt(x+20,y+(mobile?106:102),value,mobile?(i===1?45:43):(i===1?36:35),p.text,'font-weight="700"');
-    if(i===0 && stats.badge) {
-      const bw=Math.min(cardW-38,30+stats.badge.length*(mobile?9:7.4));
-      const by=y+(mobile?122:121);
-      result+=rect(x+18,by,bw,mobile?27:27,7,p.badge,p.stroke);
-      result+=txt(x+18+bw/2,by+18,stats.badge.toUpperCase(),mobile?12:11.5,p.emphasis,'font-weight="700" text-anchor="middle" letter-spacing=".35"');
-    } else if(i>0) {
-      result+=txt(x+20,y+(mobile?145:146),'LAST 12 MONTHS',mobile?12:10.5,p.muted,'letter-spacing=".8"');
+  let content='';
+  labels.forEach(([label,value],index)=>{
+    const x=(mobile?(index%2):index)*(cardW+gap)+.5;
+    const y=(mobile?Math.floor(index/2):0)*(cardH+gap)+.5;
+    content+=rect(x,y,cardW-1,cardH-1,9,p.panel,p.stroke);
+    if(index===0)content+=rect(x+12,y+12,3,15,1.5,p.emphasis);
+    content+=txt(x+(index===0?23:13),y+(mobile?23:27),label,mobile?10:11.2,p.muted,'font-weight="700" letter-spacing=".55"');
+    content+=txt(x+13,y+(mobile?57:69),value,mobile?(index===1?27:25):(index===1?34:32),p.text,'font-weight="700"');
+    if(index===0 && stats.badge) {
+      const bw=Math.min(cardW-24,20+stats.badge.length*(mobile?6.1:6.6));
+      const by=y+(mobile?68:82);
+      content+=rect(x+12,by,bw,21,5,p.badge,p.stroke);
+      content+=txt(x+12+bw/2,by+14,stats.badge.toUpperCase(),mobile?9.5:10.1,p.emphasis,'font-weight="700" text-anchor="middle" letter-spacing=".12"');
+    } else if(index>0) {
+      content+=txt(x+13,y+(mobile?79:94),'LAST 12 MONTHS',mobile?9:10,p.muted,'letter-spacing=".6"');
     }
   });
-  return svg(width,height,'Development activity: '+stats.current+'-day streak, '+stats.contributions+' contributions, '+stats.longest+'-day longest streak, '+stats.activeDays+' active days',result);
+  return svg(width,height,'GitHub activity: '+stats.current+'-day streak, '+stats.contributions+' contributions, '+stats.longest+'-day longest streak, '+stats.activeDays+' active days',content);
 }
 
 function calendarSvg(theme,mobile) {
   const p=palettes[theme];
-  const w=mobile?620:1060;
-  const h=mobile?270:255;
-  const baseX=mobile?53:80;
-  const baseY=mobile?90:91;
-  const stepX=mobile?20:17;
-  const stepY=mobile?19:17;
-  const cell=mobile?16:13;
+  const w=mobile?390:1060;
+  const h=mobile?195:223;
+  const baseX=mobile?47:78;
+  const baseY=mobile?65:75;
+  const stepX=mobile?12:17;
+  const stepY=mobile?14:17;
+  const cell=mobile?10:13;
   const weeks=calendar.weeks.slice(mobile?-26:-53);
   const levels={NONE:0,FIRST_QUARTILE:1,SECOND_QUARTILE:2,THIRD_QUARTILE:3,FOURTH_QUARTILE:4};
-  let result=rect(.5,.5,w-1,h-1,12,p.panel,p.stroke);
-  result+=txt(24,32,'CONTRIBUTION HISTORY',mobile?16:15,p.text,'font-weight="700" letter-spacing=".4"');
-  result+=txt(w-24,32,mobile?'LAST 26 WEEKS':'LAST 12 MONTHS',mobile?12:12,p.muted,'text-anchor="end" letter-spacing=".7"');
-  result+='<path d="M24 49H'+(w-24)+'" stroke="'+p.stroke+'" stroke-width="1"/>';
-  const weekdayLabelX=mobile?25:45;
-  result+=txt(weekdayLabelX,baseY+stepY+10,'M',mobile?12:11,p.muted);
-  result+=txt(weekdayLabelX,baseY+stepY*3+10,'W',mobile?12:11,p.muted);
-  result+=txt(weekdayLabelX,baseY+stepY*5+10,'F',mobile?12:11,p.muted);
+  let content=rect(.5,.5,w-1,h-1,10,p.panel,p.stroke);
+  content+=txt(18,mobile?23:27,'CONTRIBUTION HISTORY',mobile?11:13,p.text,'font-weight="700" letter-spacing=".45"');
+  content+=txt(w-18,mobile?23:27,mobile?'LAST 26 WEEKS':'LAST 12 MONTHS',mobile?9:11,p.muted,'text-anchor="end" letter-spacing=".65"');
+  content+='<path d="M18 '+(mobile?38:42)+'H'+(w-18)+'" stroke="'+p.stroke+'" stroke-width="1"/>';
+  content+=txt(mobile?22:45,baseY+stepY+8,'M',mobile?10:11,p.muted);
+  content+=txt(mobile?22:45,baseY+stepY*3+8,'W',mobile?10:11,p.muted);
+  content+=txt(mobile?22:45,baseY+stepY*5+8,'F',mobile?10:11,p.muted);
   let lastMonth='';
   weeks.forEach((week,col)=>{
-    const monthStart=week.contributionDays.find(d=>d.date.slice(8,10)==='01');
-    const anchor=monthStart ?? (col===0?week.contributionDays[0]:null);
+    const monthStart=week.contributionDays.find(day=>day.date.slice(8,10)==='01');
+    const anchor=monthStart || (col===0?week.contributionDays[0]:null);
     if(anchor) {
       const currentMonth=anchor.date.slice(0,7);
-      if(lastMonth!==currentMonth && (!monthStart?col===0:true)) {
+      if(lastMonth!==currentMonth && (col===0 || Boolean(monthStart))) {
         lastMonth=currentMonth;
-        const text=new Date(anchor.date+'T12:00:00Z').toLocaleDateString('en-US',{month:'short',timeZone:'UTC'});
-        result+=txt(baseX+col*stepX,75,text,mobile?12:11,p.muted);
+        const monthName=new Date(anchor.date+'T12:00:00Z').toLocaleDateString('en-US',{month:'short',timeZone:'UTC'});
+        content+=txt(baseX+col*stepX,mobile?55:64,monthName,mobile?9:10.5,p.muted);
       }
     }
-    for(const day of week.contributionDays) {
+    week.contributionDays.forEach(day=>{
       const row=dayOfWeekUTC(day.date);
-      result+=rect(baseX+col*stepX,baseY+row*stepY,cell,cell,Math.round(cell*.2),p.levels[levels[day.contributionLevel]??0]);
-    }
+      content+=rect(baseX+col*stepX,baseY+row*stepY,cell,cell,Math.round(cell*.2),p.levels[levels[day.contributionLevel]??0]);
+    });
   });
-  const sepY=mobile?236:223;
-  result+='<path d="M24 '+sepY+'H'+(w-24)+'" stroke="'+p.stroke+'" stroke-width="1"/>';
-  const legendY=mobile?246:232;
-  const legendStart=mobile?466:858;
-  result+=txt(legendStart-18,legendY+11,'LESS',mobile?11:10.5,p.muted,'text-anchor="end"');
-  p.levels.forEach((c,i)=>{result+=rect(legendStart+i*(mobile?18:16),legendY,mobile?14:12,mobile?14:12,2.5,c);});
-  result+=txt(w-18,legendY+11,'MORE',mobile?11:10.5,p.muted,'text-anchor="end"');
-  return svg(w,h,'Contribution calendar, '+(mobile?'last 26 weeks':'last 12 months'),result);
+  const dividerY=mobile?168:195;
+  content+='<path d="M18 '+dividerY+'H'+(w-18)+'" stroke="'+p.stroke+'" stroke-width="1"/>';
+  const legendY=mobile?176:203;
+  const legendStart=mobile?252:874;
+  content+=txt(legendStart-11,legendY+10,'LESS',mobile?9:10,p.muted,'text-anchor="end"');
+  p.levels.forEach((color,i)=>content+=rect(legendStart+i*(mobile?14:15),legendY,mobile?10:11,mobile?10:11,2,color));
+  content+=txt(w-18,legendY+10,'MORE',mobile?9:10,p.muted,'text-anchor="end"');
+  return svg(w,h,'GitHub contribution calendar for the '+(mobile?'last 26 weeks':'last 12 months'),content);
 }
 
 mkdirSync('assets/activity',{recursive:true});
