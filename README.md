@@ -116,15 +116,25 @@ I'm especially interested in **developer experience, intelligent systems, automa
   <picture><source media="(prefers-color-scheme: dark)" srcset="./assets/chips/opencode-dark.svg"><source media="(prefers-color-scheme: light)" srcset="./assets/chips/opencode-light.svg"><img src="./assets/chips/opencode-light.svg" alt="OpenCode" height="42"></picture>
 </p>
 
+#### AI Platforms
+
+<p align="left">
+  <picture><source media="(prefers-color-scheme: dark)" srcset="./assets/chips/chatgpt-dark.svg"><source media="(prefers-color-scheme: light)" srcset="./assets/chips/chatgpt-light.svg"><img src="./assets/chips/chatgpt-light.svg" alt="ChatGPT" height="42"></picture>
+  <picture><source media="(prefers-color-scheme: dark)" srcset="./assets/chips/claude-dark.svg"><source media="(prefers-color-scheme: light)" srcset="./assets/chips/claude-light.svg"><img src="./assets/chips/claude-light.svg" alt="Claude" height="42"></picture>
+  <picture><source media="(prefers-color-scheme: dark)" srcset="./assets/chips/gemini-dark.svg"><source media="(prefers-color-scheme: light)" srcset="./assets/chips/gemini-light.svg"><img src="./assets/chips/gemini-light.svg" alt="Gemini" height="42"></picture>
+  <picture><source media="(prefers-color-scheme: dark)" srcset="./assets/chips/google-ai-studio-dark.svg"><source media="(prefers-color-scheme: light)" srcset="./assets/chips/google-ai-studio-light.svg"><img src="./assets/chips/google-ai-studio-light.svg" alt="Google AI Studio" height="42"></picture>
+</p>
+
 ---
 
 ### Development activity
 
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="./assets/activity/overview-dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="./assets/activity/overview-light.svg">
-  <img src="./assets/activity/overview-light.svg" alt="Current streak, contributions, longest streak, and active days" width="100%">
-</picture>
+<p align="center">
+  <picture><source media="(prefers-color-scheme: dark)" srcset="./assets/activity/streak-dark.svg"><source media="(prefers-color-scheme: light)" srcset="./assets/activity/streak-light.svg"><img src="./assets/activity/streak-light.svg" alt="Current GitHub streak" width="255"></picture>
+  <picture><source media="(prefers-color-scheme: dark)" srcset="./assets/activity/contributions-dark.svg"><source media="(prefers-color-scheme: light)" srcset="./assets/activity/contributions-light.svg"><img src="./assets/activity/contributions-light.svg" alt="Contributions during the last 12 months" width="198"></picture>
+  <picture><source media="(prefers-color-scheme: dark)" srcset="./assets/activity/longest-dark.svg"><source media="(prefers-color-scheme: light)" srcset="./assets/activity/longest-light.svg"><img src="./assets/activity/longest-light.svg" alt="Longest streak during the last 12 months" width="198"></picture>
+  <picture><source media="(prefers-color-scheme: dark)" srcset="./assets/activity/active-days-dark.svg"><source media="(prefers-color-scheme: light)" srcset="./assets/activity/active-days-light.svg"><img src="./assets/activity/active-days-light.svg" alt="Days with contributions during the last 12 months" width="198"></picture>
+</p>
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="./assets/activity/calendar-dark.svg">
@@ -141,10 +151,6 @@ I'm especially interested in **developer experience, intelligent systems, automa
     <a href="mailto:joaovdmello@gmail.com"><img src="./assets/icons/mail.svg" width="16" height="16" alt="" /> Email</a>
     &nbsp;·&nbsp;
     <a href="https://github.com/melloxyz?tab=repositories"><img src="./assets/brands/github.svg" width="16" height="16" alt="" /> Repositories</a>
-    &nbsp;·&nbsp;
-    <a href="https://x.com/mxrvit"><img src="./assets/brands/x.svg" width="16" height="16" alt="" /> X</a>
-    &nbsp;·&nbsp;
-    <img src="./assets/brands/discord.svg" width="16" height="16" alt="" /> Discord: <code>mefrog</code>
   </p>
   <sub>MELLO / DEVELOPER SPACE</sub>
 </div>

@@ -6,8 +6,10 @@ on:
     - cron: '17 7 * * *'
   push:
     paths:
+      - 'README.md'
       - '.github/workflows/profile-activity.yml'
-      - 'scripts/update-contributions.mjs'
+      - 'scripts/**'
+      - 'tests/**'
 
 permissions:
   contents: write
@@ -26,12 +28,20 @@ jobs:
         uses: actions/setup-node@v4
         with:
           node-version: '22'
-      - name: Build contribution SVGs
+      - name: Run streak unit tests
+        run: node --test tests/*.test.mjs
+      - name: Check JavaScript syntax
+        run: node --check scripts/update-contributions.mjs
+      - name: Build verified contribution SVGs
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           PROFILE_USER: melloxyz
         run: node scripts/update-contributions.mjs
-      - name: Commit updated graphics
+      - name: Validate README references and SVG XML
+        run: |
+          node scripts/check-profile.mjs
+          python3 scripts/validate-svg.py
+      - name: Commit updated activity graphics
         run: |
           git add assets/activity/
           if ! git diff --cached --quiet; then
