@@ -40,3 +40,9 @@ test('never counts future dates', () => {
   assert.equal(result.activeDays,2);
   assert.equal(result.current,2);
 });
+
+test('stale last contribution cannot produce an active streak', () => {
+  const result=contributionStats(cal(['2026-11-01',1],['2026-11-02',1],['2026-11-03',0]),new Date('2026-11-06T12:00:00Z'));
+  assert.equal(result.current,0);
+  assert.equal(result.longest,2);
+});

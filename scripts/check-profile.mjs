@@ -41,3 +41,5 @@ for(const href of links) {
   }
 }
 console.log('README valid:',selected.length,'selected technologies,',new Set(paths).size,'local SVG references,',links.length,'links');
+
+for (const variant of ['overview','calendar']) for (const theme of ['dark','light']) assert(existsSync('assets/activity/'+variant+'-mobile-'+theme+'.svg'), 'Missing mobile activity variant');

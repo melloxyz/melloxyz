@@ -34,6 +34,9 @@ export function contributionStats(calendar, now = new Date()) {
   let i = days.length - 1;
   // A streak is alive until the end of today if the user contributed yesterday.
   if (i >= 0 && days[i].date === end && days[i].contributionCount === 0) i--;
+  const yesterday = new Date(currentDate);
+  yesterday.setUTCDate(yesterday.getUTCDate()-1);
+  if (i >= 0 && days[i].date < yesterday.toISOString().slice(0,10)) i = -1;
   let current = 0;
   while (i >= 0 && days[i].contributionCount > 0) { current++; i--; }
 
