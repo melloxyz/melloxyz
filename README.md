@@ -7,7 +7,7 @@
   <img src="./assets/headers/hero-light.svg" width="100%" alt="Mello. Developer by curiosity. Maker by habit.">
 </picture>
 
-  <p><samp>developer &nbsp;·&nbsp; independent builder &nbsp;·&nbsp; brazil</samp></p>
+  <p><samp>developer &nbsp;·&nbsp; builder &nbsp;·&nbsp; brazil</samp></p>
   <p>
     <a href="#about">about</a> &nbsp;·&nbsp;
     <a href="#what-i-build">build</a> &nbsp;·&nbsp;
