@@ -66,4 +66,3 @@ for (const variant of ['hero','overview','calendar']) {
     assert(existsSync(prefix+'-mobile-'+theme+'.svg'),'Missing mobile rendering for '+variant+'/'+theme);
   }
 }
-assert(readme.includes('(max-width: 640px)'), 'Responsive image sources missing');

@@ -1,10 +1,8 @@
 <div align="center">
   <picture>
-    <source media="(max-width: 640px) and (prefers-color-scheme: dark)" srcset="./assets/headers/hero-mobile-dark.svg">
-    <source media="(max-width: 640px) and (prefers-color-scheme: light)" srcset="./assets/headers/hero-mobile-light.svg">
     <source media="(prefers-color-scheme: dark)" srcset="./assets/headers/hero-dark.svg">
     <source media="(prefers-color-scheme: light)" srcset="./assets/headers/hero-light.svg">
-    <img src="./assets/headers/hero-light.svg" width="100%" alt="Mello. Developer by curiosity. Maker by habit.">
+    <img src="./assets/headers/hero-dark.svg" width="100%" alt="Mello. Developer by curiosity. Maker by habit.">
   </picture>
 
   <p><samp>indie builder &nbsp;·&nbsp; ai explorer &nbsp;·&nbsp; brazil</samp></p>
@@ -24,11 +22,9 @@ I'm Mello, an indie builder and software enthusiast based in Brazil. I build pra
 ### What I build
 
 <picture>
-  <source media="(max-width: 640px) and (prefers-color-scheme: dark)" srcset="./assets/sections/build-mobile-dark.svg">
-  <source media="(max-width: 640px) and (prefers-color-scheme: light)" srcset="./assets/sections/build-mobile-light.svg">
   <source media="(prefers-color-scheme: dark)" srcset="./assets/sections/build-dark.svg">
   <source media="(prefers-color-scheme: light)" srcset="./assets/sections/build-light.svg">
-  <img src="./assets/sections/build-light.svg" width="100%" alt="Developer tooling, web applications, AI systems, automation and business software">
+  <img src="./assets/sections/build-dark.svg" width="100%" alt="Developer tooling, web applications, AI systems, automation and business software">
 </picture>
 
 <br>
@@ -48,51 +44,41 @@ I'm Mello, an indie builder and software enthusiast based in Brazil. I build pra
 ### Tech Stack & Tools
 
 <picture>
-  <source media="(max-width: 640px) and (prefers-color-scheme: dark)" srcset="./assets/sections/stack-core-mobile-dark.svg">
-  <source media="(max-width: 640px) and (prefers-color-scheme: light)" srcset="./assets/sections/stack-core-mobile-light.svg">
   <source media="(prefers-color-scheme: dark)" srcset="./assets/sections/stack-core-dark.svg">
   <source media="(prefers-color-scheme: light)" srcset="./assets/sections/stack-core-light.svg">
-  <img src="./assets/sections/stack-core-light.svg" width="100%" alt="Languages, frontend frameworks and backend technologies">
+  <img src="./assets/sections/stack-core-dark.svg" width="100%" alt="Languages, frontend frameworks and backend technologies">
 </picture>
 
 <p></p>
 
 <picture>
-  <source media="(max-width: 640px) and (prefers-color-scheme: dark)" srcset="./assets/sections/stack-tools-mobile-dark.svg">
-  <source media="(max-width: 640px) and (prefers-color-scheme: light)" srcset="./assets/sections/stack-tools-mobile-light.svg">
   <source media="(prefers-color-scheme: dark)" srcset="./assets/sections/stack-tools-dark.svg">
   <source media="(prefers-color-scheme: light)" srcset="./assets/sections/stack-tools-light.svg">
-  <img src="./assets/sections/stack-tools-light.svg" width="100%" alt="Cloud infrastructure and developer tools">
+  <img src="./assets/sections/stack-tools-dark.svg" width="100%" alt="Cloud infrastructure and developer tools">
 </picture>
 
 ### AI & Coding Workflow
 
 <picture>
-  <source media="(max-width: 640px) and (prefers-color-scheme: dark)" srcset="./assets/sections/agents-mobile-dark.svg">
-  <source media="(max-width: 640px) and (prefers-color-scheme: light)" srcset="./assets/sections/agents-mobile-light.svg">
   <source media="(prefers-color-scheme: dark)" srcset="./assets/sections/agents-dark.svg">
   <source media="(prefers-color-scheme: light)" srcset="./assets/sections/agents-light.svg">
-  <img src="./assets/sections/agents-light.svg" width="100%" alt="Codex, Claude Code, Antigravity, T3 Code and OpenCode">
+  <img src="./assets/sections/agents-dark.svg" width="100%" alt="Codex, Claude Code, Antigravity, T3 Code and OpenCode">
 </picture>
 
 ### Development Activity
 
 <picture>
-  <source media="(max-width: 640px) and (prefers-color-scheme: dark)" srcset="./assets/activity/overview-mobile-dark.svg">
-  <source media="(max-width: 640px) and (prefers-color-scheme: light)" srcset="./assets/activity/overview-mobile-light.svg">
   <source media="(prefers-color-scheme: dark)" srcset="./assets/activity/overview-dark.svg">
   <source media="(prefers-color-scheme: light)" srcset="./assets/activity/overview-light.svg">
-  <img src="./assets/activity/overview-light.svg" width="100%" alt="Current streak, contributions, longest streak and active days">
+  <img src="./assets/activity/overview-dark.svg" width="100%" alt="Current streak, contributions, longest streak and active days">
 </picture>
 
 <p></p>
 
 <picture>
-  <source media="(max-width: 640px) and (prefers-color-scheme: dark)" srcset="./assets/activity/calendar-mobile-dark.svg">
-  <source media="(max-width: 640px) and (prefers-color-scheme: light)" srcset="./assets/activity/calendar-mobile-light.svg">
   <source media="(prefers-color-scheme: dark)" srcset="./assets/activity/calendar-dark.svg">
   <source media="(prefers-color-scheme: light)" srcset="./assets/activity/calendar-light.svg">
-  <img src="./assets/activity/calendar-light.svg" width="100%" alt="GitHub contribution calendar">
+  <img src="./assets/activity/calendar-dark.svg" width="100%" alt="GitHub contribution calendar">
 </picture>
 
 <br>
