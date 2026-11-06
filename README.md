@@ -141,6 +141,10 @@ I'm especially interested in **developer experience, intelligent systems, automa
     <a href="mailto:joaovdmello@gmail.com"><img src="./assets/icons/mail.svg" width="16" height="16" alt="" /> Email</a>
     &nbsp;·&nbsp;
     <a href="https://github.com/melloxyz?tab=repositories"><img src="./assets/brands/github.svg" width="16" height="16" alt="" /> Repositories</a>
+    &nbsp;·&nbsp;
+    <a href="https://x.com/mxrvit"><img src="./assets/brands/x.svg" width="16" height="16" alt="" /> X</a>
+    &nbsp;·&nbsp;
+    <img src="./assets/brands/discord.svg" width="16" height="16" alt="" /> Discord: <code>mefrog</code>
   </p>
   <sub>MELLO / DEVELOPER SPACE</sub>
 </div>
