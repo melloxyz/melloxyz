@@ -28,7 +28,7 @@ jobs:
           node-version: '22'
       - name: Build contribution SVGs
         env:
-          GITHUB_TOKEN: \${{ secrets.GITHUB_TOKEN }}
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           PROFILE_USER: melloxyz
         run: node scripts/update-contributions.mjs
       - name: Commit updated graphics
