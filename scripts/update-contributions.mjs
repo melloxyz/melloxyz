@@ -115,7 +115,7 @@ function calendarSvg(theme,mobile) {
   const sepY=mobile?236:223;
   result+='<path d="M24 '+sepY+'H'+(w-24)+'" stroke="'+p.stroke+'" stroke-width="1"/>';
   const legendY=mobile?246:232;
-  const legendStart=mobile?466:921;
+  const legendStart=mobile?466:858;
   result+=txt(legendStart-18,legendY+11,'LESS',mobile?11:10.5,p.muted,'text-anchor="end"');
   p.levels.forEach((c,i)=>{result+=rect(legendStart+i*(mobile?18:16),legendY,mobile?14:12,mobile?14:12,2.5,c);});
   result+=txt(w-18,legendY+11,'MORE',mobile?11:10.5,p.muted,'text-anchor="end"');
