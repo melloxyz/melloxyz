@@ -1,0 +1,29 @@
+# OS & editor artifacts
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+.vscode/
+.idea/
+
+# Node & package artifacts
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+skills-lock.json
+
+# Python & preview artifacts
+__pycache__/
+*.py[cod]
+previews/
+
+# Local agent & environment data
+.agents/
+.gemini/
+.claude/
+.antigravity/
+.cursor/
+.t3/
+*.local
