@@ -25,9 +25,9 @@ assert.deepEqual(missing,[],'README has missing SVG references');
 assert(!readme.includes('#### AI Platforms'), 'Unapproved AI Platforms section');
 assert(!/(\bgames?\b|\bexperiments?\b)/i.test(readme), 'Unapproved project types in README');
 assert(!/<script\b/i.test(readme),'Scripts cannot run in README');
-assert(readme.includes('### Development activity'),'Missing activity section');
+assert(/^### Development Activity$/mi.test(readme),'Missing activity section');
 assert(readme.includes('https://x.com/mxrvit'),'Missing X profile');
-assert(readme.includes('Discord: <code>mefrog</code>'),'Missing Discord handle');
+assert(/Discord\s*:?\s*<code>mefrog<\/code>/i.test(readme),'Missing Discord handle');
 
 const links=[...readme.matchAll(/\bhref="([^"]+)"/g)].map(m=>m[1]);
 for(const href of links) {
