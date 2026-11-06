@@ -43,3 +43,14 @@ for(const href of links) {
 console.log('README valid:',selected.length,'selected technologies,',new Set(paths).size,'local SVG references,',links.length,'links');
 
 for (const variant of ['overview','calendar']) for (const theme of ['dark','light']) assert(existsSync('assets/activity/'+variant+'-mobile-'+theme+'.svg'), 'Missing mobile activity variant');
+
+
+const displayed=[...readme.matchAll(/srcset="\.\/assets\/chips\/([^"]+)-dark\.svg"/g)].map(m=>m[1]).sort();
+assert.deepEqual(displayed,[...selected].sort(),'README chips must match the 26 approved tools exactly');
+for (const variant of ['hero','overview','calendar']) {
+  const prefix=variant==='hero'?'assets/headers/hero':'assets/activity/'+variant;
+  for (const theme of ['dark','light']) {
+    assert(existsSync(prefix+'-mobile-'+theme+'.svg'),'Missing mobile rendering for '+variant+'/'+theme);
+  }
+}
+assert(readme.includes('(max-width: 640px)'), 'Responsive image sources missing');

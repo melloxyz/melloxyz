@@ -10,6 +10,10 @@ on:
       - '.github/workflows/profile-activity.yml'
       - 'scripts/**'
       - 'tests/**'
+      - 'assets/brands/**'
+      - 'assets/chips/**'
+      - 'assets/headers/**'
+      - 'assets/icons/**'
 
 permissions:
   contents: write
