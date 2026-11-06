@@ -17,7 +17,7 @@ a {color:#0969da;text-decoration:none}
 img {max-width:100%;height:auto;vertical-align:middle}
 picture {display:inline}
 p picture {display:inline-block;max-width:100%;vertical-align:middle}
-p picture img {height:40px;width:auto}
+p picture img[height="40"] {height:40px;width:auto}
 pre,code,samp {font-family:"SFMono-Regular",Consolas,"Liberation Mono",monospace}
 code {background:rgba(127,127,127,.12);border-radius:4px;padding:2px 5px}
 sub {font-size:.82rem;color:#636c76;vertical-align:baseline}
