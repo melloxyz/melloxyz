@@ -10,6 +10,7 @@ on:
       - 'assets/chips/**'
       - 'scripts/render-preview.py'
       - 'scripts/preview-screenshots.mjs'
+      - 'scripts/update-contributions.mjs'
 
 permissions:
   contents: read
