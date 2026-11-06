@@ -27,8 +27,8 @@ const stats=contributionStats(calendar,now);
 
 const palettes={
   dark: {
-    panel:'#161B22', stroke:'#36414D', text:'#EFF3F7', muted:'#A9B7C4',
-    emphasis:'#CAD7E2', badge:'#273847', levels:['#202832','#364553','#596D7E','#91A5B5','#DCE7F0']
+    panel:'#161B22', stroke:'#30363D', text:'#FFFFFF', muted:'#E6EDF3',
+    emphasis:'#FFFFFF', badge:'#21262D', levels:['#202832','#364553','#596D7E','#91A5B5','#DCE7F0']
   },
   light: {
     panel:'#F5F7F9', stroke:'#D0D8E0', text:'#1E2933', muted:'#586976',
@@ -37,7 +37,8 @@ const palettes={
 };
 const esc=v=>String(v).replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/"/g,'&quot;');
 const rect=(x,y,w,h,r,fill,stroke)=>'<rect x="'+x+'" y="'+y+'" width="'+w+'" height="'+h+'" rx="'+r+'" fill="'+fill+'"'+(stroke?' stroke="'+stroke+'"':'')+'/>';
-const txt=(x,y,v,size,color,extra='')=>'<text x="'+x+'" y="'+y+'" fill="'+color+'" font-family="Arial,Helvetica,sans-serif" font-size="'+size+'" '+extra+'>'+esc(v)+'</text>';
+const fontStack='-apple-system,BlinkMacSystemFont,&quot;Segoe UI&quot;,&quot;Noto Sans&quot;,Helvetica,Arial,sans-serif';
+const txt=(x,y,v,size,color,extra='')=>'<text x="'+x+'" y="'+y+'" fill="'+color+'" font-family="'+fontStack+'" font-size="'+size+'" '+extra+'>'+esc(v)+'</text>';
 const svg=(w,h,title,content)=>'<svg xmlns="http://www.w3.org/2000/svg" role="img" width="'+w+'" height="'+h+'" viewBox="0 0 '+w+' '+h+'"><title>'+esc(title)+'</title>'+content+'</svg>';
 
 function metricCards(theme,mobile) {

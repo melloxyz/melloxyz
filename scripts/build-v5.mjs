@@ -2,13 +2,34 @@ import { mkdirSync, readFileSync, writeFileSync } from 'node:fs';
 import { stackGroups, agents, buildAreas } from './profile-v5-data.mjs';
 
 const palette = {
-  dark: { bg:'#10151B', panel:'#171E27', tile:'#1B2430', line:'#34414E', text:'#F1F4F7', muted:'#9AAAB9', icon:'#B7C6D4', accent:'#E0E8EE' },
-  light: { bg:'#F8FAFC', panel:'#FFFFFF', tile:'#F1F4F7', line:'#D5DEE7', text:'#192633', muted:'#5F7180', icon:'#536778', accent:'#283C4D' }
+  dark: {
+    bg:'#0D1117',
+    panel:'#161B22',
+    tile:'#21262D',
+    line:'#30363D',
+    text:'#FFFFFF',
+    muted:'#E6EDF3',
+    submuted:'#9198A1',
+    icon:'#FFFFFF',
+    accent:'#FFFFFF'
+  },
+  light: {
+    bg:'#FFFFFF',
+    panel:'#F6F8FA',
+    tile:'#FFFFFF',
+    line:'#D0D7DE',
+    text:'#1F2328',
+    muted:'#656D76',
+    submuted:'#656D76',
+    icon:'#1F2328',
+    accent:'#0969DA'
+  }
 };
 const esc = s => String(s).replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/"/g,'&quot;');
 const rect = (x,y,w,h,r,fill,stroke) => '<rect x="'+x+'" y="'+y+'" width="'+w+'" height="'+h+'" rx="'+r+'" fill="'+fill+'"'+(stroke?' stroke="'+stroke+'"':'')+'/>';
 const line = (x1,y1,x2,y2,color) => '<path d="M'+x1+' '+y1+' L'+x2+' '+y2+'" stroke="'+color+'" stroke-width="1"/>';
-const text = (x,y,str,size,color,extra='') => '<text x="'+x+'" y="'+y+'" fill="'+color+'" font-size="'+size+'" font-family="Arial,Helvetica,sans-serif" '+extra+'>'+esc(str)+'</text>';
+const fontStack = '-apple-system,BlinkMacSystemFont,&quot;Segoe UI&quot;,&quot;Noto Sans&quot;,Helvetica,Arial,sans-serif';
+const text = (x,y,str,size,color,extra='') => '<text x="'+x+'" y="'+y+'" fill="'+color+'" font-size="'+size+'" font-family="'+fontStack+'" '+extra+'>'+esc(str)+'</text>';
 const svg = (w,h,label,body) => '<svg xmlns="http://www.w3.org/2000/svg" role="img" width="'+w+'" height="'+h+'" viewBox="0 0 '+w+' '+h+'"><title>'+esc(label)+'</title>'+body+'</svg>';
 
 const iconCache = new Map();
@@ -48,26 +69,26 @@ function hero(theme,mobile) {
   s+=rect(.5,.5,w-1,h-1,10,p.bg,p.line);
   s+=rect(1,1,w-2,h-2,10,'url(#'+gridId+')');
   if(mobile){
-    s+=text(24,32,'MELLO / DEVELOPER SPACE',10.5,p.muted,'letter-spacing="1.6" font-weight="700"');
+    s+=text(24,32,'MELLO / INDIE BUILDER · AI EXPLORER',10.5,p.muted,'letter-spacing="1.6" font-weight="700"');
     s+=text(22,107,'Mello.',68,p.text,'font-weight="750" letter-spacing="-5.7"');
     s+=text(25,139,'Developer by curiosity.',14,p.text,'font-weight="600"');
     s+=text(25,158,'Maker by habit.',14,p.text,'font-weight="600"');
-    s+=text(25,181,'TOOLS  /  SYSTEMS  /  DESIGN',9,p.muted,'letter-spacing="1.3"');
+    s+=text(25,181,'TOOLS  /  SYSTEMS  /  DESIGN',9,p.submuted,'letter-spacing="1.3"');
     [['typescript','TypeScript'],['react','React'],['python','Python'],['docker','Docker']].forEach(([slug,label],i)=>{
       const x=252+(i%2)*66,y=48+Math.floor(i/2)*53;
       s+=rect(x,y,57,47,6,p.panel,p.line)+brand(slug,x+18,y+5,p.icon);
-      s+=text(x+28.5,y+40,label,7.5,p.muted,'text-anchor="middle" font-weight="600"');
+      s+=text(x+28.5,y+40,label,7.5,p.text,'text-anchor="middle" font-weight="600"');
     });
   } else {
-    s+=text(45,42,'MELLO  /  DEVELOPER SPACE     ·     BRAZIL',11.5,p.muted,'font-weight="700" letter-spacing="2.1"');
+    s+=text(45,42,'MELLO  /  INDIE BUILDER  ·  AI EXPLORER  ·  BRAZIL',11.5,p.muted,'font-weight="700" letter-spacing="2.1"');
     s+=text(40,132,'Mello.',95,p.text,'font-weight="750" letter-spacing="-8.7"');
     s+=text(47,163,'Developer by curiosity. Maker by habit.',20,p.text,'font-weight="600"');
-    s+=text(47,186,'Independent builder working across software, systems and product design.',14.2,p.muted);
-    s+=text(47,207,'TOOLS   /   AUTOMATION   /   SYSTEMS   /   DESIGN',10.2,p.muted,'letter-spacing="1.65"');
+    s+=text(47,186,'Independent builder exploring modern developer tooling and intelligent systems.',14.2,p.muted);
+    s+=text(47,207,'TOOLS   /   AUTOMATION   /   SYSTEMS   /   DESIGN',10.2,p.submuted,'letter-spacing="1.65"');
     [['typescript','TypeScript'],['javascript','JavaScript'],['react','React'],['nodejs','Node.js'],['python','Python'],['cloudflare','Cloudflare']].forEach(([slug,label],i)=>{
       const x=803+(i%3)*126,y=25+Math.floor(i/3)*82;
       s+=rect(x,y,116,72,7,p.panel,p.line)+brand(slug,x+47,y+12,p.icon);
-      s+=text(x+58,y+58,label,10.2,p.muted,'text-anchor="middle" font-weight="600"');
+      s+=text(x+58,y+58,label,10.2,p.text,'text-anchor="middle" font-weight="600"');
     });
   }
   return svg(w,h,'Mello. Developer by curiosity. Maker by habit.',s);
@@ -154,4 +175,4 @@ for(const theme of ['dark','light']){
     writeFileSync('assets/sections/agents'+suffix,agentsPanel(theme,mobile));
   }
 }
-console.log('Generated V5 hero and four compact editorial panels in both themes and viewports.');
+console.log('Generated V5 hero and four compact editorial panels in both themes and viewports with high-contrast white fonts & icons.');
