@@ -7,12 +7,12 @@
   <img src="./assets/headers/hero-light.svg" width="100%" alt="Mello. Developer by curiosity. Maker by habit.">
 </picture>
 
-  <p><samp>developer &nbsp;·&nbsp; business owner &nbsp;·&nbsp; independent builder &nbsp;·&nbsp; brazil</samp></p>
+  <p><samp>developer &nbsp;·&nbsp; independent builder &nbsp;·&nbsp; brazil</samp></p>
   <p>
     <a href="#about">about</a> &nbsp;·&nbsp;
-    <a href="#what-i-build">what i build</a> &nbsp;·&nbsp;
-    <a href="#tech-stack--tools">toolbox</a> &nbsp;·&nbsp;
-    <a href="#ai--coding-workflow">AI workflow</a> &nbsp;·&nbsp;
+    <a href="#what-i-build">build</a> &nbsp;·&nbsp;
+    <a href="#tech-stack--tools">stack</a> &nbsp;·&nbsp;
+    <a href="#ai--coding-workflow">agents</a> &nbsp;·&nbsp;
     <a href="#development-activity">activity</a>
   </p>
 </div>
@@ -90,9 +90,9 @@ I'm Mello, an independent software developer and business owner based in Brazil.
   <p>
     <a href="mailto:joaovdmello@gmail.com"><img src="./assets/icons/mail.svg" width="16" height="16" alt="" /> Email</a>
     &nbsp;·&nbsp;
-    <a href="https://github.com/melloxyz?tab=repositories"><img src="./assets/brands/github.svg" width="16" height="16" alt="" /> Repositories</a>
+    <a href="https://github.com/melloxyz?tab=repositories"><img src="./assets/brands/github.svg" width="16" height="16" alt="" /> GitHub</a>
     &nbsp;·&nbsp;
-    <a href="https://x.com/mxrvit"><img src="./assets/brands/x.svg" width="16" height="16" alt="" /> X / @mxrvit</a>
+    <a href="https://x.com/mxrvit"><img src="./assets/brands/x.svg" width="16" height="16" alt="" /> X</a>
     &nbsp;·&nbsp;
     <img src="./assets/brands/discord.svg" width="16" height="16" alt="" /> Discord <code>mefrog</code>
   </p>
