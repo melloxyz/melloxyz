@@ -1,0 +1,42 @@
+name: Profile visual QA
+
+on:
+  workflow_dispatch:
+  push:
+    paths:
+      - '.github/workflows/profile-visual-qa.yml'
+      - 'README.md'
+      - 'assets/headers/**'
+      - 'assets/chips/**'
+      - 'scripts/render-preview.py'
+      - 'scripts/preview-screenshots.mjs'
+
+permissions:
+  contents: read
+
+jobs:
+  screenshots:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - name: Prepare browser preview tools
+        run: |
+          python3 -m pip install --user Markdown
+          npm install --no-save playwright-core
+      - name: Build preview HTML
+        run: python3 scripts/render-preview.py
+      - name: Capture and inspect viewport screenshots
+        run: |
+          CHROME_BIN="$(command -v google-chrome || command -v chromium || command -v chromium-browser)"
+          if [ -z "$CHROME_BIN" ]; then echo 'No Chrome binary available'; exit 1; fi
+          export CHROME_BIN
+          node scripts/preview-screenshots.mjs
+      - name: Store visual QA captures
+        uses: actions/upload-artifact@v4
+        with:
+          name: profile-visual-qa
+          path: previews/*.png
+          retention-days: 3
