@@ -104,14 +104,12 @@ function build(theme,mobile) {
   buildAreas.forEach((item,i)=>{
     const y=first+i*step;
     if(i>0)s+=line(mobile?18:26,y-5,w-(mobile?18:26),y-5,p.line);
-    s+=rect(mobile?18:25,y+7,26,26,6,p.panel,p.line);
-    s+=lucide(item.icon,mobile?23:30,y+12,p.icon,16);
     if(mobile){
-      s+=text(55,y+18,item.title,12.3,p.text,'font-weight="700"');
-      s+=text(55,y+36,item.detail,10.5,p.muted);
+      s+=text(18,y+18,item.title,12.3,p.text,'font-weight="700"');
+      s+=text(18,y+36,item.detail,10.5,p.muted);
     } else {
-      s+=text(68,y+24,item.title,13.5,p.text,'font-weight="700"');
-      s+=text(377,y+24,item.detail,12.6,p.muted);
+      s+=text(26,y+24,item.title,13.5,p.text,'font-weight="700"');
+      s+=text(330,y+24,item.detail,12.6,p.muted);
     }
   });
   return svg(w,h,'What I build: developer tools, web applications, AI, automation, and business software',s);
