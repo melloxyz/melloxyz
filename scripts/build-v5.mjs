@@ -49,8 +49,9 @@ function lucide(slug,x,y,ink,size=18) {
   const source=readFileSync('assets/icons/'+slug+'.svg','utf8');
   const inside=source.replace(/^[\s\S]*?<svg[^>]*>/,'').replace(/<\/svg>[\s\S]*$/,'')
      .replace(/stroke="#[0-9A-Fa-f]{6}"/g,'stroke="'+ink+'"')
-     .replace(/stroke="currentColor"/g,'stroke="'+ink+'"');
-  return '<g transform="translate('+x+' '+y+') scale('+(size/24)+')">'+inside+'</g>';
+     .replace(/stroke="currentColor"/g,'stroke="'+ink+'"')
+     .replace(/fill="currentColor"/g,'fill="'+ink+'"');
+  return '<g transform="translate('+x+' '+y+') scale('+(size/24)+')" fill="none" stroke="'+ink+'" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" color="'+ink+'">'+inside+'</g>';
 }
 function pill(label,slug,x,y,p,mobile=false) {
   const size=mobile?11.5:12.5;
