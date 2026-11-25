@@ -1,6 +1,14 @@
 # Living personal lab README
 
-## Approved direction
+## Current revision: simplified desktop profile
+
+The owner rejected the initial visual after publication and requested a cleaner, simpler desktop-only version. Replace the large illustrated hero, separate metric/chart blocks and interest/stack panels with two SVGs: a quiet typographic introduction and a compact combined activity card. Keep English, real GitHub data, light/dark themes, reduced-motion support, public repository link and existing contacts. Remove mobile selection and mobile generation from the active pipeline. Archived assets are unused. This revision stays local until approved for another push.
+
+Scope: `README.md`, `scripts/build-v5.mjs`, `scripts/activity-svg.mjs`, profile checks and preview tooling. Existing contribution fetching/statistics and scheduled workflow remain in place. Validate data tests, XML, references and desktop rendering in both themes.
+
+Revision verification: nine contribution tests passed, all SVG XML and four active asset references validated, and both themes were inspected in Chromium at 1280 × 900. Exactly two images load without overflow. Hero and chart animations switch off with reduced motion. Local preview uses the saved, dated GitHub snapshot. This revision has not been pushed.
+
+## Initial direction (superseded)
 
 English profile for Mello: curiosity, programming, AI and open source. Large editorial typography, electric blue, neutral light/dark themes, an abstract animated code-and-connections hero. Activity follows the hero. No named projects. Compact technology summary and existing contact destinations remain.
 

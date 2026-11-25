@@ -1,55 +1,39 @@
 import { mkdirSync, writeFileSync } from 'node:fs';
 import { contributionStats, monthlyContributions } from './activity-core.mjs';
 
-const palettes = {
-  dark:{bg:'#0D1117',panel:'#161B22',line:'#30363D',text:'#F0F3FA',muted:'#9DAABD',blue:'#6495FF',bar:'#29446E'},
-  light:{bg:'#FFFFFF',panel:'#F6F8FC',line:'#D8DFEB',text:'#182237',muted:'#53647B',blue:'#185AE8',bar:'#BBCDF3'}
+const palettes={
+  dark:{bg:'#0D1117',line:'#30363D',text:'#F0F3FA',muted:'#9DAABD',blue:'#6495FF',bar:'#344B6E'},
+  light:{bg:'#FFFFFF',line:'#D8DFEB',text:'#182237',muted:'#53647B',blue:'#185AE8',bar:'#BCCDF0'}
 };
 const esc=value=>String(value).replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/"/g,'&quot;');
 const text=(x,y,value,size,color,extra='')=>'<text x="'+x+'" y="'+y+'" font-family="Segoe UI,Helvetica,Arial,sans-serif" font-size="'+size+'" fill="'+color+'" '+extra+'>'+esc(value)+'</text>';
-const rect=(x,y,w,h,r,color)=>'<rect x="'+x+'" y="'+y+'" width="'+w+'" height="'+h+'" rx="'+r+'" fill="'+color+'"/>';
-const svg=(w,h,title,body)=>'<svg xmlns="http://www.w3.org/2000/svg" role="img" width="'+w+'" height="'+h+'" viewBox="0 0 '+w+' '+h+'"><title>'+esc(title)+'</title>'+body+'</svg>';
 const format=value=>Number(value).toLocaleString('en-US');
 
-function overview(p,mobile,stats,updated) {
-  const w=mobile?390:1060,h=mobile?221:166;
-  let s=rect(0,0,w,h,14,p.panel);
-  s+=text(24,30,'A habit of building.',mobile?15:18,p.text,'font-weight="600"');
-  if(!mobile)s+=text(w-24,30,'Rolling year · updated '+updated,12,p.muted,'text-anchor="end"');
-  const items=[[format(stats.contributions),'contributions'],[format(stats.activeDays),'active days'],[stats.current+'d','current streak'],[stats.longest+'d','longest streak']];
-  items.forEach(([value,label],i)=>{
-    const x=24+(mobile?i%2:i)*(mobile?184:262),y=mobile?Math.floor(i/2)*79:0;
-    s+=text(x,y+(mobile?79:98),value,mobile?32:43,p.text,'font-weight="600" letter-spacing="-1.2"');
-    s+=text(x,y+(mobile?101:125),label,mobile?12:14,i===1?p.blue:p.muted);
-  });
-  if(mobile)s+=text(24,204,'Rolling year · updated '+updated,10,p.muted);
-  return svg(w,h,'Activity in the rolling year: '+stats.contributions+' contributions, '+stats.activeDays+' active days, '+stats.current+'-day current streak, '+stats.longest+'-day longest streak. Updated '+updated+'.',s);
-}
-
-function chart(p,mobile,months,updated) {
-  const w=mobile?390:1060,h=mobile?288:302,left=mobile?28:36,right=mobile?24:36;
-  const baseline=mobile?204:218,plotH=mobile?110:122;
-  const step=(w-left-right)/months.length,barW=step*(mobile?.64:.65);
+function activityCard(p,stats,months,updated) {
+  const baseline=177,plotH=101,left=490,step=42;
   const max=Math.max(1,...months.map(m=>m.count));
   const best=months.reduce((a,b)=>b.count>a.count?b:a,months[0]);
-  let s=rect(.5,.5,w-1,h-1,14,p.bg)+'<rect x=".5" y=".5" width="'+(w-1)+'" height="'+(h-1)+'" rx="14" fill="none" stroke="'+p.line+'"/>';
-  s+='<style>@keyframes grow{from{transform:scaleY(0)}to{transform:scaleY(1)}}.bar{transform-box:fill-box;transform-origin:center bottom;animation:grow .8s ease-out both}@media(prefers-reduced-motion:reduce){.bar{animation:none}}</style>';
-  s+=text(left,33,'Your rhythm, month by month.',mobile?16:21,p.text,'font-weight="600" letter-spacing="-.3"');
-  s+=text(left,57,months[0].month+' — '+months.at(-1).month,mobile?11:12,p.muted);
-  for(const fraction of [0,.5,1]) {
-    const y=baseline-fraction*plotH;
-    s+='<path d="M'+left+' '+y+'H'+(w-right)+'" stroke="'+p.line+'" stroke-dasharray="'+(fraction?'2 5':'none')+'"/>';
-  }
+  let body='<rect x=".5" y=".5" width="1059" height="249" rx="10" fill="'+p.bg+'" stroke="'+p.line+'"/>'
+    +'<style>@keyframes grow{from{transform:scaleY(0)}to{transform:scaleY(1)}}.bar{transform-box:fill-box;transform-origin:center bottom;animation:grow .7s ease-out both}@media(prefers-reduced-motion:reduce){.bar{animation:none}}</style>';
+  body+=text(30,38,'A year of building.',19,p.text,'font-weight="600"');
+  body+=text(30,113,format(stats.contributions),44,p.text,'font-weight="600" letter-spacing="-1.5"');
+  body+=text(30,141,'contributions',14,p.muted);
+  body+=text(246,113,format(stats.activeDays),44,p.text,'font-weight="600" letter-spacing="-1.5"');
+  body+=text(246,141,'active days',14,p.muted);
+  body+=text(30,190,'Small steps. Something to show for them.',14,p.muted);
+  body+='<path d="M450 30V202" stroke="'+p.line+'"/>';
+  body+=text(left,38,'Monthly contributions',14,p.muted);
+  body+='<path d="M'+left+' '+baseline+'H1030" stroke="'+p.line+'"/>';
   months.forEach((m,i)=>{
-    const x=left+i*step+(step-barW)/2,barH=m.count/max*plotH,isBest=m.count>0&&m.month===best.month;
-    if(barH)s+='<g class="bar" style="animation-delay:'+(i*25)+'ms">'+rect(x,baseline-barH,barW,barH,3,isBest?p.blue:p.bar)+'</g>';
-    if(isBest)s+=text(x+barW/2,baseline-barH-10,format(m.count),mobile?11:13,p.blue,'text-anchor="middle" font-weight="600"');
+    const x=left+i*step,barH=m.count/max*plotH,isBest=m.count>0&&m.month===best.month;
+    if(barH)body+='<rect class="bar" x="'+x+'" y="'+(baseline-barH)+'" width="26" height="'+barH+'" rx="2" fill="'+(isBest?p.blue:p.bar)+'" style="animation-delay:'+(i*20)+'ms"/>';
     const label=new Date(m.month+'-01T00:00:00Z').toLocaleDateString('en-US',{month:'short',timeZone:'UTC'});
-    if(!mobile||i%2===0)s+=text(x+barW/2,baseline+23,label,mobile?10:12,p.muted,'text-anchor="middle"');
+    body+=text(x+13,199,label,11,p.muted,'text-anchor="middle"');
   });
-  s+=text(left,h-33,'First and current months are partial.',mobile?10:12,p.muted);
-  s+=text(left,h-14,'GitHub contributions · as of '+updated,mobile?10:12,p.muted);
-  return svg(w,h,'Monthly GitHub contributions from '+months[0].month+' through '+months.at(-1).month+'. '+months.map(m=>m.month+': '+m.count).join('; ')+'. First and current months are partial.',s);
+  body+=text(30,231,'GitHub · '+months[0].month+' to '+months.at(-1).month+' · updated '+updated,11,p.muted);
+  body+=text(1030,231,'First and current months are partial.',11,p.muted,'text-anchor="end"');
+  const title='GitHub activity: '+stats.contributions+' contributions and '+stats.activeDays+' active days in the rolling year. Updated '+updated+'. Monthly counts: '+months.map(m=>m.month+': '+m.count).join('; ')+'. First and current months are partial.';
+  return '<svg xmlns="http://www.w3.org/2000/svg" role="img" width="1060" height="250" viewBox="0 0 1060 250"><title>'+esc(title)+'</title>'+body+'</svg>';
 }
 
 export function renderActivity(calendar,now) {
@@ -57,10 +41,8 @@ export function renderActivity(calendar,now) {
   const months=monthlyContributions(calendar,now);
   const updated=new Date(now).toISOString().slice(0,10);
   mkdirSync('assets/activity',{recursive:true});
-  for(const theme of ['dark','light']) for(const mobile of [false,true]) {
-    const suffix=(mobile?'-mobile':'')+'-'+theme+'.svg',p=palettes[theme];
-    writeFileSync('assets/activity/overview'+suffix,overview(p,mobile,stats,updated));
-    writeFileSync('assets/activity/monthly'+suffix,chart(p,mobile,months,updated));
+  for(const [theme,p] of Object.entries(palettes)) {
+    writeFileSync('assets/activity/overview-'+theme+'.svg',activityCard(p,stats,months,updated));
   }
   return stats;
 }

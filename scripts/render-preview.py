@@ -22,7 +22,6 @@ pre,code,samp {font-family:"SFMono-Regular",Consolas,"Liberation Mono",monospace
 code {background:rgba(127,127,127,.12);border-radius:4px;padding:2px 5px}
 sub {font-size:.82rem;color:#636c76;vertical-align:baseline}
 hr {border:0;border-top:1px solid #d8dee5;margin:28px 0}
-@media(max-width:640px) {main{padding:14px 15px 42px}h3{margin-top:28px}p{margin-bottom:14px}}
 @media(prefers-color-scheme:dark) {
 body{background:#0d1117;color:#e6edf3}
 h3,hr{border-color:#30363d}
