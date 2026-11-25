@@ -1,98 +1,62 @@
-<div align="center">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="./assets/headers/hero-dark.svg">
-    <source media="(prefers-color-scheme: light)" srcset="./assets/headers/hero-light.svg">
-    <img src="./assets/headers/hero-dark.svg" width="100%" alt="Mello. Developer by curiosity. Maker by habit.">
-  </picture>
-
-  <p><samp>indie builder &nbsp;·&nbsp; ai explorer &nbsp;·&nbsp; brazil</samp></p>
-  <p>
-    <a href="#about">About</a> &nbsp;·&nbsp;
-    <a href="#what-i-build">Build</a> &nbsp;·&nbsp;
-    <a href="#tech-stack--tools">Stack</a> &nbsp;·&nbsp;
-    <a href="#ai--coding-workflow">Agents</a> &nbsp;·&nbsp;
-    <a href="#development-activity">Activity</a>
-  </p>
-</div>
-
-### About
-
-I'm Mello, an indie builder and software enthusiast based in Brazil. I build practical tools, automations and intelligent systems, exploring modern developer tooling and AI-driven workflows to turn everyday friction into clean, useful software.
-
-### What I build
-
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="./assets/sections/build-dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="./assets/sections/build-light.svg">
-  <img src="./assets/sections/build-dark.svg" width="100%" alt="Developer tooling, web applications, AI systems, automation and business software">
+  <source media="(max-width: 640px) and (prefers-color-scheme: dark)" srcset="./assets/headers/hero-mobile-dark.svg">
+  <source media="(max-width: 640px)" srcset="./assets/headers/hero-mobile-light.svg">
+  <source media="(prefers-color-scheme: dark)" srcset="./assets/headers/hero-dark.svg">
+  <img src="./assets/headers/hero-light.svg" width="100%" alt="Mello. Curiosity into code. Built to be shared.">
 </picture>
 
-<br>
+I'm Mello, a developer and software enthusiast based in Brazil. I build practical tools, explore AI, and share open-source code. This is my personal lab for learning by making.
 
-#### Exploration Pillars & Repositories
+### Development activity
 
-- **Developer Tooling & CLIs** — Command-line utilities, workflow automations, and developer experience tools.
-- **Web Applications & UI** — Full-stack web products, responsive dashboards, and interactive interfaces.
-- **AI Systems & Agents** — Practical agentic systems, LLM integrations, and intelligent assistants.
-- **Automation & Integrations** — Data pipelines, background bots, and API integrations that eliminate repetitive work.
-- **Business Software** — Focused operational tools, management systems, and practical commerce utilities.
+<picture>
+  <source media="(max-width: 640px) and (prefers-color-scheme: dark)" srcset="./assets/activity/overview-mobile-dark.svg">
+  <source media="(max-width: 640px)" srcset="./assets/activity/overview-mobile-light.svg">
+  <source media="(prefers-color-scheme: dark)" srcset="./assets/activity/overview-dark.svg">
+  <img src="./assets/activity/overview-light.svg" width="100%" alt="GitHub activity: contributions, active days, current streak and longest streak in the rolling year.">
+</picture>
+
+<p></p>
+
+<picture>
+  <source media="(max-width: 640px) and (prefers-color-scheme: dark)" srcset="./assets/activity/monthly-mobile-dark.svg">
+  <source media="(max-width: 640px)" srcset="./assets/activity/monthly-mobile-light.svg">
+  <source media="(prefers-color-scheme: dark)" srcset="./assets/activity/monthly-dark.svg">
+  <img src="./assets/activity/monthly-light.svg" width="100%" alt="Monthly GitHub contributions. First and current months are partial.">
+</picture>
+
+<sub>Activity from GitHub, refreshed daily.</sub>
+
+### Code, AI & open source
+
+<picture>
+  <source media="(max-width: 640px) and (prefers-color-scheme: dark)" srcset="./assets/sections/interests-mobile-dark.svg">
+  <source media="(max-width: 640px)" srcset="./assets/sections/interests-mobile-light.svg">
+  <source media="(prefers-color-scheme: dark)" srcset="./assets/sections/interests-dark.svg">
+  <img src="./assets/sections/interests-light.svg" width="100%" alt="Code: making ideas useful. AI: exploring agents and new ways to build. Open source: sharing tools and what I learn.">
+</picture>
+
+I learn by building, follow my curiosity, and share what might be useful to someone else.
+
+### Tools I reach for
+
+<picture>
+  <source media="(max-width: 640px) and (prefers-color-scheme: dark)" srcset="./assets/sections/stack-mobile-dark.svg">
+  <source media="(max-width: 640px)" srcset="./assets/sections/stack-mobile-light.svg">
+  <source media="(prefers-color-scheme: dark)" srcset="./assets/sections/stack-dark.svg">
+  <img src="./assets/sections/stack-light.svg" width="100%" alt="Selected tools: TypeScript, Python, React, Next.js, Node.js, PostgreSQL, Docker and Cloudflare. AI workflow: Codex and Claude Code.">
+</picture>
+
+---
 
 <p>
-  <a href="https://github.com/melloxyz?tab=repositories">Explore all public repositories &rarr;</a>
+  <a href="https://github.com/melloxyz?tab=repositories"><strong>Explore my public repositories</strong></a>
 </p>
 
-### Tech Stack & Tools
-
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="./assets/sections/stack-core-dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="./assets/sections/stack-core-light.svg">
-  <img src="./assets/sections/stack-core-dark.svg" width="100%" alt="Languages, frontend frameworks and backend technologies">
-</picture>
-
-<p></p>
-
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="./assets/sections/stack-tools-dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="./assets/sections/stack-tools-light.svg">
-  <img src="./assets/sections/stack-tools-dark.svg" width="100%" alt="Cloud infrastructure and developer tools">
-</picture>
-
-### AI & Coding Workflow
-
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="./assets/sections/agents-dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="./assets/sections/agents-light.svg">
-  <img src="./assets/sections/agents-dark.svg" width="100%" alt="Codex, Claude Code, Antigravity, T3 Code and OpenCode">
-</picture>
-
-### Development Activity
-
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="./assets/activity/overview-dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="./assets/activity/overview-light.svg">
-  <img src="./assets/activity/overview-dark.svg" width="100%" alt="Current streak, contributions, longest streak and active days">
-</picture>
-
-<p></p>
-
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="./assets/activity/calendar-dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="./assets/activity/calendar-light.svg">
-  <img src="./assets/activity/calendar-dark.svg" width="100%" alt="GitHub contribution calendar">
-</picture>
-
-<br>
-
-<div align="center">
-  <p><strong>Always building something.</strong></p>
-  <p>
-    <a href="mailto:joaovdmello@gmail.com"><img src="./assets/icons/mail.svg" width="16" height="16" alt="Email" align="center" />&nbsp;Email</a>
-    &nbsp;&nbsp;·&nbsp;&nbsp;
-    <a href="https://github.com/melloxyz?tab=repositories"><img src="./assets/brands/github.svg" width="16" height="16" alt="GitHub" align="center" />&nbsp;GitHub</a>
-    &nbsp;&nbsp;·&nbsp;&nbsp;
-    <a href="https://x.com/mxrvit"><img src="./assets/brands/x.svg" width="16" height="16" alt="X" align="center" />&nbsp;X</a>
-    &nbsp;&nbsp;·&nbsp;&nbsp;
-    <a href="https://discord.com"><img src="./assets/brands/discord.svg" width="16" height="16" alt="Discord" align="center" />&nbsp;Discord <code>mefrog</code></a>
-  </p>
-  <sub>MELLO &nbsp;·&nbsp; INDIE BUILDER &nbsp;·&nbsp; BRAZIL</sub>
-</div>
+<p>
+  <a href="mailto:joaovdmello@gmail.com">Email</a>
+  &nbsp; / &nbsp;
+  <a href="https://x.com/mxrvit">X</a>
+  &nbsp; / &nbsp;
+  <a href="https://discord.com">Discord <code>mefrog</code></a>
+</p>

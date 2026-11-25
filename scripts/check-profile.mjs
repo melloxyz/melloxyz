@@ -11,58 +11,38 @@ const selected=[
   'git','github','githubactions','pnpm',
   'codex','claude-code','antigravity','t3-code','opencode'
 ];
-
-for(const name of selected) {
-  for(const theme of ['dark','light']) {
-    const file='assets/chips/'+name+'-'+theme+'.svg';
-    assert(existsSync(file),'Missing selected chip: '+file);
-  }
+for(const name of selected) for(const theme of ['dark','light']) {
+  assert(existsSync('assets/chips/'+name+'-'+theme+'.svg'),'Missing approved chip: '+name);
 }
+const curated=[...stackGroups.flatMap(group=>group.items.map(([,slug])=>slug)),...agents.map(([,slug])=>slug)].sort();
+assert.deepEqual(curated,[...selected].sort(),'Keep the complete approved tool list available');
 
 const paths=[...readme.matchAll(/\.\/(assets\/[^"'<>\s]+\.svg)/g)].map(m=>m[1]);
-const missing=[...new Set(paths)].filter(p=>!existsSync(p));
-assert.deepEqual(missing,[],'README has missing SVG references');
-
-assert(!readme.includes('#### AI Platforms'), 'Unapproved AI Platforms section');
-assert(!/(\bgames?\b|\bexperiments?\b)/i.test(readme), 'Unapproved project types in README');
-assert(!/<script\b/i.test(readme),'Scripts cannot run in README');
-assert(/^### Development Activity$/mi.test(readme),'Missing activity section');
+assert(paths.length>0,'README must include local visuals');
+for(const path of paths) assert(existsSync(path),'Missing README image: '+path);
+assert(!/<script\b|<table\b/i.test(readme),'Use GitHub-safe profile markup');
+assert(/^### Development activity$/mi.test(readme),'Missing activity section');
+assert(readme.indexOf('### Development activity')<readme.indexOf('### Code, AI'),'Activity must follow the hero');
 assert(readme.includes('https://x.com/mxrvit'),'Missing X profile');
-assert(/Discord\s*:?\s*<code>mefrog<\/code>/i.test(readme),'Missing Discord handle');
+assert(/Discord\s*<code>mefrog<\/code>/i.test(readme),'Missing Discord handle');
+assert(!/https:\/\/github\.com\/melloxyz\//i.test(readme),'Do not feature individual projects');
+assert(!readme.includes('assets/chips/'),'Keep the visible stack compact');
 
+for(const path of ['assets/headers/hero','assets/activity/overview','assets/activity/monthly','assets/sections/interests','assets/sections/stack']) {
+  for(const suffix of ['-dark','-light','-mobile-dark','-mobile-light']) assert(paths.includes(path+suffix+'.svg'),'Missing responsive source: '+path+suffix);
+}
+for(const picture of readme.matchAll(/<picture>([\s\S]*?)<\/picture>/g)) {
+  const content=picture[1];
+  assert(content.indexOf('max-width: 640px')<content.indexOf('srcset='),'Mobile sources must precede desktop sources');
+  assert(/<img[^>]*alt="[^"]+"/.test(content),'Every visual needs alternative text');
+}
 const links=[...readme.matchAll(/\bhref="([^"]+)"/g)].map(m=>m[1]);
 for(const href of links) {
-  if(href.startsWith('#')) {
-    const slug=href.slice(1);
-    const headings=[...readme.matchAll(/^#{2,6}\s+(.+)$/gm)].map(m=>m[1].toLowerCase().replace(/[^\w\s-]/g,'').trim().replace(/\s/g,'-'));
-    assert(headings.includes(slug),'Broken section link: '+href);
-  } else {
-    assert(href.startsWith('https://') || href.startsWith('mailto:'),'Unexpected link scheme: '+href);
-    if(href.startsWith('https://')) new URL(href);
-  }
+  assert(href.startsWith('https://')||href.startsWith('mailto:'),'Unexpected link scheme: '+href);
+  new URL(href);
 }
-console.log('README valid:',selected.length,'selected technologies,',new Set(paths).size,'local SVG references,',links.length,'links');
-
-for (const variant of ['overview','calendar']) for (const theme of ['dark','light']) assert(existsSync('assets/activity/'+variant+'-mobile-'+theme+'.svg'), 'Missing mobile activity variant');
-
-
-const displayed=[...readme.matchAll(/srcset="\.\/assets\/chips\/([^"]+)-dark\.svg"/g)].map(m=>m[1]).sort();
-const curated=[...stackGroups.flatMap(group=>group.items.map(([,slug])=>slug)),...agents.map(([,slug])=>slug)].sort();
-assert.deepEqual(curated,[...selected].sort(),'V5 source data must contain exactly the 26 approved tools');
-if(readme.includes('./assets/sections/stack-core-')) {
-  assert.equal(displayed.length,0,'V5 must not duplicate individual chips in README');
-  for(const name of ['build','stack-core','stack-tools','agents']) {
-    for(const variant of ['-dark','-light','-mobile-dark','-mobile-light']) {
-      assert(existsSync('assets/sections/'+name+variant+'.svg'),'Missing V5 panel '+name+variant);
-    }
-  }
-  assert(!/<table\b/i.test(readme),'V5 must not use table layouts');
-} else {
-  assert.deepEqual(displayed,[...selected].sort(),'Legacy README chips must match approved tools');
+for(const path of paths.filter(path=>/headers\/hero|activity\/monthly/.test(path))) {
+  const source=readFileSync(path,'utf8');
+  assert(source.includes('prefers-reduced-motion'),'Animations must respect reduced motion: '+path);
 }
-for (const variant of ['hero','overview','calendar']) {
-  const prefix=variant==='hero'?'assets/headers/hero':'assets/activity/'+variant;
-  for (const theme of ['dark','light']) {
-    assert(existsSync(prefix+'-mobile-'+theme+'.svg'),'Missing mobile rendering for '+variant+'/'+theme);
-  }
-}
+console.log('README valid: '+new Set(paths).size+' local SVG references, responsive themes, compact tools and '+links.length+' links.');

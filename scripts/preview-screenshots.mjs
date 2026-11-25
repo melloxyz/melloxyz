@@ -1,13 +1,11 @@
 import { chromium } from 'playwright-core';
-import { pathToFileURL } from 'node:url';
-import { resolve } from 'node:path';
 import { mkdirSync } from 'node:fs';
 
 const binary=process.env.CHROME_BIN;
 if (!binary) throw new Error('CHROME_BIN is not set');
 const browser=await chromium.launch({executablePath:binary,headless:true,args:['--no-sandbox','--allow-file-access-from-files','--disable-dev-shm-usage']});
 mkdirSync('previews',{recursive:true});
-const uri=pathToFileURL(resolve('previews/profile.html')).href;
+const uri=process.env.PROFILE_PREVIEW_URL || 'http://127.0.0.1:8765/previews/profile.html';
 try {
   for(const [label,width,height] of [['desktop',1280,900],['mobile',390,844]]) {
     for(const theme of ['dark','light']) {
@@ -25,8 +23,8 @@ try {
         const main=document.querySelector('main');
         const imgs=[...document.images];
         const hero=imgs.find(i=>i.alt?.startsWith('Mello.'));
-        const overview=imgs.find(i=>i.alt?.startsWith('Current streak'));
-        const calendar=imgs.find(i=>i.alt==='GitHub contribution calendar');
+        const overview=imgs.find(i=>i.alt?.startsWith('GitHub activity:'));
+        const calendar=imgs.find(i=>i.alt?.startsWith('Monthly GitHub contributions.'));
         return {
           main:main?.getBoundingClientRect().width,
           hero:hero?.getBoundingClientRect().width,

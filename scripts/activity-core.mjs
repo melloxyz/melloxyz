@@ -12,6 +12,29 @@ export function dayOfWeekUTC(date) {
   return new Date(date + 'T00:00:00Z').getUTCDay();
 }
 
+/** Calendar-month buckets covering the same rolling year as the summary. */
+export function monthlyContributions(calendar, now = new Date()) {
+  contributionStats(calendar, now);
+  const end = new Date(now);
+  const start = new Date(end);
+  start.setUTCFullYear(start.getUTCFullYear() - 1);
+  const firstDate = start.toISOString().slice(0,10);
+  const lastDate = end.toISOString().slice(0,10);
+  const months = new Map();
+  const cursor = new Date(firstDate.slice(0,7) + '-01T00:00:00Z');
+  while (cursor <= end) {
+    months.set(cursor.toISOString().slice(0,7), 0);
+    cursor.setUTCMonth(cursor.getUTCMonth() + 1);
+  }
+  for (const day of calendar.weeks.flatMap(week => week.contributionDays)) {
+    if (day.date < firstDate || day.date > lastDate) continue;
+    if (!Number.isInteger(day.contributionCount) || day.contributionCount < 0) throw new Error('Invalid contribution count');
+    const month = day.date.slice(0,7);
+    if (months.has(month)) months.set(month, months.get(month) + day.contributionCount);
+  }
+  return [...months].map(([month, count]) => ({ month, count }));
+}
+
 export function contributionStats(calendar, now = new Date()) {
   if (!calendar?.weeks?.length) throw new Error('Contribution calendar unavailable');
   const currentDate = new Date(now);

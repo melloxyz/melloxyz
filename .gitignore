@@ -18,6 +18,7 @@ skills-lock.json
 __pycache__/
 *.py[cod]
 previews/
+.playwright-mcp/
 
 # Local agent & environment data
 .agents/

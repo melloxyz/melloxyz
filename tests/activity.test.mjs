@@ -1,10 +1,26 @@
 import test from 'node:test';
 import assert from 'node:assert/strict';
-import { contributionStats, streakBadge, dayOfWeekUTC } from '../scripts/activity-core.mjs';
+import { contributionStats, streakBadge, dayOfWeekUTC, monthlyContributions } from '../scripts/activity-core.mjs';
 
 const cal = (...days) => ({
   totalContributions: days.reduce((n, d) => n + d[1], 0),
   weeks: [{ contributionDays: days.map(([date, contributionCount]) => ({ date, contributionCount, contributionLevel:'FIRST_QUARTILE' })) }]
+});
+
+test('monthly activity keeps empty months and separates years within the rolling window', () => {
+  const result = monthlyContributions(cal(['2025-11-23',99],['2025-11-24',2],['2025-12-01',3],['2026-11-24',5],['2026-11-25',99]), new Date('2026-11-24T12:00:00Z'));
+  assert.equal(result.length,13);
+  assert.deepEqual(result[0],{month:'2025-11',count:2});
+  assert.deepEqual(result[1],{month:'2025-12',count:3});
+  assert.deepEqual(result[2],{month:'2026-01',count:0});
+  assert.deepEqual(result.at(-1),{month:'2026-11',count:5});
+  assert.equal(result.reduce((sum,month)=>sum+month.count,0),10);
+});
+
+test('monthly activity renders an empty calendar and rejects invalid data', () => {
+  assert(monthlyContributions(cal(),new Date('2026-11-24T12:00:00Z')).every(month=>month.count===0));
+  assert.throws(()=>monthlyContributions(null),/unavailable/);
+  assert.throws(()=>monthlyContributions(cal(['2026-11-24',-1]),new Date('2026-11-24T12:00:00Z')),/Invalid contribution count/);
 });
 
 test('badge boundaries', () => {

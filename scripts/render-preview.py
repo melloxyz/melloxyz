@@ -5,7 +5,7 @@ import markdown
 
 readme=Path('README.md').read_text(encoding='utf-8')
 html=markdown.markdown(readme, extensions=['extra'])
-root=Path.cwd().as_uri()+'/'
+root='/'
 styles="""
 * {box-sizing:border-box}
 body {margin:0;padding:0;background:#ffffff;color:#1f2328;font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Helvetica,Arial,sans-serif}
@@ -32,5 +32,5 @@ sub{color:#9ba8b8}
 """
 out=Path('previews')
 out.mkdir(exist_ok=True)
-(out/'profile.html').write_text('<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><base href="'+root+'"><style>'+styles+'</style></head><body><main>'+html+'</main></body></html>',encoding='utf-8')
+(out/'profile.html').write_text('<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Mello — GitHub profile preview</title><link rel="icon" href="data:,"><base href="'+root+'"><style>'+styles+'</style></head><body><main>'+html+'</main></body></html>',encoding='utf-8')
 print('Created previews/profile.html')
